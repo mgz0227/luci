@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LuCI: adblock\n"
 "POT-Creation-Date: 2017-10-22 13:00+0300\n"
-"PO-Revision-Date: 2026-02-20 11:50+0000\n"
+"PO-Revision-Date: 2026-02-24 17:10+0000\n"
 "Last-Translator: SnIPeRSnIPeR <snipersniper@users.noreply.hosted.weblate.org>"
 "\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/openwrt/"
@@ -27,7 +27,7 @@ msgstr "0.0.0.0 <Domain>"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:430
 msgid "10 minutes"
-msgstr ""
+msgstr "10 минут"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/feeds.js:220
 msgid "127.0.0.1 <Domain>"
@@ -35,7 +35,7 @@ msgstr "127.0.0.1 <Domain>"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:431
 msgid "15 minutes"
-msgstr ""
+msgstr "15 минут"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:657
 msgid "1Hosts List Selection"
@@ -43,15 +43,15 @@ msgstr "Выбор списков 1Hosts"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:432
 msgid "30 minutes"
-msgstr ""
+msgstr "30 минут"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:429
 msgid "5 minutes"
-msgstr ""
+msgstr "5 минут"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:433
 msgid "60 minutes"
-msgstr ""
+msgstr "60 минут"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/feeds.js:222
 msgid "<Adblock Plus Syntax>"
@@ -148,6 +148,8 @@ msgid ""
 "Allows temporary access to an unfiltered external DNS resolver, bypassing "
 "local adblock."
 msgstr ""
+"Разрешает временный доступ к внешнему DNS-резолверу без фильтрации, обходя "
+"локальный Adblock."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:323
 msgid "Answer"
@@ -262,6 +264,8 @@ msgid ""
 "Configuration of the adblock package to block ad/abuse domains by using DNS. "
 "For further information please check the %s."
 msgstr ""
+"Конфигурация пакета Adblock для блокировки рекламных и вредоносных доменов с "
+"помощью DNS. Подробнее: %s."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:383
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:404
@@ -459,7 +463,7 @@ msgstr "Включить маршрутизацию через фильтрую�
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:415
 msgid "Enable Remote DNS Routing"
-msgstr ""
+msgstr "Включить удалённую маршрутизацию DNS"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:227
 msgid "Enable SafeSearch"
@@ -521,7 +525,7 @@ msgstr ""
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:413
 msgid "External Remote DNS Policy (temporary MAC‑based remote DNS bypass)"
-msgstr ""
+msgstr "Политика внешнего удалённого DNS (временный обход на основе MAC-адреса)"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:303
 msgid "External Unfiltered DNS Policy (MAC-/Interface‑based DNS bypass)"
@@ -624,7 +628,7 @@ msgstr "Высокий"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:697
 msgid "IPFire List Selection"
-msgstr ""
+msgstr "Выбор списков IPFire"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:323
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:369
@@ -651,10 +655,12 @@ msgstr ""
 msgid ""
 "IPv4 DNS resolver applied to MACs using the unfiltered remote DNS policy."
 msgstr ""
+"DNS-резолвер IPv4, применяемый к MAC-адресам, использующим политику внешнего "
+"DNS без фильтрации."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:437
 msgid "IPv4 Remote DNS Resolver"
-msgstr ""
+msgstr "Внешний DNS-резолвер IPv4"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:335
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:390
@@ -681,10 +687,12 @@ msgstr ""
 msgid ""
 "IPv6 DNS resolver applied to MACs using the unfiltered remote DNS policy."
 msgstr ""
+"DNS-резолвер IPv6, применяемый к MAC-адресам, использующим политику внешнего "
+"DNS без фильтрации."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:449
 msgid "IPv6 Remote DNS Resolver"
-msgstr ""
+msgstr "Внешний DNS-резолвер IPv6"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:149
 msgid "Information"
@@ -760,7 +768,7 @@ msgstr "Список поддерживаемых и предварительн�
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:418
 msgid "Listed MAC addresses are allowed to use the remote DNS bypass."
-msgstr ""
+msgstr "Указанные MAC-адреса могут использовать обходной внешний DNS."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:478
 msgid "Local DNS Enforcement"
@@ -777,7 +785,7 @@ msgstr "Цели фильтрации DNS (MAC-адреса)"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:418
 msgid "MAC Remote Filter Targets"
-msgstr ""
+msgstr "Целевые MAC-адреса для удалённого обхода"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:433
 msgid "Map"
@@ -809,7 +817,7 @@ msgstr "Результаты поиска отсутствуют!"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:57
 msgid "No adblock config found!"
-msgstr ""
+msgstr "Конфигурация Adblock не найдена!"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:268
 msgid "Normal Priority"
@@ -843,7 +851,7 @@ msgstr "Неподдерживаемый формат протокола/URL"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:471
 msgid "QRCode for Remote Access"
-msgstr ""
+msgstr "QR-код для удалённого доступа"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:386
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:407
@@ -891,7 +899,7 @@ msgstr "Обновить..."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:426
 msgid "Remote DNS Timeout"
-msgstr ""
+msgstr "Тайм-аут удалённого DNS"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:564
 msgid "Report Chunk Count"
@@ -958,7 +966,7 @@ msgstr "Правило"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:171
 msgid "Run Directories"
-msgstr "Рабочие папки"
+msgstr "Рабочие каталоги"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:175
 msgid "Run Flags"
@@ -1140,6 +1148,8 @@ msgstr "Время"
 msgid ""
 "Time limit in minutes for using the remote DNS bypass per listed MAC address."
 msgstr ""
+"Лимит времени в минутах на использование обходного внешнего DNS для каждого "
+"указанного MAC-адреса."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:540
 msgid "Timeout to wait for a successful DNS backend restart."
@@ -1259,7 +1269,7 @@ msgstr "Максимум позиций в топе"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:66
 msgid "online documentation"
-msgstr ""
+msgstr "документация"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:514
 msgid "raw"
