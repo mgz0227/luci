@@ -186,7 +186,10 @@ function parseList(s, dest)
 			val = RegExp.$2.trim();
 		}
 		else if (pkg) {
-			dest.pkgs[pkg.name] = pkg;
+			const cur = dest.pkgs[pkg.name];
+		
+			if (!cur || compareVersion(pkg.version || '0', cur.version || '0') >= 0)
+				dest.pkgs[pkg.name] = pkg;
 
 			const provides = dest.providers[pkg.name] ? [] : [ pkg.name ];
 
@@ -249,10 +252,10 @@ function display(pattern)
 			const avail = packages.available.pkgs[name];
 			const inst  = packages.installed.pkgs[name];
 
-			if (!inst || !inst.installed)
+			if (!inst || !inst.installed || pkg.name.includes('kmod-') || pkg.name.includes('busybox') || pkg.name.includes('base-files'))
 				continue;
 
-			if (!avail || compareVersion(avail.version, pkg.version) <= 0)
+			if (!avail || compareVersion(avail.version, inst.version) <= 0)
 				continue;
 
 			ver = '%s » %s'.format(
@@ -289,7 +292,7 @@ function display(pattern)
 					'data-action': 'install',
 					'click': handleInstall
 				}, _('Install…'));
-			else if (inst.installed && inst.version != pkg.version)
+			else if (inst.installed && compareVersion(pkg.version, inst.version) > 0)
 				btn = E('div', {
 					'class': 'btn cbi-button-positive',
 					'data-package': name,
@@ -791,7 +794,8 @@ function handleInstall(ev)
 						'id': 'overwrite-cb',
 						'type': 'checkbox',
 						'name': 'overwrite',
-						'disabled': isReadonlyView
+						'disabled': isReadonlyView,
+						'checked': true
 					}), ' ',
 					E('label', { 'for': 'overwrite-cb' }), ' ',
 					_('Allow overwriting conflicting package files')
@@ -1031,6 +1035,8 @@ function handlePkg(ev)
 			if (res.pkmcmd)
 				dlg.appendChild(E('pre', [ res.pkmcmd ]));
 
+			const showModalFlag = (cmd !== 'update' && pkg) || res.stderr;
+			if (showModalFlag) {
 			if (res.stdout)
 				dlg.appendChild(E('pre', [ res.stdout ]));
 
@@ -1058,6 +1064,10 @@ function handlePkg(ev)
 							resolveFn(res);
 					}, this, res)
 				}, _('Dismiss'))));
+				} else {
+				ui.hideModal();
+				updateLists();
+				}
 		}).catch(function(err) {
 			ui.addNotification(null, E('p', _('Unable to execute <em>%s %s</em> command: %s').format(L.hasSystemFeature('apk') ? 'apk' : 'opkg', cmd, err)));
 			ui.hideModal();
@@ -1152,6 +1162,89 @@ return view.extend({
 	},
 
 	render(listData) {
+		const checkUpdateNeeded = function() {
+			const resolvPath = '/tmp/resolv.conf.d/resolv.conf.auto';
+		
+			if (L.hasSystemFeature('apk')) {
+				return Promise.all([
+					L.resolveDefault(fs.list('/tmp'), []),
+					L.resolveDefault(fs.read(resolvPath), '')
+				]).then(function(results) {
+					const files = results[0] || [];
+					const resolvContent = results[1] || '';
+			
+					const indexFiles = files.filter(function(f) {
+						return f.type === 'file' && /^luci-indexcache\..+\.json$/.test(f.name);
+					});
+			
+					let needUpdate = false;
+			
+					if (indexFiles.length > 0) {
+						const currentDate = new Date();
+						const today = new Date(
+							currentDate.getFullYear(),
+							currentDate.getMonth(),
+							currentDate.getDate()
+						);
+			
+						let newestMtime = 0;
+			
+						indexFiles.forEach(function(f) {
+							if (f.mtime && f.mtime > newestMtime)
+								newestMtime = f.mtime;
+						});
+			
+						if (newestMtime > 0) {
+							const lastUpdateDate = new Date(newestMtime * 1000);
+							needUpdate = lastUpdateDate < today;
+						}
+						else {
+							needUpdate = true;
+						}
+					}
+					else {
+						needUpdate = true;
+					}
+			
+					const hasResolvContent = resolvContent && resolvContent.trim().length > 0;
+					return needUpdate && hasResolvContent;
+				}).catch(function(error) {
+					console.error('Error checking apk update status:', error);
+					return false;
+				});
+			}
+		
+			return Promise.all([
+				L.resolveDefault(fs.stat('/tmp/opkg-lists'), null),
+				L.resolveDefault(fs.read(resolvPath), '')
+			]).then(function(results) {
+				const stat = results[0];
+				const resolvContent = results[1];
+		
+				let needUpdate = false;
+		
+				if (stat) {
+					const currentDate = new Date();
+					const lastUpdateDate = new Date(stat.mtime * 1000);
+					const today = new Date(
+						currentDate.getFullYear(),
+						currentDate.getMonth(),
+						currentDate.getDate()
+					);
+		
+					needUpdate = lastUpdateDate < today;
+				}
+				else {
+					needUpdate = true;
+				}
+		
+				const hasResolvContent = resolvContent && resolvContent.trim().length > 0;
+				return needUpdate && hasResolvContent;
+			}).catch(function(error) {
+				console.error('Error checking opkg update status:', error);
+				return false;
+			});
+		};
 		const query = decodeURIComponent(L.toArray(location.search.match(/\bquery=([^=]+)\b/))[1] || '');
 
 		const view = E([], [
@@ -1193,6 +1286,7 @@ return view.extend({
 					E('label', {}, _('Actions') + ':'), ' ',
 					E('span', { 'class': 'control-group' }, [
 						E('button', { 'class': 'btn cbi-button-positive', 'data-command': 'update', 'click': handlePkg, 'disabled': isReadonlyView }, [ _('Update lists…') ]), ' ',
+						E('button', { 'class': 'btn cbi-button-negative', 'data-command': 'upgradeall', 'click': handlePkg, 'disabled': isReadonlyView }, [ _('Upgrade all…') ]), ' ',
 						E('button', { 'class': 'btn cbi-button-action', 'click': handleUpload, 'disabled': isReadonlyView }, [ _('Upload Package…') ]), ' ',
 						E('button', { 'class': 'btn cbi-button-neutral', 'click': handleConfig }, [ _('Configure %s').format(L.hasSystemFeature('apk') ? 'apk' : 'opkg') ])
 					])
@@ -1278,7 +1372,17 @@ return view.extend({
 		]);
 
 		requestAnimationFrame(function() {
-			updateLists(listData)
+			updateLists(listData);
+            checkUpdateNeeded().then(function(needUpdate) {
+                if (needUpdate) {
+		setTimeout(function() {
+                    const updateButton = document.querySelector('button[data-command="update"]');
+                    if (updateButton) {
+                        updateButton.click();
+                    }
+		}, 10)
+                }
+            });
 		});
 
 		return view;
