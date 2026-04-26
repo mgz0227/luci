@@ -4,34 +4,8 @@
 'require poll';
 'require fs';
 'require network';
-'require ui';
 
 return view.extend({
-	handleToggleSection: function(include, container, ev) {
-		var btn = ev.currentTarget;
-
-		include.hide = !include.hide;
-
-		btn.setAttribute('data-style', include.hide ? 'active' : 'inactive');
-		btn.setAttribute('class', include.hide ? 'label notice' : 'label');
-		btn.firstChild.data = include.hide ? _('Show') : _('Hide');
-		btn.blur();
-
-		container.style.display = include.hide ? 'none' : 'block';
-
-		if (include.hide) {
-			localStorage.setItem(include.id, 'hide');
-		} else {
-			dom.content(container,
-				E('p', {}, E('em', { 'class': 'spinning' },
-					[ _('Collecting data...') ])
-				)
-			);
-
-			localStorage.removeItem(include.id);
-		}
-	},
-
 	invokeIncludesLoad: function(includes, first_load) {
 		var tasks = [], has_load = false;
 
@@ -74,7 +48,7 @@ return view.extend({
 				else if (includes[i].content != null)
 					content = includes[i].content;
 
-				if (typeof (includes[i].oneshot) == 'function') {
+				if (typeof(includes[i].oneshot) == 'function') {
 					includes[i].oneshot(results ? results[i] : null);
 					includes[i].oneshot = null;
 				}
@@ -130,16 +104,7 @@ return view.extend({
 			rv.appendChild(E('div', { 'class': 'cbi-section', 'style': 'display: none' }, [
 				E('div', { 'class': 'cbi-title' },[
 					E('h3', { 'style': 'display: flex; justify-content: space-between' }, [
-						title || '-',
-						E('span', {
-							'class': includes[i].hide ? 'label notice' : 'label',
-							'style': 'display: flex; align-items: center; justify-content: center; min-width: 4em',
-							'data-style': includes[i].hide ? 'active' : 'inactive',
-							'data-indicator': 'poll-status',
-							'data-clickable': 'true',
-							'click': ui.createHandlerFn(this, 'handleToggleSection',
-										    includes[i], container)
-						}, [ _(includes[i].hide ? 'Show' : 'Hide') ])
+						title || '-'
 					]),
 				]),
 				container
