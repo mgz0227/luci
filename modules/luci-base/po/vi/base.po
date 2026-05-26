@@ -23,7 +23,7 @@ msgctxt "Yet unknown nftables table family (\"family\" table \"name\")"
 msgid "\"%h\" table \"%h\""
 msgstr "\"%h\" bảng \"%h\""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1864
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1865
 msgid "%.1f dB"
 msgstr "%.1f dB"
 
@@ -47,6 +47,7 @@ msgstr "%d phút trước"
 msgid "%ds ago"
 msgstr "%d giây trước"
 
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4994
 #: modules/luci-base/htdocs/luci-static/resources/validation.js:933
 msgid "%s"
 msgstr ""
@@ -82,7 +83,7 @@ msgstr "%s không được kết nối với nhiều VLANs!"
 msgid "%s means \"the address of the system running dnsmasq\"."
 msgstr "%s là địa chỉ của hệ thống đang chạy dnsmasq."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1784
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1785
 #, fuzzy
 msgid ""
 "%s services running on this device in the default VRF context (ie., not "
@@ -110,7 +111,7 @@ msgstr "%s sử dụng định dạng mã hóa địa chỉ MAC mặc định"
 msgid "%s; %d tokens separated by %s"
 msgstr ""
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:917
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:925
 msgid "'net30', 'p2p', or 'subnet'"
 msgstr "'net30', 'p2p', or 'subnet'"
 
@@ -210,7 +211,7 @@ msgstr ""
 msgid "07: x64 UEFI"
 msgstr ""
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:336
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:344
 msgid "0: Deny"
 msgstr ""
 
@@ -274,7 +275,7 @@ msgstr ""
 msgid "19: ARM UEFI 64 boot from HTTP"
 msgstr ""
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:337
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:345
 msgid "1: OS utils"
 msgstr ""
 
@@ -307,7 +308,7 @@ msgstr ""
 msgid "24: ARM uboot 64 boot from HTTP"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1809
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1810
 msgid "256"
 msgstr "256"
 
@@ -331,7 +332,7 @@ msgstr ""
 msgid "29: RISC-V 128-bit UEFI"
 msgstr ""
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:338
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:346
 msgid "2: User scripts"
 msgstr ""
 
@@ -380,7 +381,7 @@ msgstr ""
 msgid "39: LoongArch 64-bit UEFI"
 msgstr ""
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:339
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:347
 msgid "3: Allow passwords in env"
 msgstr ""
 
@@ -675,7 +676,7 @@ msgstr ""
 msgid "A directory with the same name already exists."
 msgstr "thư mục có tên này đã tồn tại."
 
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:2689
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:2690
 msgid "A new login is required since the authentication session expired."
 msgstr "Cần đăng nhận lại vì phiên xác thực cũ đã hết hạn."
 
@@ -694,11 +695,11 @@ msgid ""
 "the same network."
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1844
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1845
 msgid "A43C + J43 + A43"
 msgstr "A43C + J43 + A43"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1845
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1846
 msgid "A43C + J43 + A43 + V43"
 msgstr "A43C + J43 + A43 + V43"
 
@@ -706,77 +707,81 @@ msgstr "A43C + J43 + A43 + V43"
 msgid "AC"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1857
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1858
 msgid "ADSL"
 msgstr "ADSL"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1831
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1832
 msgid "ADSL (G.992.1) Annex A"
 msgstr "ADSL (G.992.1) Annex A"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1832
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1833
 msgid "ADSL (G.992.1) Annex B"
 msgstr "ADSL (G.992.1) Annex B"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1825
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1826
 msgid "ADSL (all variants) Annex A/L/M"
 msgstr "ADSL (tất cả các biến thể) Annex A/L/M"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1821
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1822
 msgid "ADSL (all variants) Annex A/L/M + VDSL2 Annex A/B/C"
 msgstr "ADSL (tất cả các biến thể) Annex A/L/M + VDSL2 Annex A/B/C"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1826
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1827
 msgid "ADSL (all variants) Annex B"
 msgstr "ADSL (tất cả các biến thể) Annex B"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1822
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1823
 msgid "ADSL (all variants) Annex B + VDSL2 Annex A/B/C"
 msgstr "ADSL (tất cả các biến thể) Annex B + VDSL2 Annex A/B/C"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1827
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1828
 msgid "ADSL (all variants) Annex B/J"
 msgstr "ADSL (tất cả các biến thể) Annex B/J"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1823
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1824
 msgid "ADSL (all variants) Annex B/J + VDSL2 Annex A/B/C"
 msgstr "ADSL (tất cả các biến thể) Annex B/J + VDSL2 Annex A/B/C"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1829
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1830
 msgid "ADSL (all variants) Annex M"
 msgstr "ADSL (tất cả các biến thể) Annex M"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1834
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1835
 msgid "ADSL2 (G.992.3) Annex A"
 msgstr "ADSL2 (G.992.3) Annex A"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1835
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1836
 msgid "ADSL2 (G.992.3) Annex B"
 msgstr "ADSL2 (G.992.3) Phụ lục B"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1836
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1837
 msgid "ADSL2 (G.992.3) Annex L"
 msgstr "ADSL2 (G.992.3) Phụ lục L"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1837
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1838
 msgid "ADSL2 (G.992.3) Annex M"
 msgstr "ADSL2 (G.992.3) Phụ lục M"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1838
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1839
 msgid "ADSL2+ (G.992.5) Annex A"
 msgstr "ADSL2 (G.992.3) Phụ lục A"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1839
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1840
 msgid "ADSL2+ (G.992.5) Annex B"
 msgstr "ADSL2+ (G.992.5) Phụ lục B"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1840
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1841
 msgid "ADSL2+ (G.992.5) Annex M"
 msgstr "ADSL2+ (G.992.5) Phụ lục M"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1830
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1831
 msgid "ANSI T1.413"
 msgstr "ANSI T1.413"
+
+#: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_vlan.js:66
+msgid "AP Isolation"
+msgstr ""
 
 #: protocols/luci-proto-3g/htdocs/luci-static/resources/protocol/3g.js:95
 #: protocols/luci-proto-mbim/htdocs/luci-static/resources/protocol/mbim.js:65
@@ -826,25 +831,25 @@ msgstr ""
 "Định hướng (DMS) trong 802.11v. Lưu ý: có thể làm hỏng kỳ vọng đa phát STA "
 "của thiết bị nhận."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1852
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1853
 msgid "ATM (Asynchronous Transfer Mode)"
 msgstr "Chế độ truyền đồng bộ(ATM)"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1873
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1874
 msgid "ATM Bridges"
 msgstr "Cầu ATM"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1905
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1906
 #: protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/pppoa.js:66
 msgid "ATM Virtual Channel Identifier (VCI)"
 msgstr "Kênh định danh ảo chế độ ATM (VCI)"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1906
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1907
 #: protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/pppoa.js:70
 msgid "ATM Virtual Path Identifier (VPI)"
 msgstr "Đường dẫn định danh ảo chế độ ATM (VPI)"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1873
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1874
 msgid ""
 "ATM bridges expose encapsulated ethernet in AAL5 connections as virtual "
 "Linux network interfaces which can be used in conjunction with DHCP or PPP "
@@ -854,7 +859,7 @@ msgstr ""
 "diệnmạng Linux ảo, có thể kết nối với DHCP hoặc PPP để liên lại nhà cung cấp "
 "mạng."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1912
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1913
 #: protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/pppoa.js:62
 msgid "ATM device number"
 msgstr "Số hiệu thiết bị ATM"
@@ -875,7 +880,7 @@ msgstr ""
 "Giới hạn dịch vụ DNS đối với các giao diện mạng con mà chúng tôi đang phục "
 "vụ DNS."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:220
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:228
 msgid "Accept VLANs"
 msgstr ""
 
@@ -887,7 +892,7 @@ msgstr "Chấp nhận từ các khóa công khai"
 msgid "Accept local"
 msgstr "Chấp nhận cục bộ"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1488
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1496
 msgid "Accept options pushed from server"
 msgstr "Chấp nhận tùy chọn được đảy từ server"
 
@@ -1008,7 +1013,7 @@ msgstr "Cân bằng tải truyền thích ứng"
 msgid "Add"
 msgstr "Thêm vào"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1877
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1878
 msgid "Add ATM Bridge"
 msgstr "Thêm cầu ATM"
 
@@ -1036,11 +1041,11 @@ msgstr ""
 "Thêm một địa chỉ subnet vào các truy vấn DNS được gửi lên nguồn, bỏ trống để "
 "vô hiệu hóa tính năng này."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1582
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1583
 msgid "Add device configuration"
 msgstr "Thêm cấu hình thiết bị"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1522
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1523
 msgid "Add device configuration…"
 msgstr "Thêm cấu hình thiết bị…"
 
@@ -1080,7 +1085,7 @@ msgid "Add multicast rule"
 msgstr "Thêm quy tắc multicast"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:483
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1406
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1407
 msgid "Add new interface..."
 msgstr "Thêm giao diện mới..."
 
@@ -1102,7 +1107,7 @@ msgstr "Thêm địa chỉ peer"
 msgid "Add requestor MAC"
 msgstr "Thêm MAC yêu cầu"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:631
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:639
 msgid "Add route after establishing connection"
 msgstr "Thêm tuyến sau khi kết nối thành lập"
 
@@ -1150,7 +1155,7 @@ msgstr ""
 msgid "Additional Peers"
 msgstr "Các peer bổ sung"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1190
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1198
 msgid "Additional authentication over TLS"
 msgstr "Xác thực bổ xung trên TLS"
 
@@ -1208,7 +1213,7 @@ msgid "Administration"
 msgstr "Quản trị"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:497
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1903
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1904
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:42
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:135
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:980
@@ -1242,7 +1247,7 @@ msgstr "Thời gian tuổi"
 msgid "Aggregate Originator Messages"
 msgstr "Tổng hợp thông điệp nguồn"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1696
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1697
 msgid "Aggregation device"
 msgstr "Thiết bị kết hợp"
 
@@ -1328,7 +1333,7 @@ msgstr ""
 msgid "Allow all except listed"
 msgstr "Cho phép tất cả trừ danh sách liệt kê"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:138
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:146
 msgid "Allow client-to-client traffic"
 msgstr "Cho phép lưu thông đối tượng - đến - đối tượng"
 
@@ -1348,11 +1353,11 @@ msgstr "Chỉ cho phép danh sách liệt kê"
 msgid "Allow localhost"
 msgstr "Cho phép máy chủ cục bộ"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1402
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1410
 msgid "Allow multiple clients with same certificate"
 msgstr "Cho phép nhiều đối tượng với cùng một chứng chỉ"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1175
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1183
 msgid "Allow only one session"
 msgstr "Chỉ cho phép một session"
 
@@ -1368,7 +1373,7 @@ msgstr "Cho phép nhận trên các cổng không hiện hoạt"
 msgid "Allow remote hosts to connect to local SSH forwarded ports"
 msgstr "Cho phép máy chủ từ xa kết nối với các cổng chuyển tiếp SSH cục bộ"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:587
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:595
 msgid "Allow remote to change its IP or port"
 msgstr "Cho phép đối tượng ngoài vùng thay đổi IP hoặc cổng"
 
@@ -1390,15 +1395,15 @@ msgstr "Cho phép người dùng <em>root</em> đăng nhập với mật khẩu"
 msgid "Allowed IPs"
 msgstr "cho phép IPs"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1459
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1467
 msgid "Allowed maximum of connected clients"
 msgstr "Cho phép tối đa đối tượng kết nối mới là"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1466
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1474
 msgid "Allowed maximum of internal"
 msgstr "Internal tối đa được cho phép"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1473
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1481
 msgid "Allowed maximum of new connections"
 msgstr "Cho phép tối đa kết nối mới là"
 
@@ -1410,7 +1415,7 @@ msgstr "Cho phép các công nghệ mạng"
 msgid "AllowedIPs setting is invalid"
 msgstr "Thiết lập AllowedIPs không hợp lệ"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1678
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1686
 msgid ""
 "Almost nothing here prevents you from selecting invalid configuration "
 "options which prevent openvpn from starting. Read the manual."
@@ -1465,7 +1470,7 @@ msgstr "Đã xảy ra lỗi khi lưu biểu mẫu:"
 msgid "An optional, short description for this device"
 msgstr "Một mô tả tùy chọn và ngắn gọn cho thiết bị này"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1819
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1820
 msgid "Annex"
 msgstr "Annex"
 
@@ -1546,7 +1551,7 @@ msgstr "Bất kỳ gói tin nào"
 msgid "Any zone"
 msgstr "Bất kỳ khu vực nào"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:492
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:500
 msgid "Append log to file"
 msgstr "Nối thêm log lên tập tin"
 
@@ -1554,11 +1559,11 @@ msgstr "Nối thêm log lên tập tin"
 msgid "Apply backup?"
 msgstr "Chấp nhận sao lưu?"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5485
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5493
 msgid "Apply checked"
 msgstr "Áp dụng đã chọn"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5515
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5523
 msgid "Apply request failed with status <code>%h</code>"
 msgstr "Áp dụng yêu cầu không thành công với trạng thái <code>%h</code>"
 
@@ -1566,14 +1571,14 @@ msgstr "Áp dụng yêu cầu không thành công với trạng thái <code>%h</
 msgid "Apply these DHCP Options"
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:2198
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5217
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5348
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5489
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:2199
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5225
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5356
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5497
 msgid "Apply unchecked"
 msgstr "Áp dụng không kiểm tra"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5426
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5434
 msgid "Applying configuration changes… %ds"
 msgstr "Đang áp dụng cấu hình... %ds"
 
@@ -1590,14 +1595,14 @@ msgstr "Arp-scan"
 msgid "As DHCP-Options; send unsolicited (dnsmasq only)."
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1248
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1249
 msgid ""
 "Assign a part of given length of every public IPv6-prefix to this interface"
 msgstr ""
 "Chỉ định một phần độ dài nhất định của mỗi tiền tố địa chỉ IPv6 công khai "
 "cho giao diện này"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1253
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1254
 #: protocols/luci-proto-hnet/htdocs/luci-static/resources/protocol/hnet.js:27
 msgid ""
 "Assign prefix parts using this hexadecimal subprefix ID for this interface."
@@ -1655,7 +1660,7 @@ msgstr "Nhóm xác thực"
 msgid "Auth Priv"
 msgstr "Xác thực riêng tư"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1496
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1504
 msgid "Authenticate using username/password"
 msgstr "Xác thực username/password đang sử dụng"
 
@@ -1714,7 +1719,7 @@ msgstr ""
 msgid "Automatically check filesystem for errors before mounting"
 msgstr "Tự động kiểm tra lỗi hệ thống tập tin trước khi cài đặt"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1241
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1242
 msgid ""
 "Automatically handle multiple uplink interfaces using source-based policy "
 "routing."
@@ -1730,7 +1735,7 @@ msgstr "Tự động gắn hệ thống tập tin lập tức khi có kết nố
 msgid "Automatically mount swap on hotplug"
 msgstr "Tự động gắn kết phân vùng swap khi có kết nối"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1582
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1590
 msgid "Automatically redirect default route"
 msgstr "Tự động chuyển hướng tuyến mặc định"
 
@@ -1768,11 +1773,11 @@ msgstr "Trung bình:"
 msgid "Avoid Bridge Loops"
 msgstr "Tránh vòng lặp cầu"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1846
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1847
 msgid "B43 + B43C"
 msgstr "B43 + B43C"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1847
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1848
 msgid "B43 + B43C + V43"
 msgstr "B43 + B43C + V43"
 
@@ -1838,7 +1843,7 @@ msgstr "Thiết bị gốc"
 msgid "Base64-encoded public key of this interface for sharing."
 msgstr "Khóa công khai của giao diện này được mã hóa dạng Base64 để chia sẻ."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1596
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1604
 msgid "Basic Settings"
 msgstr ""
 
@@ -1850,6 +1855,10 @@ msgstr "Thiết bị Batman"
 #: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_hardif.js:10
 msgid "Batman Interface"
 msgstr "Giao diện Batman"
+
+#: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_vlan.js:11
+msgid "Batman VLAN Interface"
+msgstr ""
 
 #: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv.js:81
 msgid ""
@@ -1980,7 +1989,7 @@ msgid "Bridge VLAN filtering"
 msgstr "Lọc VLAN của cầu"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:453
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1699
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1700
 msgid "Bridge device"
 msgstr "Thiết bị cầu"
 
@@ -1997,7 +2006,7 @@ msgstr "Các cổng cầu"
 msgid "Bridge traffic table \"%h\""
 msgstr "Bảng giao thông cầu \"%h\""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1913
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1914
 msgid "Bridge unit number"
 msgstr "Số cầu nối"
 
@@ -2019,7 +2028,7 @@ msgid "Broadcast"
 msgstr "Phát sóng"
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:3442
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4966
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4970
 msgid "Browse…"
 msgstr "Duyệt qua…"
 
@@ -2035,7 +2044,7 @@ msgstr "Mặc định, dnsmasq lưu trữ các loại bản ghi DNS A, AAAA, CNA
 msgid "CA certificate; if empty it will be saved after the first connection."
 msgstr "Chứng chỉ CA; nếu trống sẽ được lưu sau kết nối đầu tiên."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:942
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:950
 msgid "CA path"
 msgstr ""
 
@@ -2071,7 +2080,7 @@ msgstr "Bộ nhớ đệm bản ghi tài nguyên (RR) tùy ý"
 msgid "Cached"
 msgstr "Đã lưu cache"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:373
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:381
 msgid "Call down cmd/script before TUN/TAP close"
 msgstr "Call down cmd/script trước khi TUN/TAP đóng"
 
@@ -2094,12 +2103,12 @@ msgstr ""
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:3308
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:3551
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4975
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5481
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4979
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5489
 #: modules/luci-compat/luasrc/view/cbi/delegator.htm:14
 #: modules/luci-compat/luasrc/view/cbi/simpleform.htm:52
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:186
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1412
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1413
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2504
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:128
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:297
@@ -2231,19 +2240,19 @@ msgctxt "Yet unknown nftables chain hook"
 msgid "Chain hook \"%h\""
 msgstr "Móc chuỗi \"%h\""
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:273
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:281
 msgid "Change process priority"
 msgstr "Thay đổi quy trình ưu tiên"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:250
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:258
 msgid "Change to directory before initialization"
 msgstr "Chuyển qua thư mục trước khi khởi tạo"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5197
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5205
 msgid "Changes"
 msgstr "Thay đổi"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5476
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5484
 msgid ""
 "Changes have been made to the existing connection via \"%h\". This could "
 "inhibit access to this device. Any IP change requires <strong>connecting to "
@@ -2253,7 +2262,7 @@ msgstr ""
 "chặn việc truy cập vào thiết bị này. Mọi thay đổi IP yêu cầu <strong>kết nối "
 "đến IP mới</strong> trong vòng %d giây để giữ lại các thay đổi."
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5551
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5559
 msgid "Changes have been reverted."
 msgstr "Những thay đổi đã được phục hồi."
 
@@ -2284,7 +2293,7 @@ msgstr "Độ rộng Kênh"
 msgid "Check filesystems before mount"
 msgstr "Kiểm tra hệ thống tập tin trước khi gắn kết"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1264
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1272
 msgid "Check peer certificate against a CRL"
 msgstr "Kiểm tra chứng chỉ đối tác với một CRL"
 
@@ -2329,7 +2338,7 @@ msgstr ""
 "Chọn mạng bạn muốn đính kèm vào giao diện không dây này hoặc điền vàotrường "
 "<em>create</em> để xác định một mạng mới."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:258
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:266
 msgid "Chroot to directory after initialization"
 msgstr "Chroot vào thư mục sau khi khởi tạo"
 
@@ -2341,7 +2350,7 @@ msgstr "Cipher"
 msgid "Cisco UDP encapsulation"
 msgstr "Đóng gói dạng Cisco UDP"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1750
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1758
 msgid "Clear"
 msgstr ""
 
@@ -2371,11 +2380,11 @@ msgstr "Máy Khách"
 msgid "Client ID to send when requesting DHCP"
 msgstr "ID máy khách gửi khi yêu cầu DHCP"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1359
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1367
 msgid "Client is disabled"
 msgstr "Đối tượng bị vô hiệu hóa"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1706
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1714
 msgid "Client metadata"
 msgstr ""
 
@@ -2384,7 +2393,7 @@ msgstr ""
 msgid "Clone"
 msgstr "Sao chép"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5214
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5222
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/sshkeys.js:173
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/sshkeys.js:179
 msgid "Close"
@@ -2465,11 +2474,11 @@ msgid "Compute outgoing checksum (optional)."
 msgstr "Tính toán checksum đầu ra (tùy chọn)."
 
 #: protocols/luci-proto-nebula/htdocs/luci-static/resources/protocol/nebula.js:40
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1597
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1605
 msgid "Config File"
 msgstr "Tệp cấu hình"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5197
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5205
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:452
 msgid "Configuration"
 msgstr "Cấu hình"
@@ -2478,11 +2487,11 @@ msgstr "Cấu hình"
 msgid "Configuration Export"
 msgstr "Xuất Cấu hình"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5401
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5409
 msgid "Configuration changes applied."
 msgstr "Cấu hình đã được áp dụng."
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5334
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5342
 msgid "Configuration changes have been rolled back!"
 msgstr "Cấu hình đã được hoàn lại!"
 
@@ -2495,6 +2504,10 @@ msgid "Configure client mode"
 msgstr "Định cấu hình chế độ client"
 
 #: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:111
+msgid "Configure server Ipv6 mode"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:119
 msgid "Configure server bridge"
 msgstr "Định cấu hình bridge server"
 
@@ -2555,7 +2568,7 @@ msgid ""
 "Configures the operation mode of the NDP proxy service on this interface."
 msgstr "Cấu hình chế độ hoạt động của dịch vụ proxy NDP trên giao diện này."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1568
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1569
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/plugins.js:137
 msgid "Configure…"
 msgstr "Cấu hình…"
@@ -2568,11 +2581,11 @@ msgstr "Xác nhận hủy kết nối"
 msgid "Confirmation"
 msgstr "Xác nhận"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1561
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1569
 msgid "Connect through Socks5 proxy"
 msgstr "Kết nối qua Socks5 proxy"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1532
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1540
 msgid "Connect to remote host through an HTTP proxy"
 msgstr "Kết nối với máy chủ từ xa thông qua proxy HTTP"
 
@@ -2601,7 +2614,7 @@ msgstr "Điểm cuối kết nối"
 msgid "Connection lost"
 msgstr "Mất kết nối"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1525
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1533
 msgid "Connection retry interval"
 msgstr "Khoảng thử kết nối"
 
@@ -2611,7 +2624,7 @@ msgstr "Khoảng thử kết nối"
 msgid "Connections"
 msgstr "Kết nối"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5475
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5483
 msgid "Connectivity change"
 msgstr "Thay đổi kết nối"
 
@@ -2664,7 +2677,7 @@ msgid ""
 "title=\"Router Advertisement\">RA</abbr> messages."
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5370
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5378
 msgid ""
 "Could not regain access to the device after applying the configuration "
 "changes. You might need to reconnect if you modified network related "
@@ -2704,7 +2717,7 @@ msgstr "Tạo/ gán firewall-zone"
 msgid "Create Directory"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1444
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1445
 msgid "Create interface"
 msgstr "Tạo giao diện kết nối"
 
@@ -2728,7 +2741,7 @@ msgstr "Cấp độ lưu nhật ký Cron"
 msgid "Cross Pass (Japan only)"
 msgstr "Cross Pass (chỉ dành cho Nhật Bản)"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1599
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1607
 msgid "Cryptography"
 msgstr "Cryptography"
 
@@ -2929,7 +2942,7 @@ msgstr "Địa chỉ DS_-Lite AFTR"
 msgid "DSCP"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1816
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1817
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/50_dsl.js:37
 msgid "DSL"
 msgstr "DSL"
@@ -2938,7 +2951,7 @@ msgstr "DSL"
 msgid "DSL Status"
 msgstr "Trạng thái DSL"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1855
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1856
 msgid "DSL line mode"
 msgstr "Chế độ DSL Line"
 
@@ -2995,7 +3008,7 @@ msgstr "Debug"
 msgid "Default"
 msgstr "Mặc định"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1774
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1775
 msgid "Default DUID"
 msgstr ""
 
@@ -3060,15 +3073,15 @@ msgstr "Độ trễ trước khi kích hoạt cổng sau sự kiện MII link do
 msgid "Delay before enabling port after MII link up event (msec)"
 msgstr "Độ trễ trước khi kích hoạt cổng sau sự kiện MII link up (mili giây)"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:647
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:655
 msgid "Delay n seconds after connection"
 msgstr "Trì hoãn n giây sau khi kết nối"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:358
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:366
 msgid "Delay tun/tap open and up script execution"
 msgstr "Trì hoãn tun/tap mở và up script execution"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1245
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1246
 msgid "Delegate IPv6 prefixes"
 msgstr "Uỷ nhiệm các tiền tố IPv6"
 
@@ -3174,8 +3187,8 @@ msgstr "Vùng điểm đến"
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:54
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:93
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:609
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1394
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1718
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1395
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1719
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/30_network.js:71
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/routes.js:184
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/routes.js:211
@@ -3186,6 +3199,7 @@ msgstr "Vùng điểm đến"
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:260
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:334
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:369
+#: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_vlan.js:48
 #: protocols/luci-proto-external/htdocs/luci-static/resources/protocol/external.js:29
 msgid "Device"
 msgstr "Thiết bị"
@@ -3215,7 +3229,7 @@ msgstr "Tên thiết bị"
 msgid "Device not managed by ModemManager."
 msgstr "Thiết bị không được quản lý bởi ModemManager."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1687
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1688
 msgid "Device not present"
 msgstr "Thiết bị không có mặt"
 
@@ -3223,7 +3237,7 @@ msgstr "Thiết bị không có mặt"
 msgid "Device type"
 msgstr "Loại thiết bị"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5369
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5377
 msgid "Device unreachable!"
 msgstr "Thiết bị không thể truy cập!"
 
@@ -3231,8 +3245,8 @@ msgstr "Thiết bị không thể truy cập!"
 msgid "Device unreachable! Still waiting for device..."
 msgstr "Thiết bị không thể kết nối! Vẫn đang chờ đợi thiết bị..."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1519
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1600
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1520
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1608
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:289
 msgid "Devices"
 msgstr "Các thiết bị"
@@ -3258,7 +3272,7 @@ msgid ""
 "Advertisement\">RA</abbr> messages."
 msgstr ""
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:934
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:942
 msgid "Diffie-Hellman parameters"
 msgstr "Tham số Diffie-Hellman"
 
@@ -3270,7 +3284,7 @@ msgstr "Thư mục"
 msgid "Directory"
 msgstr "Thư mục"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1412
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1420
 msgid "Directory for custom client config files"
 msgstr "Dạnh mục cho các tập tin config đối tương tùy chỉnh"
 
@@ -3294,7 +3308,7 @@ msgid ""
 "e.g. <code>dnsmasq</code>."
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1805
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1806
 msgid ""
 "Directs packet flows to specific CPUs where the local socket owner listens "
 "(the local service)."
@@ -3320,7 +3334,7 @@ msgstr ""
 msgid "Disable DNS lookups"
 msgstr "Vô hiệu hóa tìm kiếm DNS"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:924
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:932
 msgid "Disable Data Channel Offloading (DCO) support"
 msgstr ""
 
@@ -3332,11 +3346,11 @@ msgstr "Vô hiệu hóa mã hóa"
 msgid "Disable Inactivity Polling"
 msgstr "Vô hiệu hóa thăm dò tín hiệu không hoạt động"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:235
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:243
 msgid "Disable Paging"
 msgstr "Vô hiệu hóa Paging"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:242
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:250
 msgid "Disable options consistency check"
 msgstr "Vô hiệu hóa tùy chọn kiểm tra nhất quán"
 
@@ -3350,7 +3364,7 @@ msgstr "Vô hiệu hóa mạng này"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1138
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1144
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1796
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1797
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1010
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1753
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1949
@@ -3422,7 +3436,7 @@ msgstr "Dung lượng đĩa"
 #: modules/luci-base/htdocs/luci-static/resources/form.js:3883
 #: modules/luci-base/htdocs/luci-static/resources/form.js:3897
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:4388
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5340
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5348
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2204
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:360
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/view/wireguard/status.js:54
@@ -3463,7 +3477,7 @@ msgstr ""
 "phần này có hiệu lực cho tất cả các phiên bản Dnsmasq."
 
 #: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:37
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:594
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:602
 msgid "Do not bind to local address and port"
 msgstr "Đừng đóng kết địa chỉ địa phương và cổng"
 
@@ -3562,39 +3576,39 @@ msgstr "Danh sách tên miền được chấp nhận"
 msgid "Don't Fragment"
 msgstr "Không phân mảnh"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:617
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:625
 msgid "Don't actually execute ifconfig"
 msgstr "Đừng thực sự thực hiện ifconfig"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:654
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:662
 msgid "Don't add routes automatically"
 msgstr "Đừng tự động thêm vào đường dẫn"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1213
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1221
 msgid "Don't cache --askpass or --auth-user-pass passwords"
 msgstr "Không cache mật khẩu --askpass hoặc --auth-user-pass"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:668
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:676
 msgid "Don't drop incoming tun packets with same destination as host"
 msgstr "Không thả các gói điều chỉnh đến có cùng đích với máy chủ"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1351
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1359
 msgid "Don't inherit global push options"
 msgstr "Đừng thừa hưởng tùy chọn đẩy toàn cầu"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:515
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:523
 msgid "Don't log timestamps"
 msgstr "Đừng log timestamps"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:661
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:669
 msgid "Don't pull routes automatically"
 msgstr "Không tự động kéo các tuyến đường"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:842
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:850
 msgid "Don't re-read key on restart"
 msgstr "Đừng đọc lại key ở chế độ khởi động"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:624
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:632
 msgid "Don't warn on ifconfig inconsistencies"
 msgstr "Đừng cảnh báo về sự không nhất quán của ifconfig"
 
@@ -3622,11 +3636,11 @@ msgstr "Tải xuống mtdblock"
 msgid "Download peer configuration file"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1860
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1861
 msgid "Downstream SNR offset"
 msgstr "Khoảng cách SNR hạ lưu"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1770
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1778
 msgid "Drag and drop an ovpn config file here"
 msgstr ""
 
@@ -3786,7 +3800,7 @@ msgstr ""
 "của bên thứ ba) cho phép trình quản lý gói cài đặt các gói trong danh sách "
 "do kho lưu trữ đó ký."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:478
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:486
 msgid "Echo parameters to log"
 msgstr "Báo tham số lên log"
 
@@ -3902,7 +3916,7 @@ msgstr "Phát ra thông báo thiếu địa chỉ IP netlink"
 msgid "Emits netlink LLADDR miss notifications"
 msgstr "Phát ra thông báo thiếu địa chỉ LLADDR netlink"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:687
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:695
 msgid "Empirically measure MTU"
 msgstr "Đo MTU"
 
@@ -3936,6 +3950,16 @@ msgstr "Kích hoạt <abbr title=\"Spanning Tree Protocol\">STP</abbr>"
 msgid "Enable <abbr title=\"Stateless Address Auto Config\">SLAAC</abbr>"
 msgstr ""
 "Bật <abbr title=\"Cấu hình Tự động Địa chỉ Không có Trạng thái\">SLAAC</abbr>"
+
+#: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_vlan.js:67
+msgid ""
+"Enable AP Isolation to isolate wireless clients connected to this Batman "
+"VLAN on this AP from wireless clients connected to this Batman VLAN on "
+"different APs. To isolate all wireless clients connected to this Batman VLAN "
+"on all APs from each other, be sure to enable this option on all APs, and be "
+"sure to enable additional wireless client isolation options ('isolate' and "
+"'bridge_isolate') for all associated wireless interfaces on all APs."
+msgstr ""
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/connections.js:279
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/connections.js:495
@@ -3989,11 +4013,11 @@ msgstr "Bật học địa chỉ MAC"
 msgid "Enable NTP client"
 msgstr "Kích hoạt máy chủ NTP"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:998
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1006
 msgid "Enable OpenSSL hardware crypto engines"
 msgstr "Kích hoạt OpenSSL hardware crypto engines"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:680
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:688
 msgid "Enable Path MTU discovery"
 msgstr "Kích hoạt khám phá đường dẫn MTU"
 
@@ -4005,7 +4029,7 @@ msgstr "Kích hoạt Private PSK (PPSK)"
 msgid "Enable Single DES"
 msgstr "Kích hoạt DES đơn"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:147
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:155
 msgid "Enable Static Key encryption mode (non-TLS)"
 msgstr "Kích hoạt chế độ mã hóa khóa tĩnh (non-TLS)"
 
@@ -4013,11 +4037,11 @@ msgstr "Kích hoạt chế độ mã hóa khóa tĩnh (non-TLS)"
 msgid "Enable TFTP server"
 msgstr "Kích hoạt máy chủ TFTP"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1056
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1064
 msgid "Enable TLS and assume client role"
 msgstr "Kích hoạt TLS và giả định vải trò của client"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1049
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1057
 msgid "Enable TLS and assume server role"
 msgstr "Kích hoạt TLS và giả định vải trò của server"
 
@@ -4047,13 +4071,13 @@ msgstr ""
 "bản\">HTTP</abbr> sang cổng <abbr title=\"Giao thức Truyền tải Siêu Văn bản "
 "Bảo mật\">HTTPS</abbr>."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1245
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1246
 msgid ""
 "Enable downstream delegation of IPv6 prefixes available on this interface"
 msgstr ""
 "Bật ủy quyền xuống hạ tầng của các tiền tố IPv6 có sẵn trên giao diện này"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:742
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:750
 msgid "Enable internal datagram fragmentation"
 msgstr "Kích hoạt internal datagram fragmentation"
 
@@ -4065,7 +4089,7 @@ msgstr "Kích hoạt các biện pháp đối phó cài đặt lại khóa (KRAC
 msgid "Enable learning and aging"
 msgstr "Kích hoạt học tập và quên đi"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:865
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:873
 msgid "Enable management interface on <em>IP</em> <em>port</em>"
 msgstr "Kích hoạt giao diện điều hành trên <em>IP</em> <em>cổng</em>"
 
@@ -4103,7 +4127,7 @@ msgstr ""
 msgid "Enable or disable DHCPv4 services on this interface."
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1795
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1796
 msgid "Enable packet steering across CPUs. May help or hinder network speed."
 msgstr ""
 "Kích hoạt điều khiển gói tin qua các CPU. Có thể giúp hoặc cản trở tốc độ "
@@ -4159,7 +4183,7 @@ msgstr "Kích hoạt tràn unicast"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1137
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1143
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1797
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1798
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1950
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2132
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:222
@@ -4173,7 +4197,7 @@ msgstr "Kích hoạt tràn unicast"
 msgid "Enabled"
 msgstr "Kích Hoạt"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1798
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1799
 msgid "Enabled (all CPUs)"
 msgstr "Đã kích hoạt (tất cả các CPU)"
 
@@ -4217,16 +4241,16 @@ msgstr "Encap 3+4"
 msgid "Encapsulation limit"
 msgstr "Giới hạn đóng gói tin"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1850
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1908
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1851
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1909
 msgid "Encapsulation mode"
 msgstr "Chế độ đóng gói"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1198
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1206
 msgid "Encrypt and authenticate all control channel packets with the key"
 msgstr "Mã hóa và xác thực tất cả các gói kênh điều khiển bằng khóa"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1206
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1214
 msgid ""
 "Encrypt and authenticate all control channel packets with the key, version 2."
 msgstr ""
@@ -4240,7 +4264,7 @@ msgstr ""
 msgid "Encryption"
 msgstr "Mã hóa"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:974
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:982
 msgid "Encryption cipher for packets"
 msgstr "Encryption cipher cho các gói"
 
@@ -4339,15 +4363,15 @@ msgstr ""
 msgid "Exclude interfaces"
 msgstr "Loại trừ giao diện"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:390
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:398
 msgid "Execute shell cmd after routes are added"
 msgstr "Thực hiện shell cmd sau khi tuyến đã thêm vào"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:398
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:406
 msgid "Execute shell command on remote IP change"
 msgstr "Thực hiện lệnh shell trên IP thay đổi từ xa"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:470
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:478
 msgid ""
 "Executed in server mode on new client connections, when the client is still "
 "untrusted"
@@ -4355,7 +4379,7 @@ msgstr ""
 "Được thực thi ở chế độ máy chủ trên các kết nối máy khách mới, khi máy khách "
 "vẫn chưa được tin cậy"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:462
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:470
 msgid ""
 "Executed in server mode whenever an IPv4 address/route or MAC address is "
 "added to OpenVPN's internal routing table"
@@ -4387,7 +4411,7 @@ msgstr ""
 msgid "Existing device"
 msgstr "Thiết bị hiện có"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1183
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1191
 msgid "Exit on TLS negotiation failure"
 msgstr "Exit trên TLS khi thương lượng thất bại"
 
@@ -4411,7 +4435,7 @@ msgstr ""
 msgid "Expected port number."
 msgstr "Số cổng được mong đợi."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1262
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1263
 msgid "Expecting a hexadecimal assignment hint"
 msgstr "Cần một gợi ý gán thập lục phân"
 
@@ -4443,7 +4467,7 @@ msgstr "Đang mong đợi hai giá trị ưu tiên phân cách bằng dấu hai 
 msgid "Expecting: %s"
 msgstr "Đang chờ: %s"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1601
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1609
 msgid "Expert Settings"
 msgstr ""
 
@@ -4573,7 +4597,7 @@ msgstr "Đổi mật khẩu hệ thống thất bại."
 msgid "Failed to configure modem"
 msgstr "Không thể cấu hình modem"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5328
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5336
 msgid "Failed to confirm apply within %ds, waiting for rollback…"
 msgstr "Không thể xác nhận áp dụng trong %ds, đang chờ quay lại…"
 
@@ -4768,7 +4792,7 @@ msgstr "Trạng thái tường lửa"
 msgid "Firewall mark"
 msgstr "Đánh dấu tường lửa"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1867
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1868
 msgid "Firmware File"
 msgstr "Tập tin phần mềm"
 
@@ -4829,7 +4853,7 @@ msgid "For multicast, an outgoing interface (%s) needs to be specified"
 msgstr "Đối với đa hướng, cần phải chỉ định giao diện gửi đi (%s)"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1222
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1780
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1781
 msgid "For packets originating from this device, e.g. VPN."
 msgstr ""
 
@@ -4891,7 +4915,7 @@ msgstr "Buộc TKIP và CCMP (AES)"
 msgid "Force broadcast DHCP response."
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1510
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1511
 msgid "Force link"
 msgstr "Buộc liên kết"
 
@@ -4975,7 +4999,7 @@ msgstr ""
 msgid "Forwarding DataBase"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1915
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1916
 msgid "Forwarding mode"
 msgstr "Chế độ chuyển tếp"
 
@@ -4991,7 +5015,7 @@ msgstr "Phân mảnh"
 msgid "Fragmentation Threshold"
 msgstr "Ngưỡng cửa Phân đoạn"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1707
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1715
 msgid "Freeform metadata to embed into the client key"
 msgstr ""
 
@@ -5098,7 +5122,7 @@ msgid "General Settings"
 msgstr "Các cài đặt chung"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:673
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1902
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1903
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:979
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1048
 msgid "General Setup"
@@ -5108,7 +5132,7 @@ msgstr "Cài đặt chung"
 msgid "General device options"
 msgstr "Tùy chọn thiết bị chung"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1715
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1723
 msgid "Generate"
 msgstr ""
 
@@ -5157,7 +5181,7 @@ msgstr "Tạo một cấu hình phù hợp để nhập vào một WireGuard pee
 msgid "Generating QR code…"
 msgstr "Đang tạo mã QR…"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:949
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:957
 msgid "Get certificate password from file before we daemonize"
 msgstr ""
 
@@ -5170,7 +5194,7 @@ msgstr "Phát hiện mật khẩu không khớp, mật khẩu không thay đổi
 msgid "Global Settings"
 msgstr "Cài đặt chung"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1764
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1765
 msgid "Global network options"
 msgstr "Tùy chọn mạng toàn cầu"
 
@@ -5354,7 +5378,7 @@ msgstr "Mật khẩu HE.net"
 msgid "HE.net username"
 msgstr "Tên người dùng HE.net"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:955
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:963
 msgid "HMAC authentication for packets"
 msgstr "Sự xác thực HMAC cho gói"
 
@@ -5371,7 +5395,7 @@ msgstr "Truy cập HTTP(S)"
 msgid "Half Duplex"
 msgstr ""
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1503
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1511
 msgid "Handling of authentication failures"
 msgstr "Xử lý những sai sót khi xác thực"
 
@@ -5391,8 +5415,8 @@ msgstr "Khoảng thời gian nhịp tim (kernel: nhịp tim)"
 msgid "Hello interval"
 msgstr "Khoảng thời gian Hello"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:132
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:797
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:140
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:805
 msgid ""
 "Helper directive to simplify the expression of --ping and --ping-restart in "
 "server mode configurations"
@@ -5828,7 +5852,7 @@ msgstr "Cài đặt IPv6"
 msgid "IPv6 Token"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1768
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1769
 msgid "IPv6 ULA-Prefix"
 msgstr "Tiền tố ULA IPv6"
 
@@ -5849,12 +5873,12 @@ msgstr "Địa chỉ IPv6"
 msgid "IPv6 addresses"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1253
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1254
 #: protocols/luci-proto-hnet/htdocs/luci-static/resources/protocol/hnet.js:27
 msgid "IPv6 assignment hint"
 msgstr "Gơi ý gán IPv6"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1248
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1249
 msgid "IPv6 assignment length"
 msgstr "Độ dài gán IPv6"
 
@@ -5871,7 +5895,7 @@ msgstr "Mạng IPv6 theo ghi chú địa chỉ/mặt nạ mạng"
 msgid "IPv6 only"
 msgstr "Chỉ IPv6"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1297
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1298
 msgid "IPv6 preference"
 msgstr "Ưu tiên IPv6"
 
@@ -5880,7 +5904,7 @@ msgstr "Ưu tiên IPv6"
 msgid "IPv6 prefix"
 msgstr "IPv6 prefix"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1270
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1271
 msgid "IPv6 prefix filter"
 msgstr "Bộ lọc tiền tố IPv6"
 
@@ -5895,11 +5919,11 @@ msgstr "Độ dài IPv6 prefix"
 msgid "IPv6 routed prefix"
 msgstr "Tiền tố định tuyến IPv6"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1241
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1242
 msgid "IPv6 source routing"
 msgstr "Định tuyến nguồn IPv6"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1293
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1294
 msgid "IPv6 suffix"
 msgstr "Hậu tố IPv6"
 
@@ -5974,7 +5998,7 @@ msgid ""
 "affect outgoing peerings, nor link-local peers discovered via multicast."
 msgstr ""
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1575
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1583
 msgid "If hostname resolve fails, retry"
 msgstr "Nếu hostname resolve thất bại, thử lại"
 
@@ -5984,7 +6008,13 @@ msgid ""
 "the <em>Local IPv6 DNS server</em> option is disabled."
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1270
+#: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_vlan.js:49
+msgid ""
+"If not listed, please open the drop-down list and type in the name of the "
+"Batman VLAN device in the 'custom' field."
+msgstr ""
+
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1271
 msgid ""
 "If set, downstream subnets are only allocated from the given IPv6 prefix "
 "classes."
@@ -6584,11 +6614,11 @@ msgstr ""
 msgid "Jumps to another rule specified by its priority value"
 msgstr ""
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:849
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:857
 msgid "Keep local IP address on restart"
 msgstr "Giữ địa chỉ IP ở chế độ khởi động"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:856
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:864
 msgid "Keep remote IP address on restart"
 msgstr "Giữ remote địa chỉ IP ở chế độ khởi động"
 
@@ -6596,7 +6626,7 @@ msgstr "Giữ remote địa chỉ IP ở chế độ khởi động"
 msgid "Keep settings and retain the current configuration"
 msgstr "Giữ nguyên cài đặt và giữ nguyên cấu hình hiện tại"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:835
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:843
 msgid "Keep tun/tap device open on restart"
 msgstr "Giữ công cụ tun/tap mở khi khởi động lại"
 
@@ -6655,7 +6685,7 @@ msgctxt "Label indicating that WireGuard peer lacks public key"
 msgid "Key missing"
 msgstr "Thiếu khóa"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1167
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1175
 msgid "Key transition window"
 msgstr "Key transition window"
 
@@ -6663,7 +6693,7 @@ msgstr "Key transition window"
 msgid "Key used to sign network config"
 msgstr "Khóa được sử dụng để ký cấu hình mạng"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1602
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1610
 msgid "Keygen"
 msgstr ""
 
@@ -6726,7 +6756,7 @@ msgstr "Chu kỳ lấy LCP"
 msgid "LED Configuration"
 msgstr "Cấu hình đèn LED"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1909
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1910
 msgid "LLC"
 msgstr "LLC"
 
@@ -6855,7 +6885,7 @@ msgstr ""
 msgid "Legacy rules detected"
 msgstr "Phát hiện các quy tắc cũ"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5199
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5207
 msgid "Legend:"
 msgstr "Chú giải:"
 
@@ -6863,7 +6893,7 @@ msgstr "Chú giải:"
 msgid "Limit"
 msgstr "Giới hạn"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:508
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:516
 msgid "Limit repeated log messages"
 msgstr "Giới hạn lập log tin nhắn"
 
@@ -7044,7 +7074,7 @@ msgstr ""
 msgid "Load configuration…"
 msgstr "Tải cấu hình…"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1440
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1441
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2427
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/view/wireguard/status.js:182
 msgid "Loading data…"
@@ -7054,7 +7084,7 @@ msgstr "Đang tải dữ liệu…"
 msgid "Loading directory contents…"
 msgstr "Đang tải nội dung thư mục…"
 
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:1956
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:1957
 #: modules/luci-base/ucode/template/view.ut:4
 #: modules/luci-mod-status/ucode/template/admin_status/index.ut:12
 #: themes/luci-theme-bootstrap/ucode/template/themes/bootstrap/sysauth.ut:76
@@ -7142,7 +7172,7 @@ msgstr "Khởi động cục bộ với hệ thống"
 msgid "Local Time"
 msgstr "Giờ địa phương"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1271
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1272
 msgid "Local ULA"
 msgstr "ULA cục bộ"
 
@@ -7165,7 +7195,7 @@ msgstr "Tên miền cục bộ"
 msgid "Local domain suffix appended to DHCP names and hosts file entries."
 msgstr "Hậu tố tên miền cục bộ gắn vào tên DHCP và các mục tập tin từ máy chủ."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:543
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:551
 msgid "Local host name or IP address"
 msgstr "Tên host địa phương và địa chỉ IP"
 
@@ -7233,7 +7263,7 @@ msgstr "Thiết bị ghi nhật ký"
 msgid "Log in"
 msgstr "Đăng nhập"
 
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:2697
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:2698
 msgid "Log in…"
 msgstr "Đến phần đăng nhập…"
 
@@ -7260,7 +7290,7 @@ msgid "Log queries"
 msgstr "Bản ghi tra vấn"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:118
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1603
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1611
 msgid "Logging"
 msgstr "Ghi nhật ký"
 
@@ -7309,7 +7339,7 @@ msgstr "Chế độ tương thích Lua đang hoạt động"
 msgid "MAC"
 msgstr "MAC"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1740
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1741
 #: protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/pppoe.js:51
 msgid "MAC Address"
 msgstr "Địa chỉ MAC"
@@ -7323,7 +7353,7 @@ msgid "MAC Addresses"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:456
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1705
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1706
 msgid "MAC VLAN"
 msgstr "VLAN MAC"
 
@@ -7385,7 +7415,7 @@ msgid "MII link monitoring"
 msgstr "Giám sát liên kết MII"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1090
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1752
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1753
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:91
 #: protocols/luci-proto-vpnc/htdocs/luci-static/resources/protocol/vpnc.js:53
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan.js:83
@@ -7404,7 +7434,7 @@ msgstr "MX"
 msgid "Mail"
 msgstr "Thư"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:536
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:544
 msgid "Major mode"
 msgstr "Chế độ chính"
 
@@ -7416,15 +7446,15 @@ msgstr ""
 "Đảm bảo sao chép hệ thống tập tin gốc bằng cách sử dụng một số cách như các "
 "lệnh bên dưới:"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1604
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1612
 msgid "Management"
 msgstr ""
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:895
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:903
 msgid "Management cert"
 msgstr ""
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:903
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:911
 msgid "Management key"
 msgstr ""
 
@@ -7592,7 +7622,7 @@ msgstr "Số lượng mục FDB tối đa"
 msgid "Maximum number of leased addresses."
 msgstr "Số lượng máy xin địa chỉ IP truy cập tối đa."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1452
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1460
 msgid "Maximum number of queued TCP output packets"
 msgstr "Số lượng tối đa của queued TCP output packets"
 
@@ -7927,7 +7957,7 @@ msgstr "Đa điểm đến một điểm"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1220
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1221
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1780
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1781
 msgid "Multi-Path TCP"
 msgstr ""
 
@@ -8017,10 +8047,10 @@ msgid "NUD"
 msgstr ""
 
 #: modules/luci-base/htdocs/luci-static/resources/form.js:2911
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4952
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4956
 #: modules/luci-compat/luasrc/view/cbi/tblsection.htm:27
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:117
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1370
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1371
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/leds.js:63
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:236
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/view/wireguard/status.js:45
@@ -8130,7 +8160,7 @@ msgid "Network bridge configuration migration"
 msgstr "Di chuyển cấu hình cầu mạng"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:449
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1714
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1715
 msgid "Network device"
 msgstr "Thiết bị mạng"
 
@@ -8161,7 +8191,7 @@ msgstr "Di chuyển cấu hình ifname mạng"
 msgid "Network interface"
 msgstr "Giao diện mạng"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1605
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1613
 msgid "Networking"
 msgstr "Networking"
 
@@ -8198,11 +8228,11 @@ msgctxt "Dnsmasq instance"
 msgid "New instance name…"
 msgstr "Tên phiên bản mới…"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1426
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1427
 msgid "New interface for \"%s\" can not be created: %s"
 msgstr "Không thể tạo giao diện mới cho \"%s\": %s"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1373
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1374
 msgid "New interface name…"
 msgstr "Tên giao diện mạng mới…"
 
@@ -8386,7 +8416,7 @@ msgid "No special configuration"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:151
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1471
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1472
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/29_ports.js:332
 msgid "No zone assigned"
 msgstr "Không có vùng nào được gán"
@@ -8516,7 +8546,7 @@ msgid ""
 "which should no longer be used)."
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1806
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1807
 msgid ""
 "Note: this setting is for local services on the device only (not for "
 "forwarding)."
@@ -8547,7 +8577,7 @@ msgstr "Lưu ý"
 msgid "Nslookup"
 msgstr "Nslookup"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1445
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1453
 msgid "Number of allocated broadcast buffers"
 msgstr "Số lượng phân bổ phát sóng buffers"
 
@@ -8557,7 +8587,7 @@ msgstr ""
 "Số lượng mục DNS được lưu trong bộ nhớ cache (tối đa là 10000, 0 là không "
 "lưu trong bộ nhớ cache)."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:887
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:895
 msgid "Number of lines for log file history"
 msgstr "Số dòng cho tập tin log history"
 
@@ -8603,7 +8633,7 @@ msgstr "Nhận được địa chỉ IPv6"
 msgid "Off"
 msgstr "Tắt"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1785
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1786
 msgid ""
 "Off means VRF traffic will be handled exclusively by sockets bound to VRFs."
 msgstr ""
@@ -8705,7 +8735,7 @@ msgid ""
 "at any given time."
 msgstr ""
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:828
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:836
 msgid "Only process ping timeouts if routes exist"
 msgstr "Chỉ xử lý ping timouts nếu tuyến tồn tại"
 
@@ -8721,7 +8751,7 @@ msgstr "Đang mở danh sách ..."
 msgid "OpenConnect (CISCO AnyConnect)"
 msgstr "OpenConnect (CISCO AnyConnect)"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1640
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1648
 msgid "OpenVPN"
 msgstr "OpenVPN"
 
@@ -8771,7 +8801,7 @@ msgstr "Mã nhà điều hành"
 msgid "Operator Name"
 msgstr "Tên nhà điều hành"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:280
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:288
 msgid "Optimize TUN/TAP/UDP writes"
 msgstr "Tối ưu hóa TUN/TAP/UDP writes"
 
@@ -8784,11 +8814,11 @@ msgstr "Tùy chọn \"%s\" chứa một giá trị đầu vào không hợp lệ
 msgid "Option \"%s\" must not be empty."
 msgstr "Tùy chọn \"%s\" không được để trống."
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5206
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5214
 msgid "Option changed"
 msgstr "Thay đổi tùy chỉnh"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5208
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5216
 msgid "Option removed"
 msgstr "Xóa tùy chỉnh"
 
@@ -8819,7 +8849,7 @@ msgstr ""
 "Không bắt buộc. Đánh dấu 32 bit cho các gói được mã hóa đi. Nhập giá trị ở "
 "dạng hex, bắt đầu bằng <code>0x</code>."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1293
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1294
 msgid ""
 "Optional. Allowed values: 'eui64', 'random', fixed value like '::1' or "
 "'::1:2'. When IPv6 prefix (like 'a:b:c:d::') is received from a delegating "
@@ -8915,11 +8945,11 @@ msgstr "Không bắt buộc. Cổng UDP được sử dụng cho các gói đi v
 msgid "Options"
 msgstr "Tuỳ chọn"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1681
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1689
 msgid "Options marked with ² are OpenSSL only."
 msgstr ""
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1679
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1687
 msgid "Options marked with ¹ are deprecated and will be removed."
 msgstr ""
 
@@ -8995,11 +9025,11 @@ msgstr "Vùng đầu ra"
 msgid "Overlap"
 msgstr "Trùng lắp"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1230
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1231
 msgid "Override IPv4 routing table"
 msgstr "Ghi đè bảng định tuyến IPv4"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1235
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1236
 msgid "Override IPv6 routing table"
 msgstr "Ghi đè bảng định tuyến IPv6"
 
@@ -9153,7 +9183,7 @@ msgstr "Mã PIN bị từ chối"
 msgid "PIO directory"
 msgstr ""
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:166
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:174
 msgid "PKCS#12 file containing keys"
 msgstr "PKCS # 12 tập tin có chứa key"
 
@@ -9203,7 +9233,7 @@ msgctxt "Label indicating that WireGuard peer uses a PSK"
 msgid "PSK"
 msgstr "PSK"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1853
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1854
 msgid "PTM/EFM (Packet Transfer Mode)"
 msgstr "PTM/EFM (Chế độ chuyển gói)"
 
@@ -9219,7 +9249,7 @@ msgstr "PXE/TFTP"
 msgid "Packet Service State"
 msgstr "Trạng thái dịch vụ gói tin"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1795
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1796
 msgid "Packet Steering"
 msgstr "Định tuyến gói tin"
 
@@ -9253,16 +9283,16 @@ msgstr[0] ""
 "Số nhiều: Một phần của các mạng"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:151
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1471
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1472
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/29_ports.js:332
 msgid "Part of zone %q"
 msgstr "Phần của vùng %q"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:405
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:413
 msgid "Pass environment variables to script"
 msgstr "Bỏ qua yếu tố môi trường tới script"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:413
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:421
 msgid "Pass environment variables to script prepended with OPENVPN_"
 msgstr ""
 
@@ -9336,7 +9366,7 @@ msgstr ""
 msgid "Paste or drag supplied WireGuard configuration file…"
 msgstr "Dán hoặc kéo thả tệp cấu hình WireGuard đã cung cấp…"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1733
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1741
 msgid "Path"
 msgstr ""
 
@@ -9368,7 +9398,7 @@ msgstr "Đường dẫn tới chứng chỉ nội bộ của máy khách"
 msgid "Path to inner Private Key"
 msgstr "Đường dẫn tới khoá riêng tư nội bộ"
 
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:2745
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:2746
 msgid "Paused"
 msgstr "Tạm dừng"
 
@@ -9462,11 +9492,11 @@ msgstr "Thực hiện khởi động lại"
 msgid "Permission denied"
 msgstr "Bạn không có quyền làm"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1042
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1050
 msgid "Persist replay-protection state"
 msgstr "Tiếp tục tình trạng replay-protection"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1374
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1382
 msgid "Persist/unpersist ifconfig-pool"
 msgstr "Persist/unpersist ifconfig-pool"
 
@@ -9492,7 +9522,7 @@ msgstr "Cài đặt căn bản"
 msgid "Ping"
 msgstr "Ping"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:805
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:813
 msgid "Ping remote every n seconds over TCP/UDP port"
 msgstr "Ping remote mỗi n giây trên cổng TCP/UDP"
 
@@ -9509,7 +9539,13 @@ msgstr "Pkts."
 msgid "Please enter your username and password."
 msgstr "Nhập tên và mật mã."
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4935
+#: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_vlan.js:63
+msgid ""
+"Please open the drop-down list and select or type in the name of the Batman "
+"VLAN device."
+msgstr ""
+
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4939
 msgid "Please select the file to upload."
 msgstr "Vui lòng chọn tệp để tải lên."
 
@@ -9554,7 +9590,7 @@ msgstr ""
 msgid "Policy"
 msgstr "Chính sách"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:341
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:349
 msgid "Policy level over usage of external programs and scripts"
 msgstr ""
 "Cấp độ chính sách đối với việc sử dụng các chương trình và tập lệnh bên ngoài"
@@ -9769,7 +9805,7 @@ msgstr "Prot."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:92
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:593
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1388
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1389
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/connections.js:511
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/30_network.js:60
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/routes.js:190
@@ -9815,7 +9851,7 @@ msgstr ""
 msgid "Proxy Server"
 msgstr "Máy chủ Proxy"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1547
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1555
 msgid "Proxy timeout in seconds"
 msgstr "Proxy timeout in seconds"
 
@@ -9869,15 +9905,15 @@ msgstr ""
 msgid "PublicKey setting is invalid"
 msgstr "Cài đặt PublicKey không hợp lệ"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1606
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1614
 msgid "Push"
 msgstr ""
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1381
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1389
 msgid "Push an ifconfig option to remote"
 msgstr "Đảy một tùy chọn ifconfig tới remote"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1338
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1346
 msgid "Push options to peer"
 msgstr "Đẩy lựa chọn cho đối tác"
 
@@ -9920,7 +9956,7 @@ msgstr ""
 msgid "Query interval"
 msgstr "Khoảng thời gian truy vấn"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:872
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:880
 msgid "Query management channel for private key"
 msgstr "Tra vấn kênh điều hành cho phím bảo mật"
 
@@ -10039,7 +10075,7 @@ msgctxt "nft nat flag random"
 msgid "Randomize source port mapping"
 msgstr "Ngẫu nhiên hóa ánh xạ cổng nguồn"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1517
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1525
 msgid "Randomly choose remote server"
 msgstr "Ngẫu nhiên chọn server ngoài vùng"
 
@@ -10047,7 +10083,7 @@ msgstr "Ngẫu nhiên chọn server ngoài vùng"
 msgid "Raw Data"
 msgstr ""
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1767
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1775
 msgid "Raw OVPN config"
 msgstr ""
 
@@ -10159,11 +10195,11 @@ msgstr "Tham khảo"
 msgid "Refresh Channels"
 msgstr "Làm mới các kênh"
 
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:2739
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:2740
 msgid "Refreshing"
 msgstr "Đang làm mới"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1419
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1427
 msgid "Refuse connection if no custom client config"
 msgstr "Từ chối kết nối nêu không có config đối tượng tùy chỉnh"
 
@@ -10252,7 +10288,7 @@ msgstr ""
 msgid "Remaining time"
 msgstr ""
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:291
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:299
 msgid "Remap SIGUSR1 signals"
 msgstr "Remap tín hiệu SIGUSR1"
 
@@ -10288,7 +10324,7 @@ msgstr ""
 msgid "Remote host name or IP address"
 msgstr "Tên host ngoài vùng và địa chỉ IP"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:813
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:821
 msgid "Remote ping timeout"
 msgstr "PING timeout từ xa"
 
@@ -10308,7 +10344,7 @@ msgstr "Loại bỏ địa chỉ IPv6 khỏi kết quả và chỉ trả về đ
 msgid "Remove MAC address before forwarding query"
 msgstr ""
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1345
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1353
 msgid "Remove Push options"
 msgstr ""
 
@@ -10342,7 +10378,7 @@ msgctxt "Dnsmasq instance"
 msgid "Remove instance #%d"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1572
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1573
 msgid "Remove related device settings from the configuration"
 msgstr "Xóa các thiết lập thiết bị liên quan khỏi cấu hình"
 
@@ -10354,15 +10390,15 @@ msgstr ""
 msgid "Removes records of the specified type(s) from answers."
 msgstr ""
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1135
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1143
 msgid "Renegotiate data chan. key after bytes"
 msgstr "Thương lượng lại data chan. key sau bytes"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1143
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1151
 msgid "Renegotiate data chan. key after packets"
 msgstr "Thương lượng lại data chan. key sau packets"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1151
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1159
 msgid "Renegotiate data chan. key after seconds"
 msgstr "Thương lượng lại data chan. key sau seconds"
 
@@ -10370,8 +10406,8 @@ msgstr "Thương lượng lại data chan. key sau seconds"
 msgid "Replace wireless configuration"
 msgstr "Thay thế cấu hình mạng không dây"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1020
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1027
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1028
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1035
 msgid "Replay protection sliding window size"
 msgstr "Replay chế độ bảo vệ kích thước window trượt"
 
@@ -10404,12 +10440,12 @@ msgstr ""
 msgid "Request timeout"
 msgstr "Hết thời gian yêu cầu"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1233
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1241
 msgid "Require explicit designation on certificate"
 msgstr "Yêu cầu rõ ràng về giấy chứng nhận"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1246
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1257
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1254
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1265
 msgid "Require explicit key usage on certificate"
 msgstr "Yêu cầu key dùng rõ rãng trên chứng nhận"
 
@@ -10427,7 +10463,7 @@ msgstr "Yêu cầu kiểm tra hợp lệ đến (tùy chọn)."
 msgid "Require incoming packets serialization (optional)."
 msgstr "Yêu cầu chuỗi hóa gói tin đến (tùy chọn)."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1239
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1247
 msgid "Require remote cert extended key usage on certificate"
 msgstr ""
 
@@ -10549,7 +10585,7 @@ msgid "Reserved tag"
 msgstr ""
 
 #: modules/luci-base/htdocs/luci-static/resources/form.js:2996
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:2220
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:2221
 #: modules/luci-compat/luasrc/view/cbi/delegator.htm:17
 #: modules/luci-compat/luasrc/view/cbi/footer.htm:30
 #: modules/luci-compat/luasrc/view/cbi/simpleform.htm:66
@@ -10614,7 +10650,7 @@ msgstr ""
 msgid "Restart Firewall"
 msgstr "Khởi động lại tường lửa"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:821
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:829
 msgid "Restart after remote ping timeout"
 msgstr "Khởi động lại sau khi remote ping timeout"
 
@@ -10630,11 +10666,11 @@ msgstr "Khôi phục"
 msgid "Restore backup"
 msgstr "Phục hồi backup"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1324
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1332
 msgid "Restrict the allowed ciphers to be negotiated"
 msgstr "Hạn chế các mật mã được phép đàm phán"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1127
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1135
 msgid "Retransmit timeout on TLS control channel"
 msgstr "Retransmit timeout trên kênh kiểm soát TLS"
 
@@ -10643,11 +10679,11 @@ msgid ""
 "Retrieve the listener addresses from the Yggdrasil interface configuration."
 msgstr ""
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1539
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1547
 msgid "Retry indefinitely on HTTP proxy errors"
 msgstr "Thử lại trên HTTP proxy lỗi"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1568
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1576
 msgid "Retry indefinitely on Socks proxy errors"
 msgstr "Thử lại trên Socks proxy lỗi"
 
@@ -10664,19 +10700,19 @@ msgstr "Bộ lọc đường dẫn ngược"
 msgid "Reverse sort"
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5228
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5236
 msgid "Revert"
 msgstr "Hoàn nguyên"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5344
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5352
 msgid "Revert changes"
 msgstr "Hoàn nguyên thay đổi"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5560
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5568
 msgid "Revert request failed with status <code>%h</code>"
 msgstr "Yêu cầu hoàn nguyên không thành công với trạng thái <code>%h</code>"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5540
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5548
 msgid "Reverting configuration…"
 msgstr "Đang hoàn nguyên cấu hình .."
 
@@ -10774,7 +10810,7 @@ msgstr "Chuỗi hành động tuyến \"%h\""
 msgid "Route short-circuit (RSC)"
 msgstr ""
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1388
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1396
 msgid "Route subnet to client"
 msgstr "Tuyến subnet tới khách hàng"
 
@@ -10782,7 +10818,7 @@ msgstr "Tuyến subnet tới khách hàng"
 msgid "Route type"
 msgstr "Kiểu định tuyến"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1395
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1403
 msgid "Route v6 subnet to client"
 msgstr ""
 
@@ -10878,27 +10914,27 @@ msgid ""
 "address or interface."
 msgstr ""
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:454
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:462
 msgid "Run script cmd for client TLS verification"
 msgstr ""
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:430
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:438
 msgid "Run script cmd on client connection"
 msgstr "Chạy script cmd trên đối tượng kết nối"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:446
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:454
 msgid "Run script cmd on client disconnection"
 msgstr "Chạy script cmd trên đối tượng không kết nối"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:438
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:446
 msgid "Run script cmd to validate client certificates"
 msgstr ""
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:381
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:389
 msgid "Run up/down scripts for all restarts"
 msgstr "Chạy up/down scripts cho tất cả khởi động"
 
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:2382
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:2383
 msgid "Runtime error"
 msgstr "Lỗi"
 
@@ -10979,7 +11015,7 @@ msgid "SWAP"
 msgstr "SWAP"
 
 #: modules/luci-base/htdocs/luci-static/resources/form.js:3902
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:2215
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:2216
 #: modules/luci-compat/luasrc/view/cbi/error.htm:17
 #: modules/luci-compat/luasrc/view/cbi/footer.htm:26
 #: modules/luci-compat/luasrc/view/cbi/header.htm:20
@@ -10988,8 +11024,8 @@ msgstr "SWAP"
 msgid "Save"
 msgstr "Lưu"
 
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:2197
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5216
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:2198
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5224
 #: modules/luci-compat/luasrc/view/cbi/footer.htm:22
 msgid "Save & Apply"
 msgstr "Lưu & áp dụng"
@@ -11023,7 +11059,7 @@ msgstr "Tác vụ được lập lịch"
 msgid "Scheduling daemon"
 msgstr ""
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1607
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1615
 msgid "Scripting"
 msgstr ""
 
@@ -11048,11 +11084,11 @@ msgstr ""
 msgid "Section %s is empty."
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5202
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5210
 msgid "Section added"
 msgstr "Thêm mục"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5204
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5212
 msgid "Section removed"
 msgstr "Xóa mục"
 
@@ -11077,6 +11113,10 @@ msgstr ""
 "Chọn 'Buộc nâng cấp' để nạp ảnh phần mềm bỏ qua việc kiểm tra định dạng ảnh "
 "phần mềm không thành công. Chỉ chọn nếu bạn có thể chắc chắc rằng phần mềm "
 "này tương thích với thiết bị của bạn!"
+
+#: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_vlan.js:52
+msgid "Select Batman VLAN device…"
+msgstr ""
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:3158
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:3389
@@ -11119,7 +11159,7 @@ msgstr ""
 msgid "Send multicast beacon"
 msgstr ""
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1510
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1518
 msgid "Send notification to peer on disconnect"
 msgstr "Gửi thông báo cho bạn bè về ngắt kết nối"
 
@@ -11142,7 +11182,7 @@ msgstr "Máy Chủ"
 msgid "Server address"
 msgstr "Địa chỉ máy chủ"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1698
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1706
 msgid "Server key"
 msgstr ""
 
@@ -11150,7 +11190,7 @@ msgstr ""
 msgid "Server name"
 msgstr "Tên máy chủ"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1608
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1616
 msgid "Service"
 msgstr "Dịch vụ"
 
@@ -11166,7 +11206,7 @@ msgstr "Kiểu dịch vụ"
 msgid "Services"
 msgstr "Các dịch vụ"
 
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:2687
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:2688
 msgid "Session expired"
 msgstr "Phiên hết hạn"
 
@@ -11190,11 +11230,11 @@ msgstr ""
 msgid "Set an arbitrary resource record (RR) type."
 msgstr ""
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1367
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1375
 msgid "Set aside a pool of subnets"
 msgstr "Để sang một bên một pool của subnets"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1554
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1562
 msgid "Set extended HTTP proxy options"
 msgstr "Thiết lập các tùy chọn mở rộng HTTP proxy"
 
@@ -11207,7 +11247,7 @@ msgstr "Thiết lập trường tiêu đề <var>%s</var> thành <strong>%s</str
 msgid "Set interface as NDP-Proxy external slave. Default is off."
 msgstr "Đặt giao diện làm slave bên ngoài NDP-Proxy. Mặc định là tắt."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1510
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1511
 msgid ""
 "Set interface properties regardless of the link carrier (If set, carrier "
 "sense events do not invoke hotplug handlers)."
@@ -11221,19 +11261,19 @@ msgstr ""
 msgid "Set log class/facility for syslog entries."
 msgstr ""
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:523
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:531
 msgid "Set output verbosity"
 msgstr "Đặt output verbosity"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1438
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1446
 msgid "Set size of real and virtual address hash tables"
 msgstr "Đặt dung lượng của bảng address hash thực và ảo"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:766
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:774
 msgid "Set the TCP/UDP receive buffer size"
 msgstr "Đặt TCP/UDP nhận dung lượng buffer"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:758
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:766
 msgid "Set the TCP/UDP send buffer size"
 msgstr "Đặt TCP/UDP gửi dung lượng buffer"
 
@@ -11255,7 +11295,7 @@ msgstr ""
 "Đặt giao diện này làm master cho việc chuyển tiếp RA và DHCPv6 cũng như "
 "proxy NDP."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:774
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:782
 msgid "Set tun/tap TX queue length"
 msgstr "Đặt tun/tap độ dài queue"
 
@@ -11264,11 +11304,11 @@ msgstr "Đặt tun/tap độ dài queue"
 msgid "Set tun/tap adapter parameters"
 msgstr "Set tun/tap adapter parameters"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:726
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:734
 msgid "Set tun/tap device MTU"
 msgstr "Đặt công cụ tun/tap MTU"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:734
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:742
 msgid "Set tun/tap device overhead"
 msgstr "Đặt thiết bị tun/tap overhead"
 
@@ -11281,7 +11321,7 @@ msgstr "Cài đặt máy chủ DHCP"
 msgid "Set up routes for proxied IPv6 neighbours."
 msgstr "Thiết lập các tuyến đường cho hàng xóm IPv6 qua proxy."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:750
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:758
 msgid "Set upper bound on TCP MSS"
 msgstr "Đặt upper bound trên TCP MSS"
 
@@ -11319,19 +11359,19 @@ msgstr ""
 "Cài đặt hỗ trợ cho các client không dây khi di chuyển giữa nhiều điểm truy "
 "cập AP: 802.11r, 802.11k và 802.11v"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:782
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:790
 msgid "Shaping for peer bandwidth"
 msgstr "Shaping cho peer bandwidth"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:350
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:358
 msgid "Shell cmd to execute after tun device open"
 msgstr "Shell cmd để thực thi sau khi thiết bị tun mở"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:366
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:374
 msgid "Shell cmd to run after tun device close"
 msgstr "Shell cmd để chạy sau khi thiết bị tun đóng"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:422
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:430
 msgid "Shell command to verify X509 name"
 msgstr "Shell command để hợp thức hóa tên X509"
 
@@ -11395,11 +11435,11 @@ msgstr "Tốc độ làm mới tín hiệu"
 msgid "Signal:"
 msgstr "Tín hiệu:"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1034
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1042
 msgid "Silence the output of replay warnings"
 msgstr "Silence the output của các cảnh báo reply"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4953
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4957
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:224
 msgid "Size"
 msgstr "Dung lượng"
@@ -11725,7 +11765,7 @@ msgstr ""
 "thừa hưởng giá trị của header bên trong) hoặc một giá trị hệ thập lục phân "
 "<code>00..FF</code> (tùy chọn)."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:639
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:647
 msgid "Specify a placeholder gateway for routes"
 msgstr ""
 
@@ -11746,7 +11786,7 @@ msgid ""
 "bytes)."
 msgstr "Chỉ định một đơn vị truyền tối đa(MTU) khác với mặc định (1280 byte)."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1007
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1015
 msgid "Specify the curve to use for ECDH"
 msgstr ""
 
@@ -11759,7 +11799,7 @@ msgstr ""
 msgid "Specify the secret encryption key here."
 msgstr "Chỉ định khóa mã hóa bí mật ở đây."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1589
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1597
 msgid "Specify whether the client is required to supply a valid certificate"
 msgstr ""
 "Chỉ định xem khách hàng có được yêu cầu cung cấp chứng chỉ hợp lệ hay không"
@@ -11768,7 +11808,7 @@ msgstr ""
 msgid "Speed: %d Mbit/s, Duplex: %s"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1833
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1834
 msgid "Splitterless ADSL (G.992.2) Annex A"
 msgstr ""
 
@@ -11785,7 +11825,7 @@ msgstr ""
 msgid "Stale neighbour cache timeout"
 msgstr "Thời gian chờ hết hạn bộ nhớ cache của hàng xóm"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1807
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1808
 msgid "Standard: none"
 msgstr ""
 
@@ -11799,7 +11839,7 @@ msgctxt "daemon start action"
 msgid "Start"
 msgstr ""
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:879
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:887
 msgid "Start OpenVPN in a hibernating state"
 msgstr "Bắt đầu OpenVPN trong một hibernating state"
 
@@ -11815,7 +11855,7 @@ msgstr "Bắt đầu ưu tiên"
 msgid "Start refresh"
 msgstr "Bắt đầu làm mới"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5464
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5472
 msgid "Starting configuration apply…"
 msgstr "Đang áp dụng cáu hình…"
 
@@ -11876,11 +11916,11 @@ msgstr "Giới hạn không hoạt động của máy trạm"
 msgid "Status"
 msgstr "Trạng thái"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:311
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:319
 msgid "Status file format version"
 msgstr "Tình trạng tập tin phiên bản format"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1804
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1805
 msgid "Steering flows (<abbr title=\"Receive Packet Steering\">RPS</abbr>)"
 msgstr ""
 
@@ -11923,7 +11963,7 @@ msgstr "Mạnh"
 msgid "Submit"
 msgstr "Trình"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1808
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1809
 msgid "Suggested: 128"
 msgstr ""
 
@@ -12055,7 +12095,7 @@ msgstr "Kích cỡ bộ đệm nhật ký hệ thống"
 msgid "System running in recovery (initramfs) mode."
 msgstr "Hệ thống đang chạy ở chế độ khôi phục (initramfs)."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1787
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1788
 msgid "TCP Layer 3 Master Device (tcp_l3mdev) accept"
 msgstr ""
 
@@ -12080,15 +12120,15 @@ msgid "TCP source port"
 msgstr "Cổng nguồn TCP"
 
 #: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:31
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:551
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:559
 msgid "TCP/UDP port # for both local and remote"
 msgstr "Cổng TCP/UDP # cho cả địa phương và ngoài vùng"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:559
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:567
 msgid "TCP/UDP port # for local"
 msgstr ""
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:567
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:575
 msgid "TCP/UDP port # for remote"
 msgstr ""
 
@@ -12100,19 +12140,19 @@ msgstr "TCP:"
 msgid "TFTP server root"
 msgstr "Máy chủ gốc TFTP"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1115
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1123
 msgid "TLS 1.3 or newer cipher"
 msgstr "TLS 1.3 hoặc mật mã mới hơn"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1291
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1299
 msgid "TLS cet profile"
 msgstr ""
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1071
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1079
 msgid "TLS cipher"
 msgstr "TLS cipher"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:265
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:273
 msgid "TOS passthrough (applies to IPv4 only)"
 msgstr "TOS passthrough (chỉ áp dụng cho IPv4)"
 
@@ -12408,14 +12448,14 @@ msgstr ""
 msgid "The default (%s) is zero for both IPv4 and IPv6."
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1775
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1776
 msgid ""
 "The default <abbr title=\"DHCP Unique Identifier\">DUID</abbr> for this "
 "device, used when acting as a DHCP server or client. The client identifier "
 "can be overridden on a per-interface basis."
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5335
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5343
 msgid ""
 "The device could not be reached within %d seconds after applying the pending "
 "changes, which caused the configuration to be rolled back for safety "
@@ -12516,7 +12556,7 @@ msgid ""
 "a></abbr> for this host (up to 16 chars, i.e. 64 bits)."
 msgstr ""
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1281
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1289
 msgid "The highest supported TLS version"
 msgstr "Phiên bản TLS được hỗ trợ cao nhất"
 
@@ -12545,15 +12585,15 @@ msgstr "Tên máy chủ khởi động"
 msgid "The interface could not be found"
 msgstr "Không tìm thấy giao diện"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1376
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1377
 msgid "The interface name is already used"
 msgstr "Giao diện mạng đã đang sử dụng"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1383
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1384
 msgid "The interface name is too long"
 msgstr "Tên giao diện mạng này quá dài"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:158
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:166
 msgid "The key direction for 'tls-auth' and 'secret' options"
 msgstr "Hướng chính cho các tùy chọn 'tls-auth' và 'bí mật'"
 
@@ -12589,7 +12629,7 @@ msgstr "Địa chỉ IPv4 cục bộ mà đường hầm dữ liệu được t�
 msgid "The local IPv6 address over which the tunnel is created (optional)."
 msgstr "Địa chỉ IPv6 cục bộ qua đó đường hầm được tạo ra (tùy chọn)."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1271
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1279
 msgid "The lowest supported TLS version"
 msgstr "Phiên bản TLS được hỗ trợ thấp nhất"
 
@@ -12647,7 +12687,7 @@ msgid ""
 "greater network like the internet and other ports for a local network."
 msgstr ""
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:173
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:181
 msgid "The peer key fingerprint"
 msgstr ""
 
@@ -12793,8 +12833,8 @@ msgstr ""
 "Tập tin đang tải hình ảnh không bao gồm một hổ trợ format. Bảo đảm rằng bạn "
 "chọn một image format tổng quát cho platform."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1748
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1760
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1749
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1761
 msgid "The value is overridden by configuration."
 msgstr "Giá trị này bị ghi đè bởi cấu hình."
 
@@ -12820,7 +12860,7 @@ msgstr ""
 msgid "There are no active leases"
 msgstr "Không có máy được cấp IP nào hoạt động"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5507
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5515
 msgid "There are no changes to apply"
 msgstr "Không có thay đổi nào để áp dụng"
 
@@ -12847,7 +12887,7 @@ msgstr "Đây là địa chỉ IPv4 của relay"
 msgid "This authentication type is not applicable to the selected EAP method."
 msgstr "Loại xác thực này không áp dụng cho phương pháp EAP đã chọn."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1776
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1777
 msgid ""
 "This identifier is randomly generated the first time the device is booted."
 msgstr ""
@@ -12988,7 +13028,7 @@ msgid ""
 "This page displays the wireless metrics for each available radio interface."
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1771
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1772
 msgid "This prefix is randomly generated at first install."
 msgstr "Tiền tố này được tạo ngẫu nhiên khi cài đặt lần đầu."
 
@@ -13044,7 +13084,7 @@ msgstr "Múi giờ"
 msgid "Timed-out"
 msgstr "Hết thời gian"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1159
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1167
 msgid "Timeframe for key exchange"
 msgstr "Timeframe cho trao đổi key"
 
@@ -13099,11 +13139,11 @@ msgstr ""
 msgid "Toggle IPv6 PD via DHCPv6."
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1842
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1843
 msgid "Tone"
 msgstr "Âm sắc"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1609
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1617
 msgid "Topology"
 msgstr ""
 
@@ -13225,7 +13265,7 @@ msgstr "Giao diện đường hầm dữ liệu"
 msgid "Tunnel Link"
 msgstr "Liên kết đường hầm dữ liệu"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1702
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1703
 msgid "Tunnel device"
 msgstr "Thiết bị đường hầm"
 
@@ -13238,10 +13278,10 @@ msgid "Tx-Power"
 msgstr "Năng lượng truyền"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:53
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1736
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1737
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/60_wifi.js:178
 #: protocols/luci-proto-ipv6/htdocs/luci-static/resources/protocol/map.js:43
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1688
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1696
 msgid "Type"
 msgstr "Loại"
 
@@ -13249,7 +13289,7 @@ msgstr "Loại"
 msgid "Type of service"
 msgstr "Loại dịch vụ"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:194
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:202
 msgid "Type of used device"
 msgstr "Loại công cụ sử dụng"
 
@@ -13257,7 +13297,7 @@ msgstr "Loại công cụ sử dụng"
 msgid "UC"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1791
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1792
 msgid "UDP Layer 3 Master Device (udp_l3mdev) accept"
 msgstr ""
 
@@ -13286,7 +13326,7 @@ msgstr "UDP:"
 msgid "UID-range"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1770
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1771
 msgid "ULA for IPv6 is analogous to IPv4 private network addressing."
 msgstr "ULA cho IPv6 tương tự như địa chỉ mạng riêng IPv4."
 
@@ -13400,7 +13440,7 @@ msgstr "Không thể xác minh PIN"
 msgid "Unchecked means the timezone offset (E.g. GMT+1) is displayed"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1571
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1572
 msgid "Unconfigure"
 msgstr "Hủy cấu hình"
 
@@ -13416,7 +13456,7 @@ msgstr "Unet"
 msgid "Unexpected reply data format"
 msgstr "Định dạng dữ liệu trả lời bất ngờ"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1769
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1770
 msgid ""
 "Unique Local Address (%s) - prefix <code>fd00::/8</code> (the L bit is "
 "always 1)."
@@ -13477,7 +13517,7 @@ msgstr "Chưa có tên #%d"
 msgid "Unnamed key"
 msgstr "Khóa không tên"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5141
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5149
 msgid "Unsaved Changes"
 msgstr "Thay đổi không lưu"
 
@@ -13521,7 +13561,7 @@ msgstr "Người đồng nghiệp chưa có tiêu đề"
 msgid "Up"
 msgstr "Lên"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5027
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5035
 msgid "Upload"
 msgstr "Tải lên"
 
@@ -13546,17 +13586,17 @@ msgstr "Tải tập tin lên"
 msgid "Upload file…"
 msgstr "Tải tệp lên…"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4973
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4977
 msgid "Upload has been cancelled"
 msgstr "Đã hủy tải lên"
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:3359
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5015
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5023
 msgid "Upload request failed: %s"
 msgstr "Yêu cầu tải thất bại: %s"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4934
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4988
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4938
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4996
 msgid "Uploading file…"
 msgstr "Đang tải tệp lên …"
 
@@ -13648,7 +13688,7 @@ msgstr "Sử dụng MTU trên giao diện đường hầm dữ liệu"
 msgid "Use TTL on tunnel interface"
 msgstr "Sử dụng TTL trên giao diện đường hầm dữ liệu"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:208
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:216
 msgid "Use VLAN tagging"
 msgstr ""
 
@@ -13664,7 +13704,7 @@ msgstr "Sử dụng như thư mục hệ thống gốc"
 msgid "Use broadcast flag"
 msgstr "Sử dụng cờ quảng bá"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1506
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1507
 msgid "Use builtin IPv6-management"
 msgstr "Sử dụng trình quản lý IPv6 đã được tích hợp và hệ thống"
 
@@ -13702,7 +13742,7 @@ msgstr ""
 "Sử dụng định dạng chứng chỉ MAP cũ cho nhận dạng giao diện (dự thảo-ietf-"
 "softwire-map-00) thay vì RFC7597"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:580
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:588
 msgid "Use protocol"
 msgstr "Dùng protocol"
 
@@ -13745,15 +13785,15 @@ msgstr ""
 "<em>Thời gian cấp phát IP</em> tùy chọn có thể được sử dụng để đặt thời gian "
 "thuê máy chủ không theo tiêu chuẩn, ví dụ: 12h , 3d hoặc vô hạn."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:227
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:235
 msgid "Use these PVIDs"
 msgstr ""
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:201
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:209
 msgid "Use tun/tap device node"
 msgstr "Dùng chế độ công cụ tun/tap"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1480
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1488
 msgid "Use username as common name"
 msgstr "Dùng tên đăng nhập như tên thông thường"
 
@@ -13774,7 +13814,7 @@ msgstr ""
 "Được sử dụng cho hai mục đích khác nhau: RADIUS NAS ID và 802.11r R0KH-ID. "
 "Không cần thiết với mật khẩu WPA(2)-PSK thường."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:147
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:155
 msgid "Used with auth and cipher params"
 msgstr ""
 
@@ -13818,11 +13858,11 @@ msgstr "Sử dụng bảng luồng <strong>%h</strong>"
 msgid "VC"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1910
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1911
 msgid "VC-Mux"
 msgstr "VC-Mux"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1858
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1859
 msgid "VDSL"
 msgstr "VDSL"
 
@@ -13832,12 +13872,12 @@ msgid "VEPA (Virtual Ethernet Port Aggregator)"
 msgstr "VEPA (Bộ tổng hợp Cổng Ethernet Ảo)"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:455
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1693
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1694
 msgid "VLAN (802.1ad)"
 msgstr "VLAN (802.1ad)"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:454
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1690
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1691
 msgid "VLAN (802.1q)"
 msgstr "VLAN (802.1q)"
 
@@ -13962,12 +14002,12 @@ msgid "Via shall be specified when %s is a multicast address"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:457
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1708
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1709
 msgid "Virtual Ethernet"
 msgstr "Ethernet ảo"
 
 #: modules/luci-base/htdocs/luci-static/resources/network.js:3057
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1711
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1712
 msgid "Virtual Routing and Forwarding (VRF)"
 msgstr ""
 
@@ -14061,7 +14101,7 @@ msgid ""
 "all known hosts."
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1297
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1298
 msgid ""
 "When delegating prefixes to multiple downstreams, interfaces with a higher "
 "preference value are considered first when allocating subnets."
@@ -14132,7 +14172,7 @@ msgstr ""
 "phím R0/R1 bên dưới không được áp dụng. Vô hiệu hóa để sử dụng các tùy chọn "
 "phím R0 và R1."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:601
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:609
 msgid ""
 "When you have more than one IP address (e.g. multiple interfaces, or "
 "secondary IP addresses), and do not use --local to force binding to one "
@@ -14244,7 +14284,7 @@ msgstr ""
 "Chế độ workaround chỉ có thể được sử dụng khi hoạt động như một điểm truy "
 "cập."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:485
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:493
 msgid "Write log to file"
 msgstr "Viết log lên tập tin"
 
@@ -14347,9 +14387,9 @@ msgid "any"
 msgstr "Bất kì"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1149
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1843
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1851
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1856
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1844
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1852
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1857
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:88
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:103
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:141
@@ -14392,7 +14432,7 @@ msgstr "baseT"
 msgid "between:"
 msgstr "giữa:"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1916
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1917
 msgid "bridged"
 msgstr "cầu nối"
 
@@ -14474,7 +14514,7 @@ msgstr "Vô hiệu hóa"
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:871
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1088
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1177
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1249
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1250
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:99
 #: protocols/luci-proto-ipv6/htdocs/luci-static/resources/protocol/dhcpv6.js:26
 msgid "disabled"
@@ -14667,8 +14707,8 @@ msgstr "phút"
 msgid "mobile home agent (H)"
 msgstr "thiết bị di động chủ (H)"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:406
 #: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:414
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:422
 msgid "name value"
 msgstr "tên giá trị"
 
@@ -14798,7 +14838,7 @@ msgstr ""
 msgid "relay mode"
 msgstr "chế độ chuyển tiếp"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1917
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1918
 msgid "routed"
 msgstr "Định tuyến"
 
@@ -14819,7 +14859,7 @@ msgstr "Chế độ máy chủ"
 msgid "severity:"
 msgstr "mức độ nghiêm trọng:"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:479
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:487
 msgid "some params echoed to log"
 msgstr "một số tham số được ghi vào nhật ký"
 
@@ -14877,11 +14917,11 @@ msgctxt "DHCPv6 address request mode"
 msgid "try"
 msgstr "thử"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:183
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:191
 msgid "tun/tap device"
 msgstr "Công cụ tun/tap"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:790
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:798
 msgid "tun/tap inactivity timeout"
 msgstr "tun/tap timeout không có hành động"
 

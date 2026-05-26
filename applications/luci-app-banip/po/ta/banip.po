@@ -10,11 +10,11 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.13-dev\n"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:613
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:682
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:710
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:722
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:758
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:640
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:709
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:737
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:749
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:785
 msgid "-- Please choose (optional) --"
 msgstr "-தயவுசெய்து தேர்வு செய்ய (விரும்பினால்)-"
 
@@ -23,16 +23,16 @@ msgid "-- Set Selection --"
 msgstr "-தேர்வை அமைக்கவும்-"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:280
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:303
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:314
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:325
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:336
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:374
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:408
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:422
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:436
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:453
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:463
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:311
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:322
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:333
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:344
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:382
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:416
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:430
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:444
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:461
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:471
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:480
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:513
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:521
@@ -41,8 +41,10 @@ msgstr "-தேர்வை அமைக்கவும்-"
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:545
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:568
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:594
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:786
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:810
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:613
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:626
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:813
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:837
 msgid "-- default --"
 msgstr "-இயல்புநிலை-"
 
@@ -59,26 +61,30 @@ msgid "<IP-Address><Space><Netmask>"
 msgstr ""
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:237
+msgid "<JSON Lines><IP-Address><JSON Lines>"
+msgstr ""
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:238
 msgid "<Suricata Syntax>"
 msgstr ""
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:717
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:744
 msgid "AFRINIC - serving Africa and the Indian Ocean region"
 msgstr "அஃப்ரினிக் - ஆப்பிரிக்கா மற்றும் இந்தியப் பெருங்கடல் பிராந்தியத்திற்கு பணி செய்கிறது"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:718
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:745
 msgid "APNIC - serving the Asia Pacific region"
 msgstr "APNIC - ஆசியா பசிபிக் பிராந்தியத்திற்கு பணி செய்கிறது"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:719
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:746
 msgid "ARIN - serving Canada and the United States"
 msgstr "அரின் - கனடா மற்றும் அமெரிக்காவிற்கு பணி செய்கிறது"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:731
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:758
 msgid "ASN Selection"
 msgstr "ASN தேர்வு"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:733
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:760
 msgid "ASNs"
 msgstr "முளை"
 
@@ -94,7 +100,7 @@ msgstr "செயலில் உள்ள ஊட்டங்கள்"
 msgid "Active Uplink"
 msgstr "செயலில் உள்ள அப்லிங்க்"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:611
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:638
 msgid "AdGuardHome login error"
 msgstr "Adguardhome உள்நுழைவு பிழை"
 
@@ -106,19 +112,19 @@ msgstr "BANIP செயலாக்கம் தொடங்குவதற்�
 msgid "Advanced Settings"
 msgstr "மேம்பட்ட அமைப்புகள்"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:379
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:387
 msgid "Allow Protocol/Ports"
 msgstr "நெறிமுறை/துறைமுகங்களை அனுமதிக்கவும்"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:383
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:391
 msgid "Allow VLAN Forwards"
 msgstr "VLAN முன்னோக்கி அனுமதிக்கவும்"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:746
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:773
 msgid "Allowlist Feed URLs"
 msgstr "AllowList ஊட்ட முகவரி கள்"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:823
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:850
 msgid "Allowlist Only"
 msgstr "இசைவு பட்டியல் மட்டுமே"
 
@@ -130,7 +136,7 @@ msgstr ""
 "இசைவு பட்டியல் மாற்றங்கள் சேமிக்கப்பட்டுள்ளன, மாற்றங்கள் நடைமுறைக்கு வரும் BANIP ஐ மீண்டும் "
 "ஏற்றவும்."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:379
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:387
 msgid ""
 "Always allow a protocol (tcp/udp) with certain ports or port ranges in WAN-"
 "Input and WAN-Forward chain."
@@ -138,27 +144,27 @@ msgstr ""
 "WAN-INPUT மற்றும் WAN- முன்னோக்கி சங்கிலியில் சில துறைமுகங்கள் அல்லது துறைமுக "
 "வரம்புகளுடன் எப்போதும் ஒரு நெறிமுறையை (TCP/UDP) அனுமதிக்கவும்."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:383
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:391
 msgid "Always allow certain VLAN forwards."
 msgstr "எப்போதும் சில VLAN முன்னோக்குகளை அனுமதிக்கவும்."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:389
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:397
 msgid "Always block certain VLAN forwards."
 msgstr "எப்போதும் சில VLAN முன்னோக்குகளைத் தடுக்கும்."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:780
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:807
 msgid "Auto Allow Uplink"
 msgstr "ஆட்டோ இசைவு அப்லிங்க்"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:776
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:803
 msgid "Auto Allowlist"
 msgstr "ஆட்டோ இசைவு பட்டியல்"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:795
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:822
 msgid "Auto Block Subnet"
 msgstr "ஆட்டோ பிளாக் சப்நெட்"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:791
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:818
 msgid "Auto Blocklist"
 msgstr "ஆட்டோ பிளாக்லிச்ட்"
 
@@ -166,7 +172,7 @@ msgstr "ஆட்டோ பிளாக்லிச்ட்"
 msgid "Auto Detection"
 msgstr "ஆட்டோ கண்டறிதல்"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:795
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:822
 msgid ""
 "Automatically add entire subnets to the blocklist Set based on an additional "
 "RDAP request with the suspicious IP."
@@ -174,7 +180,7 @@ msgstr ""
 "சந்தேகத்திற்கிடமான ஐபியுடன் கூடுதல் RDAP கோரிக்கையின் அடிப்படையில் பிளாக்லிச்ட் தொகுப்பில் "
 "முழு சப்நெட்டுகளையும் தானாக சேர்க்கவும்."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:791
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:818
 msgid ""
 "Automatically add resolved domains and suspicious IPs to the local banIP "
 "blocklist."
@@ -182,7 +188,7 @@ msgstr ""
 "உள்ளக BANIP BLOCKLIST இல் தீர்க்கப்பட்ட களங்களையும் சந்தேகத்திற்கிடமான ஐபிக்களையும் "
 "தானாகவே சேர்க்கவும்."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:776
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:803
 msgid ""
 "Automatically add resolved domains and uplink IPs to the local banIP "
 "allowlist."
@@ -190,31 +196,31 @@ msgstr ""
 "தானாகவே தீர்க்கப்பட்ட களங்களைச் சேர்த்து உள்ளக BANIP AllowList இல் அப்லிங்க் ஐபிக்களைச் "
 "சேர்க்கவும்."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:344
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:352
 msgid "Backup Directory"
 msgstr "காப்பு அடைவு"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:340
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:348
 msgid "Base Directory"
 msgstr "அடிப்படை அடைவு"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:340
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:348
 msgid "Base working directory while banIP processing."
 msgstr "BANIP செயலாக்கம் போது அடிப்படை வேலை அடைவு."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:389
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:397
 msgid "Block VLAN Forwards"
 msgstr "தொகுதி VLAN முன்னோக்கி"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:395
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:403
 msgid "Block packets with spoofed source IP addresses in all supported chains."
 msgstr ""
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:675
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:702
 msgid "Blocklist Feed"
 msgstr "பிளாக்லிச்ட் ஊட்டம்"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:800
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:827
 msgid "Blocklist Set Expiry"
 msgstr "பிளாக்லிச்ட் செட் காலாவதி"
 
@@ -226,7 +232,11 @@ msgstr ""
 "பிளாக்லிச்ட் மாற்றங்கள் சேமிக்கப்பட்டுள்ளன, மாற்றங்கள் நடைமுறைக்கு வரும் BANIP ஐ மீண்டும் "
 "ஏற்றவும்."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:319
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:618
+msgid "Burst size in packets for the shared NFT log limit."
+msgstr ""
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:327
 msgid "CPU Cores"
 msgstr "சிபியு கோர்கள்"
 
@@ -236,31 +246,31 @@ msgstr "சிபியு கோர்கள்"
 msgid "Cancel"
 msgstr "ரத்துசெய்"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:241
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:242
 msgid "Chain"
 msgstr "சங்கிலி"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:368
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:376
 msgid "Chain Priority"
 msgstr "சங்கிலி முன்னுரிமை"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:670
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:697
 msgid "Changes on this tab needs a banIP service reload to take effect."
 msgstr "இந்த தாவலில் ஏற்படும் மாற்றங்கள் நடைமுறைக்கு வர Banip பணி மறுஏற்றம் தேவை."
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:207
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:293
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:365
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:446
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:301
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:373
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:454
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:555
 msgid "Changes on this tab needs a banIP service restart to take effect."
 msgstr "இந்த தாவலில் ஏற்படும் மாற்றங்கள் நடைமுறைக்கு வர Banip பணி மறுதொடக்கம் தேவை."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:306
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:307
 msgid "Clear"
 msgstr "துடை"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:733
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:760
 msgid "Collection of IP addresses based on Autonomous System Numbers."
 msgstr "தன்னாட்சி கணினி எண்களின் அடிப்படையில் ஐபி முகவரிகளின் சேகரிப்பு."
 
@@ -274,11 +284,11 @@ msgstr ""
 msgid "Count"
 msgstr "எண்ணுங்கள்"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:695
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:722
 msgid "Countries"
 msgstr "நாடுகள்"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:689
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:716
 msgid "Country Selection"
 msgstr "நாட்டின் தேர்வு"
 
@@ -286,7 +296,7 @@ msgstr "நாட்டின் தேர்வு"
 msgid "Custom Feed Editor"
 msgstr "தனிப்பயன் தீவன ஆசிரியர்"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:356
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:364
 msgid ""
 "Deduplicate IP addresses across all active Sets and tidy up the local "
 "blocklist."
@@ -294,11 +304,11 @@ msgstr ""
 "அனைத்து செயலில் உள்ள செட்களிலும் ஐபி முகவரிகளைக் குறைத்து, உள்ளக தடுப்புப்பட்டியலை "
 "நேர்த்தியாக மாற்றவும்."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:356
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:364
 msgid "Deduplicate IPs"
 msgstr "ஐ.பி.எச்"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:247
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:248
 msgid "Description"
 msgstr "விவரம்"
 
@@ -310,7 +320,7 @@ msgstr ""
 "தொடர்புடைய பிணைய சாதனங்கள், இடைமுகங்கள், சப்நெட்டுகள், நெறிமுறைகள் மற்றும் பயன்பாடுகளை "
 "தானாக கண்டறியவும்."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:782
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:809
 msgid "Disable"
 msgstr "முடக்கு"
 
@@ -318,7 +328,7 @@ msgstr "முடக்கு"
 msgid "Don't check SSL server certificates during download."
 msgstr "பதிவிறக்கத்தின் போது SSL சேவையக சான்றிதழ்களை சரிபார்க்க வேண்டாம்."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:279
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:280
 msgid "Download"
 msgstr "பதிவிறக்கம்"
 
@@ -343,19 +353,19 @@ msgid "Drop packets silently or actively reject Inbound traffic."
 msgstr ""
 "பாக்கெட்டுகளை அமைதியாக கைவிடுங்கள் அல்லது உள்வரும் போக்குவரத்தை தீவிரமாக நிராகரிக்கவும்."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:645
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:672
 msgid "E-Mail Notification"
 msgstr "மின்னஞ்சல் அறிவிப்பு"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:660
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:687
 msgid "E-Mail Profile"
 msgstr "மின்னஞ்சல் சுயவிவரம்"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:648
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:675
 msgid "E-Mail Receiver Address"
 msgstr "மின்னஞ்சல் ரிசீவர் முகவரி"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:652
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:679
 msgid "E-Mail Sender Address"
 msgstr "மின்னஞ்சல் அனுப்புநர் முகவரி"
 
@@ -363,7 +373,7 @@ msgstr "மின்னஞ்சல் அனுப்புநர் முக�
 msgid "E-Mail Settings"
 msgstr "மின்னஞ்சல் அமைப்புகள்"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:656
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:683
 msgid "E-Mail Topic"
 msgstr "மின்னஞ்சல் தலைப்பு"
 
@@ -384,24 +394,30 @@ msgid "Elements (max. 50)"
 msgstr "கூறுகள் (மிகுதியாக 50)"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:203
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:251
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:627
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:252
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:654
 msgid "Empty field not allowed"
 msgstr "வெற்று புலம் அனுமதிக்கப்படவில்லை"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:395
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:403
 msgid "Enable BCP38"
 msgstr ""
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:471
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:291
 msgid "Enable GeoIP Map"
 msgstr "GEOIP வரைபடத்தை இயக்கவும்"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:617
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:288
+msgid ""
+"Enable NFT counters for Set elements and chain rules. Required for the GeoIP "
+"Map and packet statistics in the Set Reporting."
+msgstr ""
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:644
 msgid "Enable Remote Logging"
 msgstr "தொலைநிலை பதிவை இயக்கவும்"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:471
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:291
 msgid ""
 "Enable a GeoIP Map with suspicious Set elements. This requires external "
 "requests to get the map tiles and geolocation data."
@@ -409,15 +425,11 @@ msgstr ""
 "சந்தேகத்திற்கிடமான செட் கூறுகளுடன் உலகம் வரைபடத்தை இயக்கவும். வரைபட ஓடுகள் மற்றும் "
 "புவிஇருப்பிட தரவைப் பெற இதற்கு வெளிப்புற கோரிக்கைகள் தேவை."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:468
-msgid "Enable nft counter for every Set element."
-msgstr "ஒவ்வொரு செட் உறுப்புக்கும் NFT கவுண்டரை இயக்கவும்."
-
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:210
 msgid "Enable the banIP service."
 msgstr "BANIP சேவையை இயக்கவும்."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:617
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:644
 msgid "Enable the cgi interface to receive remote logging events."
 msgstr "தொலைநிலை பதிவு நிகழ்வுகளைப் பெற சிசிஐ இடைமுகத்தை இயக்கவும்."
 
@@ -437,19 +449,19 @@ msgstr "ஐபிவி 4 ஆதரவை செயல்படுத்து�
 msgid "Enables IPv6 support."
 msgstr "IPv6 ஆதரவை செயல்படுத்துகிறது."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:352
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:360
 msgid "Error Directory"
 msgstr "பிழை அடைவு"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:800
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:827
 msgid "Expiry time for auto added blocklist Set members."
 msgstr "ஆட்டோ சேர்க்கப்பட்ட பிளாக்லிச்ட் செட் உறுப்பினர்களுக்கான காலாவதி நேரம்."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:743
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:770
 msgid "External Allowlist Feeds"
 msgstr "வெளிப்புற இசைவு பட்டியல் ஊட்டங்கள்"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:672
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:699
 msgid "External Blocklist Feeds"
 msgstr "வெளிப்புற பிளாக்லிச்ட் ஊட்டங்கள்"
 
@@ -477,7 +489,7 @@ msgstr "உணவுத் தேர்வு"
 msgid "Feed/Set Settings"
 msgstr "அமைப்புகளை உணவளிக்கவும்/அமைக்கவும்"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:297
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:298
 msgid "Fill"
 msgstr "நிரப்பவும்"
 
@@ -485,11 +497,11 @@ msgstr "நிரப்பவும்"
 msgid "Firewall Log"
 msgstr "ஃபயர்வால் பதிவு"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:256
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:257
 msgid "Flag"
 msgstr "கொடி"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:262
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:263
 msgid "Flag not supported"
 msgstr "கொடி ஆதரிக்கப்படவில்லை"
 
@@ -501,19 +513,19 @@ msgstr "பொது அமைப்புகள்"
 msgid "Grant access to LuCI app banIP"
 msgstr "லூசி ஆப் பானிக்குக்கு அணுகல் வழங்கவும்"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:298
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:306
 msgid "High Priority"
 msgstr "அதிக முன்னுரிமை"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:297
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:305
 msgid "Highest Priority"
 msgstr "மிகஅதிக முன்னுரிமை"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:399
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:407
 msgid "ICMP-Threshold"
 msgstr "ICMP-threshold"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:399
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:407
 msgid ""
 "ICMP-Threshold in packets per second to prevent WAN-DoS attacks. To disable "
 "this safeguard set it to '0'."
@@ -521,7 +533,7 @@ msgstr ""
 "WAN-DOS தாக்குதல்களைத் தடுக்க நொடிக்கு பாக்கெட்டுகளில் ICMP-TRESHOLD. இந்த பாதுகாப்பை "
 "முடக்க அதை '0' ஆக அமைத்தது."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:784
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:811
 msgid "IP"
 msgstr "ஐபி"
 
@@ -549,11 +561,11 @@ msgstr "IPv6 பிணைய இடைமுகங்கள்"
 msgid "IPv6 Support"
 msgstr "ஐபிவி 6 உதவி"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:242
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:243
 msgid "Inbound"
 msgstr "உள்நோக்கி"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:244
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:245
 msgid "Inbound & Outbound"
 msgstr "உள்வரும் & வெளிச்செல்லும்"
 
@@ -573,7 +585,7 @@ msgstr "உள்வரும் ஊட்டம்"
 msgid "Inbound&#160;(packets)"
 msgstr "உள்வரும் &#160; (பாக்கெட்டுகள்)"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:308
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:316
 msgid ""
 "Increase the maximal number of open files, e.g. to handle the amount of "
 "temporary split files while loading the Sets."
@@ -585,16 +597,16 @@ msgstr ""
 msgid "Information"
 msgstr "தகவல்"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:766
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:793
 msgid "Invalid URL format"
 msgstr ""
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:206
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:630
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:657
 msgid "Invalid characters"
 msgstr "தவறான எழுத்துக்கள்"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:818
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:845
 msgid "Invalid expiry format, e.g. 5m, 2h, 1d or 1h30m"
 msgstr ""
 
@@ -602,7 +614,7 @@ msgstr ""
 msgid "Invalid input values, unable to save modifications."
 msgstr "தவறான உள்ளீட்டு மதிப்புகள், மாற்றங்களைச் சேமிக்க முடியவில்லை."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:720
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:747
 msgid "LACNIC - serving the Latin American and Caribbean region"
 msgstr "லாக்னிக் - லத்தீன் அமெரிக்க மற்றும் கரீபியன் பிராந்தியத்திற்கு பணி செய்தல்"
 
@@ -610,21 +622,21 @@ msgstr "லாக்னிக் - லத்தீன் அமெரிக்�
 msgid "Last Run"
 msgstr "கடைசி ரன்"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:301
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:309
 msgid "Least Priority"
 msgstr "மிககுறைந்த முன்னுரிமை"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:300
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:308
 msgid "Less Priority"
 msgstr "குறைந்த முன்னுரிமை"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:319
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:327
 msgid "Limit the cpu cores used by banIP to save RAM, autodetected by default."
 msgstr ""
 "இயல்புநிலையாக தன்னியக்கமாக்கப்பட்ட ரேம் சேமிக்க BANIP ஆல் பயன்படுத்தப்படும் சிபியு கோர்களை "
 "கட்டுப்படுத்துங்கள்."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:780
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:807
 msgid "Limit the uplink autoallow function."
 msgstr "அப்லிங்க் ஆட்டோஅல்லோ செயல்பாட்டைக் கட்டுப்படுத்துங்கள்."
 
@@ -636,7 +648,7 @@ msgstr "BANIP தொடக்கத்தைத் தூண்டுவதற�
 msgid "List the elements of a specific banIP-related Set."
 msgstr "ஒரு குறிப்பிட்ட BANIP தொடர்பான தொகுப்பின் கூறுகளை பட்டியலிடுங்கள்."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:774
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:801
 msgid "Local Feed Settings"
 msgstr "உள்ளக தீவன அமைப்புகள்"
 
@@ -647,6 +659,10 @@ msgid ""
 msgstr ""
 "பதிவு கோப்பை பாகுபடுத்துவதற்கான இடம், எ.கா. சிச்லாக்-என்சி வழியாக, லோகிரெட் வழியாக "
 "நிலையான பாகுபடுத்தலை செயலிழக்கச் செய்ய."
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:618
+msgid "Log Burst Limit"
+msgstr ""
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:599
 msgid "Log Count"
@@ -668,11 +684,15 @@ msgstr "வெளியில் உள்நுழைக"
 msgid "Log Prerouting"
 msgstr "பதிவு முன்கூட்டியே"
 
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:604
+msgid "Log Rate Limit"
+msgstr ""
+
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:198
 msgid "Log Settings"
 msgstr "பதிவு அமைப்புகள்"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:604
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:631
 msgid "Log Terms"
 msgstr "பதிவு விதிமுறைகள்"
 
@@ -694,7 +714,7 @@ msgstr ""
 msgid "Logfile Location"
 msgstr "லாக்ஃபைல் இடம்"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:606
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:633
 msgid "LuCI failed login"
 msgstr "லூசி உள்நுழைவு தோல்வியுற்றார்"
 
@@ -706,7 +726,7 @@ msgstr "வரைபட மீட்டமைப்பு"
 msgid "Map..."
 msgstr "வரைபடம் ..."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:308
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:316
 msgid "Max Open Files"
 msgstr "அதிகபட்ச திறந்த கோப்புகள்"
 
@@ -726,7 +746,7 @@ msgstr "பிணைய சாதனங்கள்"
 msgid "Network error"
 msgstr ""
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:296
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:304
 msgid "Nice Level"
 msgstr "நல்ல நிலை"
 
@@ -742,11 +762,11 @@ msgstr "சியோப் வரைபட தரவு இல்லை!"
 msgid "No banIP config found!"
 msgstr ""
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:299
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:307
 msgid "Normal Priority"
 msgstr "சாதாரண முன்னுரிமை"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:458
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:466
 msgid "Number of Set load attempts in case of an error."
 msgstr "பிழை ஏற்பட்டால் செட் சுமை முயற்சிகளின் எண்ணிக்கை."
 
@@ -766,7 +786,7 @@ msgstr "தடுப்பதற்கு முன் பதிவில் அ
 msgid "Opt out specific feeds from the deduplication process."
 msgstr "கழித்தல் செயல்முறையிலிருந்து குறிப்பிட்ட ஊட்டங்களைத் தேர்வுசெய்க."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:243
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:244
 msgid "Outbound"
 msgstr "வெளிநொக்கி"
 
@@ -809,10 +829,9 @@ msgstr "இயல்புநிலை தீவன உள்ளமைவை ம
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:258
 msgid ""
 "Override the pre-configured download options for the selected download "
-"utility."
+"utility. The output flag, e.g. '-o' for curl or '-O' for wget, must be the "
+"last parameter."
 msgstr ""
-"தேர்ந்தெடுக்கப்பட்ட பதிவிறக்க பயன்பாட்டிற்கான முன்பே கட்டமைக்கப்பட்ட பதிவிறக்க விருப்பங்களை "
-"மேலெழுதவும்."
 
 #: applications/luci-app-banip/root/usr/share/luci/menu.d/luci-app-banip.json:25
 msgid "Overview"
@@ -834,19 +853,26 @@ msgstr "துறைமுகம் &#160;/&#160; நெறிமுறை"
 msgid "Processing Log"
 msgstr "பதிவு செயலாக்க"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:660
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:687
 msgid "Profile used by 'msmtp' for banIP notification E-Mails."
 msgstr "BANIP அறிவிப்பு மின்னஞ்சல்களுக்கு 'MSMTP' பயன்படுத்தும் சுயவிவரம்."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:721
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:748
 msgid "RIPE - serving Europe, Middle East and Central Asia"
 msgstr "பழுத்த - ஐரோப்பா, நடு கிழக்கு மற்றும் நடு ஆசியா பணி"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:645
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:604
+msgid ""
+"Rate (per second) for the shared NFT log limit, applied globally across all "
+"logged rules. Set to '0' to disable rate limiting entirely, e.g. when using "
+"ulogd or other userspace log handlers."
+msgstr ""
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:672
 msgid "Receive E-Mail notifications with every banIP run."
 msgstr "ஒவ்வொரு BANIP ஓட்டத்திலும் மின்னஞ்சல் அறிவிப்புகளைப் பெறுங்கள்."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:648
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:675
 msgid ""
 "Receiver address for banIP notification E-Mails, this information is "
 "required to enable E-Mail functionality."
@@ -858,27 +884,31 @@ msgstr ""
 msgid "Refresh"
 msgstr "புதுப்பிப்பு"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:716
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:743
 msgid "Regional Internet Registry"
 msgstr "பிராந்திய இணைய பதிவு"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:604
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:631
 msgid "Regular expressions to detect suspicious IPs in the system log."
 msgstr "கணினி பதிவில் சந்தேகத்திற்கிடமான ஐபிக்களைக் கண்டறிய வழக்கமான வெளிப்பாடுகள்."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:622
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:649
 msgid "Remote Token"
 msgstr "தொலைநிலை கிள்ளாக்கு"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:612
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:639
 msgid "Remote logging Event"
 msgstr ""
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:348
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:356
 msgid "Report Directory"
 msgstr "அறிக்கை கோப்பகம்"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:823
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:288
+msgid "Reporting Counters"
+msgstr ""
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:850
 msgid "Restrict the internet access from/to a small number of secure IPs."
 msgstr "இணைய அணுகலை/குறைந்த எண்ணிக்கையிலான பாதுகாப்பான ஐபிக்களுக்கு கட்டுப்படுத்தவும்."
 
@@ -899,11 +929,11 @@ msgstr "கொடிகளை இயக்கவும்"
 msgid "Run Information"
 msgstr "தகவல்களை இயக்கவும்"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:413
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:421
 msgid "SYN-Threshold"
 msgstr "ஒத்திசைவு"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:413
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:421
 msgid ""
 "SYN-Threshold in packets per second to prevent WAN-DoS attacks. To disable "
 "this safeguard set it to '0'."
@@ -911,15 +941,15 @@ msgstr ""
 "WAN-DOS தாக்குதல்களைத் தடுக்க நொடிக்கு பாக்கெட்டுகளில் ஒத்திசைவு. இந்த பாதுகாப்பை முடக்க "
 "அதை '0' ஆக அமைத்தது."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:315
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:316
 msgid "Save"
 msgstr "சேமி"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:842
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:869
 msgid "Save & Reload"
 msgstr "சேமித்து மீண்டும் ஏற்றவும்"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:849
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:876
 msgid "Save & Restart"
 msgstr "சேமிக்கவும் மறுதொடக்கம் செய்யவும்"
 
@@ -955,7 +985,7 @@ msgstr "தருக்க வான் IPV4 பிணையம் இடைம�
 msgid "Select the logical WAN IPv6 network interface(s)."
 msgstr "தருக்க வான் IPv6 பிணையம் இடைமுகம் (கள்) என்பதைத் தேர்ந்தெடுக்கவும்."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:652
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:679
 msgid "Sender address for banIP notification E-Mails."
 msgstr "BANIP அறிவிப்பு மின்னஞ்சல்களுக்கான அனுப்புநர் முகவரி."
 
@@ -972,15 +1002,11 @@ msgstr "உள்ளடக்கத்தை அமைக்கவும்"
 msgid "Set Content..."
 msgstr "உள்ளடக்கத்தை அமைக்கவும் ..."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:468
-msgid "Set Element Counter"
-msgstr "உறுப்பு கவுண்டரை அமைக்கவும்"
-
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:458
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:466
 msgid "Set Load Retries"
 msgstr "சுமை முயற்சிகளை அமைக்கவும்"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:449
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:457
 msgid "Set Policy"
 msgstr "கொள்கையை அமைக்கவும்"
 
@@ -988,7 +1014,7 @@ msgstr "கொள்கையை அமைக்கவும்"
 msgid "Set Reporting"
 msgstr "அறிக்கையிடலை அமைக்கவும்"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:329
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:337
 msgid "Set Split Size"
 msgstr "பிளவு அளவை அமைக்கவும்"
 
@@ -996,17 +1022,15 @@ msgstr "பிளவு அளவை அமைக்கவும்"
 msgid "Set details"
 msgstr "விவரங்களை அமைக்கவும்"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:368
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:376
 msgid ""
-"Set the nft chain priority within the banIP table, lower values means higher "
+"Set the NFT chain priority within the banIP table, lower values means higher "
 "priority."
 msgstr ""
-"BANIP அட்டவணைக்குள் NFT சங்கிலி முன்னுரிமையை அமைக்கவும், குறைந்த மதிப்புகள் அதிக "
-"முன்னுரிமை என்று பொருள்."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:449
-msgid "Set the nft policy for banIP-related Sets."
-msgstr "BANIP தொடர்பான தொகுப்புகளுக்கான NFT கொள்கையை அமைக்கவும்."
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:457
+msgid "Set the NFT policy for banIP-related Sets."
+msgstr ""
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:558
 msgid "Set the syslog level for NFT logging."
@@ -1024,15 +1048,15 @@ msgstr "உள்ளடக்கத்தைக் காட்டு"
 msgid "Show only Set elements with hits"
 msgstr "வெற்றிகளுடன் கூடிய கூறுகளை மட்டும் காட்டு"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:738
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:765
 msgid "Split ASN Set"
 msgstr "பிளவு ASN கணம்"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:726
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:753
 msgid "Split Country Set"
 msgstr "பிளவு நாடு தொகுப்பு"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:329
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:337
 msgid ""
 "Split external Set loading after every n members to save RAM, disabled by "
 "default."
@@ -1048,15 +1072,15 @@ msgstr "தொடக்க தூண்டுதல் இடைமுகம்"
 msgid "Status"
 msgstr "நிலை"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:835
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:862
 msgid "Stop"
 msgstr "நிறுத்து"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:783
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:810
 msgid "Subnet"
 msgstr "சப்நெட்"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:716
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:743
 msgid "Summary of countries based on the Regional Internet Registry (RIR)."
 msgstr "பிராந்திய இணைய பதிவேட்டில் (ஆர்.ஐ.ஆர்) அடிப்படையிலான நாடுகளின் சுருக்கம்."
 
@@ -1068,15 +1092,15 @@ msgstr "கணினி செய்தி"
 msgid "Table/Chain Settings"
 msgstr "அட்டவணை/சங்கிலி அமைப்புகள்"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:352
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:360
 msgid "Target directory for banIP-related error files."
 msgstr "BANIP தொடர்பான பிழை கோப்புகளுக்கான இலக்கு அடைவு."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:348
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:356
 msgid "Target directory for banIP-related report files."
 msgstr "BANIP தொடர்பான அறிக்கை கோப்புகளுக்கான இலக்கு அடைவு."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:344
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:352
 msgid "Target directory for compressed feed backups."
 msgstr "சுருக்கப்பட்ட ஊட்ட காப்புப்பிரதிகளுக்கான இலக்கு அடைவு."
 
@@ -1088,15 +1112,15 @@ msgstr "இசைவு பட்டியல் மிகப் பெரிய
 msgid "The blocklist is too big, unable to save modifications."
 msgstr "பிளாக்லிச்ட் மிகப் பெரியது, மாற்றங்களைச் சேமிக்க முடியவில்லை."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:738
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:765
 msgid "The selected ASNs are stored in separate Sets."
 msgstr "தேர்ந்தெடுக்கப்பட்ட ASN கள் தனி தொகுப்புகளில் சேமிக்கப்படுகின்றன."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:726
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:753
 msgid "The selected Countries are stored in separate Sets."
 msgstr "தேர்ந்தெடுக்கப்பட்ட நாடுகள் தனி தொகுப்புகளில் சேமிக்கப்படுகின்றன."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:296
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:304
 msgid "The selected priority will be used for banIP background processing."
 msgstr "BANIP பின்னணி செயலாக்கத்திற்கு தேர்ந்தெடுக்கப்பட்ட முன்னுரிமை பயன்படுத்தப்படும்."
 
@@ -1143,17 +1167,17 @@ msgstr ""
 msgid "Timestamp"
 msgstr "நேர முத்திரை"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:642
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:669
 msgid ""
 "To enable email notifications, set up the 'msmtp' package and specify a "
 "valid E-Mail receiver address."
 msgstr ""
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:622
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:649
 msgid "Token to communicate with the cgi interface."
 msgstr "சிசிஐ இடைமுகத்துடன் தொடர்பு கொள்ள கிள்ளாக்கு."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:656
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:683
 msgid "Topic for banIP notification E-Mails."
 msgstr "BANIP அறிவிப்பு மின்னஞ்சல்களுக்கான தலைப்பு."
 
@@ -1161,11 +1185,11 @@ msgstr "BANIP அறிவிப்பு மின்னஞ்சல்கள�
 msgid "Trigger Delay"
 msgstr "தூண்டுதல் நேரந்தவறுகை"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:427
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:435
 msgid "UDP-Threshold"
 msgstr "Udp-threshold"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:427
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:435
 msgid ""
 "UDP-Threshold in packets per second to prevent WAN-DoS attacks. To disable "
 "this safeguard set it to '0'."
@@ -1185,7 +1209,7 @@ msgstr "URLV6"
 msgid "Unable to parse the banIP runtime information!"
 msgstr ""
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:705
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:732
 msgid "Unable to parse the countries file!"
 msgstr "நாடுகளின் கோப்பை அலச முடியவில்லை!"
 
@@ -1206,7 +1230,7 @@ msgstr "விதிகள் கோப்பை அலச முடியவி
 msgid "Unable to save modifications: %s"
 msgstr "மாற்றங்களைச் சேமிக்க முடியவில்லை: %s"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:288
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:289
 msgid "Upload"
 msgstr "பதிவேற்றும்"
 
@@ -1237,7 +1261,7 @@ msgstr ""
 msgid "alert"
 msgstr "விழிப்புணர்வு"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:609
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:636
 msgid "asterisk invalid account"
 msgstr "நட்சத்திர தவறான கணக்கு"
 
@@ -1289,7 +1313,7 @@ msgstr "பிழைத்திருத்தம்"
 msgid "drop"
 msgstr "துளி"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:605
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:632
 msgid "dropbear failed login"
 msgstr "கீழ்தோன்றும் தோல்வியுற்றது உள்நுழைவு"
 
@@ -1321,7 +1345,7 @@ msgstr "உள்ளக இசைவு பட்டியல்"
 msgid "local blocklist"
 msgstr "உள்ளக தடுப்பு பட்டியல்"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:450
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:458
 msgid "memory"
 msgstr "நினைவகம்"
 
@@ -1333,11 +1357,11 @@ msgstr "அறிவிப்பு"
 msgid "online documentation"
 msgstr ""
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:610
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:637
 msgid "openvpn TLS error"
 msgstr "OpenVPN TLS பிழை"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:451
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:459
 msgid "performance"
 msgstr "செயல்திறன்"
 
@@ -1345,17 +1369,40 @@ msgstr "செயல்திறன்"
 msgid "reject"
 msgstr "நிராகரிக்கவும்"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:608
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:635
 msgid "sshd closed connection"
 msgstr "SSHD மூடிய இணைப்பு"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:607
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:634
 msgid "sshd failed login"
 msgstr "SSHD உள்நுழைவு தோல்வியுற்றது"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:563
 msgid "warn"
 msgstr "எச்சரிக்கை"
+
+#~ msgid ""
+#~ "Override the pre-configured download options for the selected download "
+#~ "utility."
+#~ msgstr ""
+#~ "தேர்ந்தெடுக்கப்பட்ட பதிவிறக்க பயன்பாட்டிற்கான முன்பே கட்டமைக்கப்பட்ட பதிவிறக்க "
+#~ "விருப்பங்களை மேலெழுதவும்."
+
+#~ msgid "Enable nft counter for every Set element."
+#~ msgstr "ஒவ்வொரு செட் உறுப்புக்கும் NFT கவுண்டரை இயக்கவும்."
+
+#~ msgid "Set Element Counter"
+#~ msgstr "உறுப்பு கவுண்டரை அமைக்கவும்"
+
+#~ msgid ""
+#~ "Set the nft chain priority within the banIP table, lower values means "
+#~ "higher priority."
+#~ msgstr ""
+#~ "BANIP அட்டவணைக்குள் NFT சங்கிலி முன்னுரிமையை அமைக்கவும், குறைந்த மதிப்புகள் அதிக "
+#~ "முன்னுரிமை என்று பொருள்."
+
+#~ msgid "Set the nft policy for banIP-related Sets."
+#~ msgstr "BANIP தொடர்பான தொகுப்புகளுக்கான NFT கொள்கையை அமைக்கவும்."
 
 #~ msgid "nginx suspicious IP"
 #~ msgstr "nginx சந்தேகத்திற்கிடமான ஐபி"

@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-04-24 00:23+0000\n"
+"PO-Revision-Date: 2026-05-18 21:24+0000\n"
 "Last-Translator: Aindriú Mac Giolla Eoin <aindriu80@gmail.com>\n"
 "Language-Team: Irish <https://hosted.weblate.org/projects/openwrt/luci/ga/>\n"
 "Language: ga\n"
@@ -8,7 +8,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : (n>2 && n<7) ? 2 :(n>"
 "6 && n<11) ? 3 : 4;\n"
-"X-Generator: Weblate 5.17.1-dev\n"
+"X-Generator: Weblate 2026.6.dev0\n"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:212
 msgid "!known (not known)"
@@ -19,7 +19,7 @@ msgctxt "Yet unknown nftables table family (\"family\" table \"name\")"
 msgid "\"%h\" table \"%h\""
 msgstr "Tábla “%h” “%h”"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1864
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1865
 msgid "%.1f dB"
 msgstr "%.1f dB"
 
@@ -43,6 +43,7 @@ msgstr "%dm ó shin"
 msgid "%ds ago"
 msgstr "%ds ó shin"
 
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4994
 #: modules/luci-base/htdocs/luci-static/resources/validation.js:933
 msgid "%s"
 msgstr "%s"
@@ -84,7 +85,7 @@ msgstr "Tá %s neamhchlibeáilte i iolrchuid VLANanna!"
 msgid "%s means \"the address of the system running dnsmasq\"."
 msgstr "Ciallaíonn %s “seoladh an chórais atá ag rith dnsmasq”."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1784
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1785
 msgid ""
 "%s services running on this device in the default VRF context (ie., not "
 "bound to any VRF device) shall work across all VRF domains."
@@ -110,7 +111,7 @@ msgstr "Úsáideann %s an t-ionchódú formáide seolta MAC réamhshocraithe"
 msgid "%s; %d tokens separated by %s"
 msgstr "%s; %d comharthaí scartha le %s"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:917
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:925
 msgid "'net30', 'p2p', or 'subnet'"
 msgstr "'net30', 'p2p', nó 'subnet'"
 
@@ -210,7 +211,7 @@ msgstr "06: x86 UEFI (IA32)"
 msgid "07: x64 UEFI"
 msgstr "07: x64 UEFI"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:336
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:344
 msgid "0: Deny"
 msgstr "0: Diúltaigh"
 
@@ -278,7 +279,7 @@ msgstr "18: Tosaithe ARM UEFI 32 ó HTTP"
 msgid "19: ARM UEFI 64 boot from HTTP"
 msgstr "19: Tosaithe ARM UEFI 64 ó HTTP"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:337
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:345
 msgid "1: OS utils"
 msgstr "1: Fóntais OS"
 
@@ -311,7 +312,7 @@ msgstr "Clog 24 Uair an Chloig"
 msgid "24: ARM uboot 64 boot from HTTP"
 msgstr "24: Tosaithe ARM uboot 64 ó HTTP"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1809
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1810
 msgid "256"
 msgstr "256"
 
@@ -335,7 +336,7 @@ msgstr "28: Tosaithe UEFI 64-giotán RISC-V ó HTTP"
 msgid "29: RISC-V 128-bit UEFI"
 msgstr "29: RISC-V UEFI 128-giotán"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:338
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:346
 msgid "2: User scripts"
 msgstr "2: Scripteanna úsáideora"
 
@@ -384,7 +385,7 @@ msgstr "38: Tosaithe UEFI 32-giotán LoongArch ó HTTP"
 msgid "39: LoongArch 64-bit UEFI"
 msgstr "39: FFE 64-giotán Loongarch"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:339
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:347
 msgid "3: Allow passwords in env"
 msgstr "3: Ceadaigh pasfhocail i dtimpeallacht"
 
@@ -683,7 +684,7 @@ msgstr ""
 msgid "A directory with the same name already exists."
 msgstr "Tá eolaire leis an ainm céanna ann cheana féin."
 
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:2689
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:2690
 msgid "A new login is required since the authentication session expired."
 msgstr ""
 "Teastaíonn logáil isteach nua ó tháinig an seisiún fíordheimhnithe in éag."
@@ -706,11 +707,11 @@ msgstr ""
 "Briseadh ceangail do chliaint agus a mbealaí nuair a bhíonn il-ródairí ar an "
 "líonra céanna."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1844
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1845
 msgid "A43C + J43 + A43"
 msgstr "A43C+J43+A43"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1845
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1846
 msgid "A43C + J43 + A43 + V43"
 msgstr "A43C+J43+A43+V43"
 
@@ -718,77 +719,81 @@ msgstr "A43C+J43+A43+V43"
 msgid "AC"
 msgstr "AC"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1857
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1858
 msgid "ADSL"
 msgstr "ADSL"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1831
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1832
 msgid "ADSL (G.992.1) Annex A"
 msgstr "ADSL (G.992.1) Iarscríbhinn A"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1832
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1833
 msgid "ADSL (G.992.1) Annex B"
 msgstr "ADSL (G.992.1) Iarscríbhinn B"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1825
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1826
 msgid "ADSL (all variants) Annex A/L/M"
 msgstr "ADSL (gach leagan) Iarscríbhinn A/L/M"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1821
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1822
 msgid "ADSL (all variants) Annex A/L/M + VDSL2 Annex A/B/C"
 msgstr "ADSL (gach leagan) Iarscríbhinn A/L/M + VDSL2 Iarscríbhinn A/B/C"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1826
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1827
 msgid "ADSL (all variants) Annex B"
 msgstr "ADSL (gach leagan) Iarscríbhinn B"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1822
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1823
 msgid "ADSL (all variants) Annex B + VDSL2 Annex A/B/C"
 msgstr "ADSL (gach leagan) Iarscríbhinn B+VDSL2 Iarscríbhinn A/B/C"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1827
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1828
 msgid "ADSL (all variants) Annex B/J"
 msgstr "ADSL (gach leagan) Iarscríbhinn B/J"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1823
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1824
 msgid "ADSL (all variants) Annex B/J + VDSL2 Annex A/B/C"
 msgstr "ADSL (gach leagan) Iarscríbhinn B/J + VDSL2 Iarscríbhinn A/B/C"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1829
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1830
 msgid "ADSL (all variants) Annex M"
 msgstr "ADSL (gach leagan) Iarscríbhinn M"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1834
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1835
 msgid "ADSL2 (G.992.3) Annex A"
 msgstr "ADSL2 (G.992.3) Iarscríbhinn A"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1835
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1836
 msgid "ADSL2 (G.992.3) Annex B"
 msgstr "ADSL2 (G.992.3) Iarscríbhinn B"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1836
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1837
 msgid "ADSL2 (G.992.3) Annex L"
 msgstr "ADSL2 (G.992.3) Iarscríbhinn L"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1837
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1838
 msgid "ADSL2 (G.992.3) Annex M"
 msgstr "ADSL2 (G.992.3) Iarscríbhinn M"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1838
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1839
 msgid "ADSL2+ (G.992.5) Annex A"
 msgstr "ADSL2+ (G.992.5) Iarscríbhinn A"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1839
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1840
 msgid "ADSL2+ (G.992.5) Annex B"
 msgstr "ADSL2+ (G.992.5) Iarscríbhinn B"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1840
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1841
 msgid "ADSL2+ (G.992.5) Annex M"
 msgstr "ADSL2+ (G.992.5) Iarscríbhinn M"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1830
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1831
 msgid "ANSI T1.413"
 msgstr "ANSI T1.413"
+
+#: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_vlan.js:66
+msgid "AP Isolation"
+msgstr "Leithlisiú AP"
 
 #: protocols/luci-proto-3g/htdocs/luci-static/resources/protocol/3g.js:95
 #: protocols/luci-proto-mbim/htdocs/luci-static/resources/protocol/mbim.js:65
@@ -838,25 +843,25 @@ msgstr ""
 "é seo in 802.11v. Nóta: d'fhéadfadh sé ionchais ilchraolta STA an ghlacadóra "
 "a shárú."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1852
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1853
 msgid "ATM (Asynchronous Transfer Mode)"
 msgstr "ATM (Mód Aistrithe Aisincrónach)"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1873
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1874
 msgid "ATM Bridges"
 msgstr "Droichid ATM"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1905
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1906
 #: protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/pppoa.js:66
 msgid "ATM Virtual Channel Identifier (VCI)"
 msgstr "Aitheantóir Cainéal Fíorúil ATM (VCI)"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1906
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1907
 #: protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/pppoa.js:70
 msgid "ATM Virtual Path Identifier (VPI)"
 msgstr "Aitheantóir Conair Fíorúil ATM (VPI)"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1873
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1874
 msgid ""
 "ATM bridges expose encapsulated ethernet in AAL5 connections as virtual "
 "Linux network interfaces which can be used in conjunction with DHCP or PPP "
@@ -866,7 +871,7 @@ msgstr ""
 "líonra fíorúla Linux is féidir a úsáid i gcomhar le DHCP nó PPP chun "
 "dhiailiú isteach i líonra an soláthraí."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1912
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1913
 #: protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/pppoa.js:62
 msgid "ATM device number"
 msgstr "Uimhir feiste ATM"
@@ -886,7 +891,7 @@ msgid "Accept DNS queries only from hosts whose address is on a local subnet."
 msgstr ""
 "Glac le ceisteanna DNS ach ó óstaigh a bhfuil a seoladh ar fhoghlíon áitiúil."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:220
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:228
 msgid "Accept VLANs"
 msgstr "Glac le VLANanna"
 
@@ -898,7 +903,7 @@ msgstr "Glac le heochracha poiblí"
 msgid "Accept local"
 msgstr "Glac le háitiúil"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1488
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1496
 msgid "Accept options pushed from server"
 msgstr "Glac le roghanna a bhrúitear ón bh"
 
@@ -1017,7 +1022,7 @@ msgstr "Cothromú ualaigh tarchurtha oiriúnaitheach"
 msgid "Add"
 msgstr "Cuir"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1877
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1878
 msgid "Add ATM Bridge"
 msgstr "Cuir Droichead ATM leis"
 
@@ -1045,11 +1050,11 @@ msgstr ""
 "Cuir seoladh folíon leis na fiosruithe DNS a chuirtear ar aghaidh in aghaidh "
 "an tsrutha, rud a fhágann an luach seo folamh díchumasaítear an ghné."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1582
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1583
 msgid "Add device configuration"
 msgstr "Cuir cumraíocht feiste leis"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1522
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1523
 msgid "Add device configuration…"
 msgstr "Cuir cumraíocht feiste leis…"
 
@@ -1091,7 +1096,7 @@ msgid "Add multicast rule"
 msgstr "Cuir riail multicast leis"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:483
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1406
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1407
 msgid "Add new interface..."
 msgstr "Cuir comhéadan nua leis..."
 
@@ -1114,7 +1119,7 @@ msgstr "Cuir seoladh piaraí leis"
 msgid "Add requestor MAC"
 msgstr "Cuir MAC leis an iarrthóir"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:631
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:639
 msgid "Add route after establishing connection"
 msgstr "Cuir bealach leis tar éis nasc a bunú"
 
@@ -1161,7 +1166,7 @@ msgstr "Teipeann IPv6 a chur le tacar IPv4 agus a mhalairt go ciúin."
 msgid "Additional Peers"
 msgstr "Piaraí Breise"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1190
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1198
 msgid "Additional authentication over TLS"
 msgstr "Fíordheimhniú breise thar TLS"
 
@@ -1219,7 +1224,7 @@ msgid "Administration"
 msgstr "Riarachán"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:497
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1903
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1904
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:42
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:135
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:980
@@ -1253,7 +1258,7 @@ msgstr "Am dul in aois"
 msgid "Aggregate Originator Messages"
 msgstr "Teachtaireachtaí Tionscaitheora"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1696
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1697
 msgid "Aggregation device"
 msgstr "Gléas comhiomlánaithe"
 
@@ -1345,7 +1350,7 @@ msgstr ""
 msgid "Allow all except listed"
 msgstr "Ceadaigh gach duine ach amháin atá liostaithe"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:138
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:146
 msgid "Allow client-to-client traffic"
 msgstr "Ceadaigh trácht cliant-chustaiméir"
 
@@ -1365,11 +1370,11 @@ msgstr "Ceadaigh liostaithe amháin"
 msgid "Allow localhost"
 msgstr "Ceadaigh localhost"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1402
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1410
 msgid "Allow multiple clients with same certificate"
 msgstr "Lig do iliomad cliaint leis an deimhniú céanna"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1175
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1183
 msgid "Allow only one session"
 msgstr "Ní cheadaigh ach seisiún amháin"
 
@@ -1385,7 +1390,7 @@ msgstr "Ceadaigh glacadh ar phoirt neamhghníomhacha"
 msgid "Allow remote hosts to connect to local SSH forwarded ports"
 msgstr "Lig d'óstaigh iargúlta ceangal le calafoirt áitiúla SSH seolta"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:587
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:595
 msgid "Allow remote to change its IP or port"
 msgstr "Lig do iargúlta a IP nó a chalafort a athrú"
 
@@ -1407,15 +1412,15 @@ msgstr "Lig don úsáideoir <em>root</em> logáil isteach le pasfhocal"
 msgid "Allowed IPs"
 msgstr "IPanna ceadaithe"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1459
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1467
 msgid "Allowed maximum of connected clients"
 msgstr "Uasmhéid na gcliant ceangailte"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1466
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1474
 msgid "Allowed maximum of internal"
 msgstr "An t-uasmhéid inmheánach"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1473
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1481
 msgid "Allowed maximum of new connections"
 msgstr "Ceadaítear uasmhéid naisc nua"
 
@@ -1427,7 +1432,7 @@ msgstr "Teicneolaíocht líonra a"
 msgid "AllowedIPs setting is invalid"
 msgstr "Tá socrú AlloweDiPS neamhbhailí"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1678
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1686
 msgid ""
 "Almost nothing here prevents you from selecting invalid configuration "
 "options which prevent openvpn from starting. Read the manual."
@@ -1484,7 +1489,7 @@ msgstr "Tharla earráid agus an fhoirm á shábháil:"
 msgid "An optional, short description for this device"
 msgstr "Cur síos gairid roghnach ar an bhfeiste seo"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1819
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1820
 msgid "Annex"
 msgstr "Iarscríbhinn"
 
@@ -1566,7 +1571,7 @@ msgstr "Aon phacáiste"
 msgid "Any zone"
 msgstr "Crios ar bith"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:492
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:500
 msgid "Append log to file"
 msgstr "Cuir logáil leis an gcomhad"
 
@@ -1574,11 +1579,11 @@ msgstr "Cuir logáil leis an gcomhad"
 msgid "Apply backup?"
 msgstr "Cúltaca i bhfeidhm?"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5485
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5493
 msgid "Apply checked"
 msgstr "Seiceáil an t-iarratas"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5515
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5523
 msgid "Apply request failed with status <code>%h</code>"
 msgstr "Theip ar an iarratas a chur i bhfeidhm le stádas <code>%h</code>"
 
@@ -1586,14 +1591,14 @@ msgstr "Theip ar an iarratas a chur i bhfeidhm le stádas <code>%h</code>"
 msgid "Apply these DHCP Options"
 msgstr "Cuir na Roghanna DHCP seo i bhFeidhm"
 
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:2198
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5217
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5348
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5489
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:2199
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5225
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5356
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5497
 msgid "Apply unchecked"
 msgstr "Cuir iarratas gan seiceáil"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5426
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5434
 msgid "Applying configuration changes… %ds"
 msgstr "Athruithe cumraíochta a chur i bhfeidhm... %ds"
 
@@ -1610,14 +1615,14 @@ msgstr "Arp-scanadh"
 msgid "As DHCP-Options; send unsolicited (dnsmasq only)."
 msgstr "Mar Roghanna DHCP; seol gan iarraidh (dnsmasq amháin)."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1248
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1249
 msgid ""
 "Assign a part of given length of every public IPv6-prefix to this interface"
 msgstr ""
 "Cuid den fhad áirithe de gach réimír IPv6 poiblí a shannadh don chomhéadan "
 "seo"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1253
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1254
 #: protocols/luci-proto-hnet/htdocs/luci-static/resources/protocol/hnet.js:27
 msgid ""
 "Assign prefix parts using this hexadecimal subprefix ID for this interface."
@@ -1674,7 +1679,7 @@ msgstr "Grúpa Auth"
 msgid "Auth Priv"
 msgstr "Príobháideacht Údaraithe"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1496
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1504
 msgid "Authenticate using username/password"
 msgstr "Fíordheimhniú ag úsáid ainm úsáideora/pasfhocal"
 
@@ -1734,7 +1739,7 @@ msgid "Automatically check filesystem for errors before mounting"
 msgstr ""
 "Seiceáil go huathoibríoch ar an gcóras comhaid le haghaidh earráidí sula"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1241
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1242
 msgid ""
 "Automatically handle multiple uplink interfaces using source-based policy "
 "routing."
@@ -1750,7 +1755,7 @@ msgstr "Cuir córais comhaid go huathoibríoch ar hotplug"
 msgid "Automatically mount swap on hotplug"
 msgstr "Cuir malartú go huathoibríoch ar hotplug"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1582
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1590
 msgid "Automatically redirect default route"
 msgstr "Bealach réamhshocraithe a athre"
 
@@ -1788,11 +1793,11 @@ msgstr "Meán:"
 msgid "Avoid Bridge Loops"
 msgstr "Seachain lúb Droichead"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1846
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1847
 msgid "B43 + B43C"
 msgstr "B43+B43C"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1847
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1848
 msgid "B43 + B43C + V43"
 msgstr "B43+B43C+V43"
 
@@ -1859,7 +1864,7 @@ msgid "Base64-encoded public key of this interface for sharing."
 msgstr ""
 "Eochair phoiblí Base64-ionchódaithe den chomhéadan seo le haghaidh roinnt."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1596
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1604
 msgid "Basic Settings"
 msgstr "Socruithe Bunúsacha"
 
@@ -1871,6 +1876,10 @@ msgstr "Gléas Batman"
 #: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_hardif.js:10
 msgid "Batman Interface"
 msgstr "Comhéadan Batman"
+
+#: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_vlan.js:11
+msgid "Batman VLAN Interface"
+msgstr "Comhéadan VLAN Batman"
 
 #: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv.js:81
 msgid ""
@@ -2003,7 +2012,7 @@ msgid "Bridge VLAN filtering"
 msgstr "Scagadh VLAN Droichead"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:453
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1699
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1700
 msgid "Bridge device"
 msgstr "Gléas Droichead"
 
@@ -2020,7 +2029,7 @@ msgstr "Calafoirt droichid"
 msgid "Bridge traffic table \"%h\""
 msgstr "Tábla tráchta droichead “%h”"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1913
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1914
 msgid "Bridge unit number"
 msgstr "Uimhir aonaid droichead"
 
@@ -2043,7 +2052,7 @@ msgid "Broadcast"
 msgstr "Craoladh"
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:3442
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4966
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4970
 msgid "Browse…"
 msgstr "Brabhsáil…"
 
@@ -2061,7 +2070,7 @@ msgstr ""
 msgid "CA certificate; if empty it will be saved after the first connection."
 msgstr "Teastas CA; má tá sé folamh sábhálfar é tar éis an chéad nasc."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:942
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:950
 msgid "CA path"
 msgstr "Cosán CA"
 
@@ -2097,7 +2106,7 @@ msgstr "Taisce treallach RR"
 msgid "Cached"
 msgstr "Cocháilte"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:373
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:381
 msgid "Call down cmd/script before TUN/TAP close"
 msgstr "Glaoigh síos cmd/script sula ndúnfaidh TUN/TAP"
 
@@ -2120,12 +2129,12 @@ msgstr ""
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:3308
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:3551
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4975
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5481
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4979
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5489
 #: modules/luci-compat/luasrc/view/cbi/delegator.htm:14
 #: modules/luci-compat/luasrc/view/cbi/simpleform.htm:52
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:186
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1412
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1413
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2504
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:128
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:297
@@ -2257,19 +2266,19 @@ msgctxt "Yet unknown nftables chain hook"
 msgid "Chain hook \"%h\""
 msgstr "Croca slabhra “%h”"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:273
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:281
 msgid "Change process priority"
 msgstr "Tosaíocht próisis athraithe"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:250
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:258
 msgid "Change to directory before initialization"
 msgstr "Athraigh go eolaire roimh thionscnamh"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5197
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5205
 msgid "Changes"
 msgstr "Athruithe"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5476
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5484
 msgid ""
 "Changes have been made to the existing connection via \"%h\". This could "
 "inhibit access to this device. Any IP change requires <strong>connecting to "
@@ -2280,7 +2289,7 @@ msgstr ""
 "nua</strong> laistigh de %d soicind chun aon athrú IP a dhéanamh chun na "
 "hathruithe a choinneáil."
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5551
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5559
 msgid "Changes have been reverted."
 msgstr "Tá athruithe curtha ar ais."
 
@@ -2311,7 +2320,7 @@ msgstr "Leithead Cainéal"
 msgid "Check filesystems before mount"
 msgstr "Seiceáil córais chomhaid sula gcuirtear isteach"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1264
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1272
 msgid "Check peer certificate against a CRL"
 msgstr "Seiceáil deimhniú piaraí i gcoinne CRL"
 
@@ -2360,7 +2369,7 @@ msgstr ""
 "sreang seo nó líon isteach an réimse <em>custom</em> chun líonra nua a "
 "shainiú."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:258
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:266
 msgid "Chroot to directory after initialization"
 msgstr "Chroot go dtí eolaire tar éis an tionscnamh"
 
@@ -2372,7 +2381,7 @@ msgstr "Rúnscríobh"
 msgid "Cisco UDP encapsulation"
 msgstr "Cumhdú Cisco UDP"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1750
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1758
 msgid "Clear"
 msgstr "Soiléir"
 
@@ -2404,11 +2413,11 @@ msgstr "Cliant"
 msgid "Client ID to send when requesting DHCP"
 msgstr "Aitheantas Cliant le seoladh nuair a iarrtar DHCP"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1359
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1367
 msgid "Client is disabled"
 msgstr "Tá an cliant faoi mhíchumas"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1706
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1714
 msgid "Client metadata"
 msgstr "Meiteashonraí cliant"
 
@@ -2417,7 +2426,7 @@ msgstr "Meiteashonraí cliant"
 msgid "Clone"
 msgstr "Clón"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5214
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5222
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/sshkeys.js:173
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/sshkeys.js:179
 msgid "Close"
@@ -2504,11 +2513,11 @@ msgid "Compute outgoing checksum (optional)."
 msgstr "Ríomh seiceáil amach (roghnach)."
 
 #: protocols/luci-proto-nebula/htdocs/luci-static/resources/protocol/nebula.js:40
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1597
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1605
 msgid "Config File"
 msgstr "Comhad Configuration"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5197
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5205
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:452
 msgid "Configuration"
 msgstr "Cumraíocht"
@@ -2517,11 +2526,11 @@ msgstr "Cumraíocht"
 msgid "Configuration Export"
 msgstr "Cumraíocht Easpórtá"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5401
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5409
 msgid "Configuration changes applied."
 msgstr "Athruithe cumraíochta i bhfeidhm."
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5334
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5342
 msgid "Configuration changes have been rolled back!"
 msgstr "Tá athruithe cumraíochta curtha ar ais!"
 
@@ -2534,6 +2543,10 @@ msgid "Configure client mode"
 msgstr "Cumraigh modh cliant"
 
 #: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:111
+msgid "Configure server Ipv6 mode"
+msgstr "Cumraigh mód Ipv6 an fhreastalaí"
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:119
 msgid "Configure server bridge"
 msgstr "Cumraigh droichid freastala"
 
@@ -2596,7 +2609,7 @@ msgstr ""
 "Cumraíonn sé modh oibríochta na seirbhíse seachfhreastalaí NDP ar an "
 "gcomhéadan seo."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1568
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1569
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/plugins.js:137
 msgid "Configure…"
 msgstr "Cumraigh…"
@@ -2609,11 +2622,11 @@ msgstr "Deimhnigh dícheangal"
 msgid "Confirmation"
 msgstr "Deimhniú"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1561
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1569
 msgid "Connect through Socks5 proxy"
 msgstr "Ceangail trí seachfhreastalaí Socks5"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1532
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1540
 msgid "Connect to remote host through an HTTP proxy"
 msgstr "Ceangail le óstach iargúlta trí sheachfhreastalaí"
 
@@ -2642,16 +2655,16 @@ msgstr "Críochphointe ceangail"
 msgid "Connection lost"
 msgstr "Ceangal caillte"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1525
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1533
 msgid "Connection retry interval"
 msgstr "Eatramh aththriail ceangail"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/connections.js:421
 #: modules/luci-mod-status/root/usr/share/luci/menu.d/luci-mod-status.json:181
 msgid "Connections"
-msgstr "Naisc"
+msgstr "Ceangail"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5475
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5483
 msgid "Connectivity change"
 msgstr "Athrú nascachta"
 
@@ -2706,7 +2719,7 @@ msgstr ""
 "Rialaíonn sé teachtaireachtaí Athghairme Comharsanachta a athtarchuirtear; "
 "foilsithe i dteachtaireachtaí <abbr title=\"Router Advertisement\">RA</abbr>."
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5370
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5378
 msgid ""
 "Could not regain access to the device after applying the configuration "
 "changes. You might need to reconnect if you modified network related "
@@ -2747,7 +2760,7 @@ msgstr "Cruthaigh/sannadh crios balla dóiteáin"
 msgid "Create Directory"
 msgstr "Cruthaigh Eolaire"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1444
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1445
 msgid "Create interface"
 msgstr "Cruthaigh comhéadan"
 
@@ -2771,7 +2784,7 @@ msgstr "Leibhéal Logála Cron"
 msgid "Cross Pass (Japan only)"
 msgstr "Cross Pas (An tSeapáin amháin)"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1599
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1607
 msgid "Cryptography"
 msgstr "Cripteagrafaíocht"
 
@@ -2970,7 +2983,7 @@ msgstr "Seoladh DS-lite AFTR"
 msgid "DSCP"
 msgstr "DSCP"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1816
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1817
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/50_dsl.js:37
 msgid "DSL"
 msgstr "DSL"
@@ -2979,7 +2992,7 @@ msgstr "DSL"
 msgid "DSL Status"
 msgstr "Stádas DSL"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1855
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1856
 msgid "DSL line mode"
 msgstr "Modh líne DSL"
 
@@ -3036,7 +3049,7 @@ msgstr "Dífhabhtú"
 msgid "Default"
 msgstr "Réamhshocrú"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1774
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1775
 msgid "Default DUID"
 msgstr "DUID réamhshocraithe"
 
@@ -3104,15 +3117,15 @@ msgstr "Moill roimh an bport a chumasú tar éis imeacht nasc síos MII (msec)"
 msgid "Delay before enabling port after MII link up event (msec)"
 msgstr "Moill roimh an bport a chumasú tar éis imeacht nasctha MII (msec)"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:647
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:655
 msgid "Delay n seconds after connection"
 msgstr "Moill n soicind tar éis an nasc"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:358
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:366
 msgid "Delay tun/tap open and up script execution"
 msgstr "Moill ar fhorghníomhú script a oscailt agus sconna"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1245
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1246
 msgid "Delegate IPv6 prefixes"
 msgstr "Réamhfhoirmeacha IPv6 Toscaitheoir"
 
@@ -3218,8 +3231,8 @@ msgstr "Crios ceann scríbe"
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:54
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:93
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:609
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1394
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1718
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1395
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1719
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/30_network.js:71
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/routes.js:184
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/routes.js:211
@@ -3230,6 +3243,7 @@ msgstr "Crios ceann scríbe"
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:260
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:334
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:369
+#: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_vlan.js:48
 #: protocols/luci-proto-external/htdocs/luci-static/resources/protocol/external.js:29
 msgid "Device"
 msgstr "Gléas"
@@ -3259,7 +3273,7 @@ msgstr "Ainm an ghléis"
 msgid "Device not managed by ModemManager."
 msgstr "Gléas nach mbainistíonn ModemManager."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1687
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1688
 msgid "Device not present"
 msgstr "Níl an gléas i láthair"
 
@@ -3267,7 +3281,7 @@ msgstr "Níl an gléas i láthair"
 msgid "Device type"
 msgstr "Cineál gléas"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5369
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5377
 msgid "Device unreachable!"
 msgstr "Gléas neamh-inrochtana!"
 
@@ -3275,8 +3289,8 @@ msgstr "Gléas neamh-inrochtana!"
 msgid "Device unreachable! Still waiting for device..."
 msgstr "Gléas dosroichte! Fós ag fanacht le gléas..."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1519
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1600
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1520
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1608
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:289
 msgid "Devices"
 msgstr "Gléasanna"
@@ -3305,7 +3319,7 @@ msgstr ""
 "tar éis dearbhú inrochtaineachta; foilsithe i dteachtaireachtaí <abbr "
 "title=\"Router Advertisement\">RA</abbr>."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:934
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:942
 msgid "Diffie-Hellman parameters"
 msgstr "Paraiméadair Diffie-Hellman"
 
@@ -3317,7 +3331,7 @@ msgstr "Dir"
 msgid "Directory"
 msgstr "Eolaire"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1412
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1420
 msgid "Directory for custom client config files"
 msgstr "Eolaire do chomhaid cumraíochta cliant saincheaptha"
 
@@ -3345,7 +3359,7 @@ msgstr ""
 "Eolaire chun comhaid óstaigh (mapáil seoladh IP chuig ainm óstach) a stóráil "
 "ann. Úsáidte ag m.sh. <code>dnsmasq</code>."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1805
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1806
 msgid ""
 "Directs packet flows to specific CPUs where the local socket owner listens "
 "(the local service)."
@@ -3373,7 +3387,7 @@ msgstr ""
 msgid "Disable DNS lookups"
 msgstr "Díchumasaigh cuardaigh DNS"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:924
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:932
 msgid "Disable Data Channel Offloading (DCO) support"
 msgstr "Díchumasaigh tacaíocht Díluchtaithe Cainéal Sonraí (DCO)"
 
@@ -3385,11 +3399,11 @@ msgstr "Díchumasaigh criptiú"
 msgid "Disable Inactivity Polling"
 msgstr "Díchumasaigh Vótáil Neamhgh"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:235
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:243
 msgid "Disable Paging"
 msgstr "Díchumasaigh Paging"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:242
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:250
 msgid "Disable options consistency check"
 msgstr "Déan seiceáil chomhsheasmhachta"
 
@@ -3403,7 +3417,7 @@ msgstr "Díchumasaigh an líonra seo"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1138
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1144
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1796
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1797
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1010
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1753
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1949
@@ -3474,7 +3488,7 @@ msgstr "Spás diosca"
 #: modules/luci-base/htdocs/luci-static/resources/form.js:3883
 #: modules/luci-base/htdocs/luci-static/resources/form.js:3897
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:4388
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5340
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5348
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2204
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:360
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/view/wireguard/status.js:54
@@ -3515,7 +3529,7 @@ msgstr ""
 "bhfuil sé sonraithe, tá an chuid bailí do gach cás dnsmasq."
 
 #: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:37
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:594
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:602
 msgid "Do not bind to local address and port"
 msgstr "Ná ceangail le seoladh agus calafort áitiúil"
 
@@ -3616,40 +3630,40 @@ msgstr "Liosta bán fearainn"
 msgid "Don't Fragment"
 msgstr "Ná Déan Brúin"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:617
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:625
 msgid "Don't actually execute ifconfig"
 msgstr "Ná fhorghníomhú ifconfig i ndáiríre"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:654
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:662
 msgid "Don't add routes automatically"
 msgstr "Ná cuir bealaí leis go huathoibr"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1213
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1221
 msgid "Don't cache --askpass or --auth-user-pass passwords"
 msgstr "Ná taisce pasfhocail --askpass nó --auth-user-pass"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:668
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:676
 msgid "Don't drop incoming tun packets with same destination as host"
 msgstr ""
 "Ná scaoil paicéid tun isteach leis an gceann scríbe céanna leis an óstach"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1351
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1359
 msgid "Don't inherit global push options"
 msgstr "Ná déan oidhreacht roghanna brú domhanda"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:515
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:523
 msgid "Don't log timestamps"
 msgstr "Ná logáil stampaí ama"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:661
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:669
 msgid "Don't pull routes automatically"
 msgstr "Ná tarraing bealaí go huathoibr"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:842
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:850
 msgid "Don't re-read key on restart"
 msgstr "Ná athléigh an eochair nuair a atosaigh"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:624
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:632
 msgid "Don't warn on ifconfig inconsistencies"
 msgstr "Ná tabhair rabhadh maidir le neamhréireachtaí ifconfig"
 
@@ -3677,11 +3691,11 @@ msgstr "Íoslódáil mtdblock"
 msgid "Download peer configuration file"
 msgstr "Íoslódáil comhad cumraíochta piaraí"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1860
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1861
 msgid "Downstream SNR offset"
 msgstr "Fhritháireamh SNR iarshrutha"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1770
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1778
 msgid "Drag and drop an ovpn config file here"
 msgstr "Tarraing agus scaoil comhad cumraíochta ovpn anseo"
 
@@ -3840,7 +3854,7 @@ msgstr ""
 "páirtí) is féidir le bainisteoir na bpacáistí pacáistí i liostaí atá sínithe "
 "aige a shuiteáil."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:478
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:486
 msgid "Echo parameters to log"
 msgstr "Paraiméadair Echo le logáil"
 
@@ -3956,7 +3970,7 @@ msgstr "Astaíonn fógraí faoi chailleann netlink IP ADDR"
 msgid "Emits netlink LLADDR miss notifications"
 msgstr "Astaíonn fógraí faoi chailleann netlink LLADDR"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:687
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:695
 msgid "Empirically measure MTU"
 msgstr "MTU a thomhas go heimpíreach"
 
@@ -3991,6 +4005,23 @@ msgstr "Cumasaigh <abbr title=\"Prótacal Crann a Chuimsíonn\">STP</abbr>"
 msgid "Enable <abbr title=\"Stateless Address Auto Config\">SLAAC</abbr>"
 msgstr ""
 "Cumasaigh <abbr title=\"Uathchumraíocht Seoltaí Gan Stát\">SLAAC</abbr>"
+
+#: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_vlan.js:67
+msgid ""
+"Enable AP Isolation to isolate wireless clients connected to this Batman "
+"VLAN on this AP from wireless clients connected to this Batman VLAN on "
+"different APs. To isolate all wireless clients connected to this Batman VLAN "
+"on all APs from each other, be sure to enable this option on all APs, and be "
+"sure to enable additional wireless client isolation options ('isolate' and "
+"'bridge_isolate') for all associated wireless interfaces on all APs."
+msgstr ""
+"Cumasaigh Aonrú AP chun cliaint gan sreang atá ceangailte leis an VLAN "
+"Batman seo ar an AP seo a leithlisiú ó chliaint gan sreang atá ceangailte "
+"leis an VLAN Batman seo ar APanna difriúla. Chun gach cliant gan sreang atá "
+"ceangailte leis an VLAN Batman seo ar gach AP a leithlisiú óna chéile, bí "
+"cinnte an rogha seo a chumasú ar gach AP, agus bí cinnte roghanna breise "
+"leithlisithe cliant gan sreang ('isolate' agus 'bridge_isolate') a chumasú "
+"do gach comhéadan gan sreang gaolmhar ar gach AP."
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/connections.js:279
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/connections.js:495
@@ -4044,11 +4075,11 @@ msgstr "Cumasaigh foghlaim seoltaí MAC"
 msgid "Enable NTP client"
 msgstr "Cumasaigh cliant NTP"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:998
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1006
 msgid "Enable OpenSSL hardware crypto engines"
 msgstr "Cumasaigh innill crypto crua-earraí OpenSSL"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:680
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:688
 msgid "Enable Path MTU discovery"
 msgstr "Cumasaigh fionnachtain Conair MTU"
 
@@ -4060,7 +4091,7 @@ msgstr "Cumasaigh PSK Príobháideach (PPSK)"
 msgid "Enable Single DES"
 msgstr "Cumasaigh DES Aonair"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:147
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:155
 msgid "Enable Static Key encryption mode (non-TLS)"
 msgstr "Cumasaigh modh criptithe Eochair Statach (neamh-TLS)"
 
@@ -4068,11 +4099,11 @@ msgstr "Cumasaigh modh criptithe Eochair Statach (neamh-TLS)"
 msgid "Enable TFTP server"
 msgstr "Cumasaigh freastalaí TFTP"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1056
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1064
 msgid "Enable TLS and assume client role"
 msgstr "Cumasaigh TLS agus glacadh le ról an chliaint"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1049
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1057
 msgid "Enable TLS and assume server role"
 msgstr "Cumasaigh TLS agus glacadh le ról freastalaí"
 
@@ -4102,14 +4133,14 @@ msgstr ""
 "Hipirtéacs\">HTTP</abbr> chuig an bport <abbr title=\"Prótacal Aistrithe "
 "Hipirtéacs Slán\">HTTPS</abbr>."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1245
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1246
 msgid ""
 "Enable downstream delegation of IPv6 prefixes available on this interface"
 msgstr ""
 "Cumasaigh tarmligean iarsrutha réamhfhoirmeacha IPv6 atá ar fáil ar an "
 "gcomhéadan seo"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:742
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:750
 msgid "Enable internal datagram fragmentation"
 msgstr "Cumasaigh ilroinnt inmheánach datagram"
 
@@ -4121,7 +4152,7 @@ msgstr "Cumasaigh frithbhearta eochracha athshuiteála (KRACK)"
 msgid "Enable learning and aging"
 msgstr "Cumasaigh foghlaim agus dul in aois"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:865
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:873
 msgid "Enable management interface on <em>IP</em> <em>port</em>"
 msgstr "Cumasaigh comhéadan bainistíochta ar <em>IP</em> <em>port</em>"
 
@@ -4159,7 +4190,7 @@ msgstr ""
 msgid "Enable or disable DHCPv4 services on this interface."
 msgstr "Cumasaigh nó díchumasaigh seirbhísí DHCPv4 ar an gcomhéadan seo."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1795
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1796
 msgid "Enable packet steering across CPUs. May help or hinder network speed."
 msgstr ""
 "Cumasaigh stiúrú pacáiste ar fud na CPUanna. Féadfaidh sé cabhrú nó bac a "
@@ -4214,7 +4245,7 @@ msgstr "Cumasaigh tuilte unicast"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1137
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1143
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1797
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1798
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1950
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2132
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:222
@@ -4228,7 +4259,7 @@ msgstr "Cumasaigh tuilte unicast"
 msgid "Enabled"
 msgstr "Cumasaithe"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1798
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1799
 msgid "Enabled (all CPUs)"
 msgstr "Cumasaithe (gach CPUanna)"
 
@@ -4273,17 +4304,17 @@ msgstr "Encap 3+4"
 msgid "Encapsulation limit"
 msgstr "Teorainn ionfhabhtaithe"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1850
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1908
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1851
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1909
 msgid "Encapsulation mode"
 msgstr "Modh ionfhabhtaithe"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1198
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1206
 msgid "Encrypt and authenticate all control channel packets with the key"
 msgstr ""
 "Criptigh agus fíordheimhnigh gach pacáit chainéil rialaithe leis an eochair"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1206
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1214
 msgid ""
 "Encrypt and authenticate all control channel packets with the key, version 2."
 msgstr ""
@@ -4298,7 +4329,7 @@ msgstr ""
 msgid "Encryption"
 msgstr "Criptiú"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:974
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:982
 msgid "Encryption cipher for packets"
 msgstr "Cipher criptithe le haghaidh pacáistí"
 
@@ -4399,15 +4430,15 @@ msgstr ""
 msgid "Exclude interfaces"
 msgstr "Comhéadain a eisiamh"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:390
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:398
 msgid "Execute shell cmd after routes are added"
 msgstr "Feidhmiú bhlaosc cmd tar éis bealaí a chur leis"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:398
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:406
 msgid "Execute shell command on remote IP change"
 msgstr "Forghníomhú ordú blaosc ar athrú iargúlta"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:470
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:478
 msgid ""
 "Executed in server mode on new client connections, when the client is still "
 "untrusted"
@@ -4415,7 +4446,7 @@ msgstr ""
 "Forghníomhaithe i mód freastalaí ar naisc nua cliant, nuair a bhíonn an "
 "cliant fós gan iontaofa"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:462
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:470
 msgid ""
 "Executed in server mode whenever an IPv4 address/route or MAC address is "
 "added to OpenVPN's internal routing table"
@@ -4449,7 +4480,7 @@ msgstr ""
 msgid "Existing device"
 msgstr "Gléas atá ann cheana"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1183
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1191
 msgid "Exit on TLS negotiation failure"
 msgstr "Scoir ar theip idirbheartaíochta TLS"
 
@@ -4473,7 +4504,7 @@ msgstr ""
 msgid "Expected port number."
 msgstr "Uimhir chalafort súil leis."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1262
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1263
 msgid "Expecting a hexadecimal assignment hint"
 msgstr "Ag súil le leid sannadh heicseachadúil"
 
@@ -4503,7 +4534,7 @@ msgstr "Ag súil le dhá luach tosaíochta atá scartha le colon"
 msgid "Expecting: %s"
 msgstr "Ag súil le: %s"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1601
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1609
 msgid "Expert Settings"
 msgstr "Socruithe Saineolaithe"
 
@@ -4622,7 +4653,7 @@ msgstr "Theip ar phasfhocal an chórais a athrú."
 msgid "Failed to configure modem"
 msgstr "Theip ar an móideim a chumrú"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5328
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5336
 msgid "Failed to confirm apply within %ds, waiting for rollback…"
 msgstr ""
 "Theip ar iarratas a dhearbhú laistigh de %ds, ag fanacht le rolladh ar ais…"
@@ -4812,7 +4843,7 @@ msgstr "Stádas Balla dóiteáin"
 msgid "Firewall mark"
 msgstr "Marca balla dóiteáin"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1867
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1868
 msgid "Firmware File"
 msgstr "Comhad Dochtearraí"
 
@@ -4868,7 +4899,7 @@ msgid "For multicast, an outgoing interface (%s) needs to be specified"
 msgstr "Le haghaidh ilchraolta, ní mór comhéadan amach (%s) a shonrú"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1222
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1780
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1781
 msgid "For packets originating from this device, e.g. VPN."
 msgstr "I gcás paicéid a thagann ón ngléas seo, m.sh. VPN."
 
@@ -4932,7 +4963,7 @@ msgstr "Fórsa TKIP agus CCMP (AES)"
 msgid "Force broadcast DHCP response."
 msgstr "Freagra DHCP a chraoladh an fhórsa."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1510
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1511
 msgid "Force link"
 msgstr "Nasc fórsa"
 
@@ -5018,7 +5049,7 @@ msgstr "DNS ar agair/aisiompú"
 msgid "Forwarding DataBase"
 msgstr "Bunachar Sonraí á chur ar aghaidh"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1915
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1916
 msgid "Forwarding mode"
 msgstr "Modh seolta"
 
@@ -5034,7 +5065,7 @@ msgstr "Ilroinnt"
 msgid "Fragmentation Threshold"
 msgstr "Tairseach Ilroinnte"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1707
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1715
 msgid "Freeform metadata to embed into the client key"
 msgstr "Meiteashonraí saorfhoirme le leabú isteach san eochair chliaint"
 
@@ -5141,7 +5172,7 @@ msgid "General Settings"
 msgstr "Socruithe Ginearálta"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:673
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1902
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1903
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:979
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1048
 msgid "General Setup"
@@ -5151,7 +5182,7 @@ msgstr "Socrú Ginearálta"
 msgid "General device options"
 msgstr "Roghanna gléas ginearálta"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1715
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1723
 msgid "Generate"
 msgstr "Gin"
 
@@ -5201,7 +5232,7 @@ msgstr ""
 msgid "Generating QR code…"
 msgstr "Cód QR a ghiniúint…"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:949
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:957
 msgid "Get certificate password from file before we daemonize"
 msgstr "Faigh pasfhocal an deimhnithe ón gcomhad sula ndéanaimid daemonization"
 
@@ -5214,7 +5245,7 @@ msgstr "Mar gheall nár mheaitseáil dearbhú pasfhocal, níor athraigh pasfhoca
 msgid "Global Settings"
 msgstr "Socruithe Domhanda"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1764
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1765
 msgid "Global network options"
 msgstr "Roghanna líonra domhanda"
 
@@ -5398,7 +5429,7 @@ msgstr "Pasfhocal He.NET"
 msgid "HE.net username"
 msgstr "He.net ainm úsáideora"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:955
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:963
 msgid "HMAC authentication for packets"
 msgstr "Fíordheimhniú HMAC do phacáistí"
 
@@ -5415,7 +5446,7 @@ msgstr "Rochtain HTTP (S)"
 msgid "Half Duplex"
 msgstr "Leath Déphléacsach"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1503
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1511
 msgid "Handling of authentication failures"
 msgstr "Teipeanna fíordheimhnithe a láim"
 
@@ -5435,8 +5466,8 @@ msgstr "Eatramh buille croí (eithne: buille croí)"
 msgid "Hello interval"
 msgstr "Dia duit eatramh"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:132
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:797
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:140
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:805
 msgid ""
 "Helper directive to simplify the expression of --ping and --ping-restart in "
 "server mode configurations"
@@ -5885,7 +5916,7 @@ msgstr "Socruithe IPv6"
 msgid "IPv6 Token"
 msgstr "Comhartha IPv6"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1768
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1769
 msgid "IPv6 ULA-Prefix"
 msgstr "Réimír ULA IPv6"
 
@@ -5906,12 +5937,12 @@ msgstr "Seoladh IPv6"
 msgid "IPv6 addresses"
 msgstr "Seoltaí IPv6"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1253
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1254
 #: protocols/luci-proto-hnet/htdocs/luci-static/resources/protocol/hnet.js:27
 msgid "IPv6 assignment hint"
 msgstr "Leid sannadh IPv6"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1248
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1249
 msgid "IPv6 assignment length"
 msgstr "Fad sannadh IPv6"
 
@@ -5928,7 +5959,7 @@ msgstr "Líonra IPv6 i nótaí seoltadh/líonmask"
 msgid "IPv6 only"
 msgstr "IPv6 amháin"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1297
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1298
 msgid "IPv6 preference"
 msgstr "Rogha IPv6"
 
@@ -5937,7 +5968,7 @@ msgstr "Rogha IPv6"
 msgid "IPv6 prefix"
 msgstr "réimír IPv6"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1270
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1271
 msgid "IPv6 prefix filter"
 msgstr "Scagaire réimír IPv6"
 
@@ -5952,11 +5983,11 @@ msgstr "Fad réimír IPv6"
 msgid "IPv6 routed prefix"
 msgstr "Réimír iontráilte IPv6"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1241
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1242
 msgid "IPv6 source routing"
 msgstr "Ródú foinse IPv6"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1293
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1294
 msgid "IPv6 suffix"
 msgstr "Iarmhír IPv6"
 
@@ -6040,7 +6071,7 @@ msgstr ""
 "Ní dhéanann sé seo difear do phiaraí atá ag imeacht, ná do phiaraí nasc-"
 "áitiúla a aimsítear trí multicast."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1575
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1583
 msgid "If hostname resolve fails, retry"
 msgstr "Má theipeann réiteach ainm óstach, déan iarracht"
 
@@ -6052,7 +6083,15 @@ msgstr ""
 "Mura sonraítear é, fógróidh an gléas é féin mar fhreastalaí DNS mura bhfuil "
 "an rogha <em>Freastalaí DNS IPv6 áitiúil</em> díchumasaithe."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1270
+#: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_vlan.js:49
+msgid ""
+"If not listed, please open the drop-down list and type in the name of the "
+"Batman VLAN device in the 'custom' field."
+msgstr ""
+"Mura bhfuil sé liostaithe, oscail an liosta anuas agus clóscríobh ainm "
+"ghléas VLAN Batman sa réimse 'saincheaptha'."
+
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1271
 msgid ""
 "If set, downstream subnets are only allocated from the given IPv6 prefix "
 "classes."
@@ -6656,11 +6695,11 @@ msgstr "Jumper"
 msgid "Jumps to another rule specified by its priority value"
 msgstr "Léimeann sé go dtí riail eile atá sonraithe ag a luach tosaíochta"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:849
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:857
 msgid "Keep local IP address on restart"
 msgstr "Coinnigh seoladh IP áitiúil ar atosú"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:856
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:864
 msgid "Keep remote IP address on restart"
 msgstr "Coinnigh seoladh IP iargúlta ar atosú"
 
@@ -6668,7 +6707,7 @@ msgstr "Coinnigh seoladh IP iargúlta ar atosú"
 msgid "Keep settings and retain the current configuration"
 msgstr "Coinnigh socruithe agus coinnigh an chumraíocht reatha"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:835
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:843
 msgid "Keep tun/tap device open on restart"
 msgstr "Coinnigh an gléas tiún/sconna oscailte nuair a"
 
@@ -6727,7 +6766,7 @@ msgctxt "Label indicating that WireGuard peer lacks public key"
 msgid "Key missing"
 msgstr "Eochair ar iarraidh"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1167
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1175
 msgid "Key transition window"
 msgstr "Príomhfhuinneog aistrithe"
 
@@ -6735,7 +6774,7 @@ msgstr "Príomhfhuinneog aistrithe"
 msgid "Key used to sign network config"
 msgstr "Eochair a úsáidtear chun comhshíniú líonra"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1602
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1610
 msgid "Keygen"
 msgstr "Eochairghiniúint"
 
@@ -6800,7 +6839,7 @@ msgstr "Eatramh macasamhail LCP"
 msgid "LED Configuration"
 msgstr "Cumraíocht faoi stiúir"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1909
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1910
 msgid "LLC"
 msgstr "LLC"
 
@@ -6932,7 +6971,7 @@ msgstr ""
 msgid "Legacy rules detected"
 msgstr "Braithíodh rialacha oidhreachta"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5199
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5207
 msgid "Legend:"
 msgstr "Finscéal:"
 
@@ -6940,7 +6979,7 @@ msgstr "Finscéal:"
 msgid "Limit"
 msgstr "Teorainn"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:508
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:516
 msgid "Limit repeated log messages"
 msgstr "Teachtaireachtaí log arís agus arís"
 
@@ -7135,7 +7174,7 @@ msgstr ""
 msgid "Load configuration…"
 msgstr "Cumraíocht luchtaigh…"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1440
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1441
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2427
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/view/wireguard/status.js:182
 msgid "Loading data…"
@@ -7145,7 +7184,7 @@ msgstr "Sonraí á luchtú…"
 msgid "Loading directory contents…"
 msgstr "Ábhar eolaire á lódáil…"
 
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:1956
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:1957
 #: modules/luci-base/ucode/template/view.ut:4
 #: modules/luci-mod-status/ucode/template/admin_status/index.ut:12
 #: themes/luci-theme-bootstrap/ucode/template/themes/bootstrap/sysauth.ut:76
@@ -7233,7 +7272,7 @@ msgstr "Tosú Áitiúil"
 msgid "Local Time"
 msgstr "Am Áitiúil"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1271
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1272
 msgid "Local ULA"
 msgstr "ULA áitiúil"
 
@@ -7258,7 +7297,7 @@ msgstr ""
 "Iarmhír fearainn áitiúil curtha le hainmneacha DHCP agus iontrálacha comhad "
 "óstach."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:543
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:551
 msgid "Local host name or IP address"
 msgstr "Ainm óstach áitiúil nó seoladh IP"
 
@@ -7326,7 +7365,7 @@ msgstr "Áis logála"
 msgid "Log in"
 msgstr "Logáil isteach"
 
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:2697
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:2698
 msgid "Log in…"
 msgstr "Logáil isteach…"
 
@@ -7353,7 +7392,7 @@ msgid "Log queries"
 msgstr "Fiosrúcháin logála"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:118
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1603
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1611
 msgid "Logging"
 msgstr "Ag logáil"
 
@@ -7402,7 +7441,7 @@ msgstr "Modh comhoiriúnachta Lua gníomh"
 msgid "MAC"
 msgstr "MAC"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1740
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1741
 #: protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/pppoe.js:51
 msgid "MAC Address"
 msgstr "Seoladh MAC"
@@ -7416,7 +7455,7 @@ msgid "MAC Addresses"
 msgstr "Seoltaí MAC"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:456
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1705
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1706
 msgid "MAC VLAN"
 msgstr "MAC VLAN"
 
@@ -7478,7 +7517,7 @@ msgid "MII link monitoring"
 msgstr "Monatóireacht nasc MII"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1090
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1752
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1753
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:91
 #: protocols/luci-proto-vpnc/htdocs/luci-static/resources/protocol/vpnc.js:53
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan.js:83
@@ -7497,7 +7536,7 @@ msgstr "MX"
 msgid "Mail"
 msgstr "Post"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:536
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:544
 msgid "Major mode"
 msgstr "Mód mór"
 
@@ -7509,15 +7548,15 @@ msgstr ""
 "Déan cinnte an córas comhaid fréimhe a chlónú ag úsáid rud éigin cosúil leis "
 "na horduithe thíos:"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1604
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1612
 msgid "Management"
 msgstr "Bainistíocht"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:895
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:903
 msgid "Management cert"
 msgstr "Deimhniú bainistíochta"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:903
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:911
 msgid "Management key"
 msgstr "Eochair bhainistíochta"
 
@@ -7685,7 +7724,7 @@ msgstr "Uaslíon iontrálacha BFFG"
 msgid "Maximum number of leased addresses."
 msgstr "Líon uasta na seoltaí ar léasú."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1452
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1460
 msgid "Maximum number of queued TCP output packets"
 msgstr "Líon uasta na bpacáid aschuir TCP scuainte"
 
@@ -8020,7 +8059,7 @@ msgstr "Multi Chun Unicast"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1220
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1221
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1780
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1781
 msgid "Multi-Path TCP"
 msgstr "TCP Ilchonair"
 
@@ -8110,10 +8149,10 @@ msgid "NUD"
 msgstr "NUD"
 
 #: modules/luci-base/htdocs/luci-static/resources/form.js:2911
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4952
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4956
 #: modules/luci-compat/luasrc/view/cbi/tblsection.htm:27
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:117
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1370
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1371
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/leds.js:63
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:236
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/view/wireguard/status.js:45
@@ -8226,7 +8265,7 @@ msgid "Network bridge configuration migration"
 msgstr "Imirce cumraíochta droichid líon"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:449
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1714
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1715
 msgid "Network device"
 msgstr "Gléas líonra"
 
@@ -8257,7 +8296,7 @@ msgstr "Imirce cumraíochta ifname líonra"
 msgid "Network interface"
 msgstr "Comhéadan líonra"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1605
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1613
 msgid "Networking"
 msgstr "Líonrú"
 
@@ -8297,11 +8336,11 @@ msgctxt "Dnsmasq instance"
 msgid "New instance name…"
 msgstr "Ainm nua sampla…"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1426
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1427
 msgid "New interface for \"%s\" can not be created: %s"
 msgstr "Ní féidir comhéadan nua do “%s” a chruthú: %s"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1373
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1374
 msgid "New interface name…"
 msgstr "Ainm comhéadain nua…"
 
@@ -8486,7 +8525,7 @@ msgid "No special configuration"
 msgstr "Gan aon chumraíocht speisialta"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:151
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1471
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1472
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/29_ports.js:332
 msgid "No zone assigned"
 msgstr "Níl aon chrios sannta"
@@ -8621,7 +8660,7 @@ msgstr ""
 "saolré an fhreastalaí fógartha (bain úsáid as <code>0</code> chun freastalaí "
 "nach ceart a úsáid a thuilleadh a léiriú)."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1806
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1807
 msgid ""
 "Note: this setting is for local services on the device only (not for "
 "forwarding)."
@@ -8653,7 +8692,7 @@ msgstr "Fógra"
 msgid "Nslookup"
 msgstr "Nslookup"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1445
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1453
 msgid "Number of allocated broadcast buffers"
 msgstr "Líon na maoláin craolta leithdháilte"
 
@@ -8663,7 +8702,7 @@ msgstr ""
 "Líon na n-iontrálacha DNS a chosáilte, is é 10000 an t-uasmhéid, níl aon "
 "chaching 0."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:887
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:895
 msgid "Number of lines for log file history"
 msgstr "Líon na línte le haghaidh stair an chomhaid logála"
 
@@ -8709,7 +8748,7 @@ msgstr "Faigh seoladh IPv6"
 msgid "Off"
 msgstr "As"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1785
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1786
 msgid ""
 "Off means VRF traffic will be handled exclusively by sockets bound to VRFs."
 msgstr ""
@@ -8816,7 +8855,7 @@ msgstr ""
 "Níltear ag súil go mbeidh ach ceann amháin de na seoltaí MAC in úsáid "
 "ghníomhach ar an líonra ag aon am ar leith."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:828
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:836
 msgid "Only process ping timeouts if routes exist"
 msgstr "Ní phróiseálann ama ping ach má tá bealaí ann"
 
@@ -8832,7 +8871,7 @@ msgstr "Liosta oscailte..."
 msgid "OpenConnect (CISCO AnyConnect)"
 msgstr "OpenConnect (CISCO AnyConnect)"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1640
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1648
 msgid "OpenVPN"
 msgstr "OpenVPN"
 
@@ -8882,7 +8921,7 @@ msgstr "Cód Oibreora"
 msgid "Operator Name"
 msgstr "Ainm Oibreora"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:280
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:288
 msgid "Optimize TUN/TAP/UDP writes"
 msgstr "Scríobhanna TUN/TAP/UDP a bharrfheabhsú"
 
@@ -8895,11 +8934,11 @@ msgstr "Tá luach ionchuir neamhbhailí sa rogha “%s”."
 msgid "Option \"%s\" must not be empty."
 msgstr "Níor chóir go mbeadh an rogha “%s” folamh."
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5206
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5214
 msgid "Option changed"
 msgstr "Athraigh an rogha"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5208
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5216
 msgid "Option removed"
 msgstr "Rogha bainte"
 
@@ -8930,7 +8969,7 @@ msgstr ""
 "Roghnach. Marc 32-giotán le haghaidh paicéid criptithe atá ag dul as oifig. "
 "Cuir isteach luach i heicsidheachúlach, ag tosú le <code>0x</code>."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1293
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1294
 msgid ""
 "Optional. Allowed values: 'eui64', 'random', fixed value like '::1' or "
 "'::1:2'. When IPv6 prefix (like 'a:b:c:d::') is received from a delegating "
@@ -9028,11 +9067,11 @@ msgstr ""
 msgid "Options"
 msgstr "Roghanna"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1681
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1689
 msgid "Options marked with ² are OpenSSL only."
 msgstr "Is le OpenSSL amháin atá na roghanna atá marcáilte le ²."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1679
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1687
 msgid "Options marked with ¹ are deprecated and will be removed."
 msgstr "Tá roghanna atá marcáilte le ¹ imithe i léig agus bainfear iad."
 
@@ -9108,11 +9147,11 @@ msgstr "Crios aschuir"
 msgid "Overlap"
 msgstr "Forluí"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1230
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1231
 msgid "Override IPv4 routing table"
 msgstr "Tábla ródúcháin IPv4 a chur ar aghaidh"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1235
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1236
 msgid "Override IPv6 routing table"
 msgstr "Tábla ródúcháin IPv6 a chur ar aghaidh"
 
@@ -9268,7 +9307,7 @@ msgstr "Diúltaíodh cód PIN"
 msgid "PIO directory"
 msgstr "Eolaire PIO"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:166
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:174
 msgid "PKCS#12 file containing keys"
 msgstr "Comhad PKCS #12 ina bhfuil eochracha"
 
@@ -9318,7 +9357,7 @@ msgctxt "Label indicating that WireGuard peer uses a PSK"
 msgid "PSK"
 msgstr "PSK"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1853
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1854
 msgid "PTM/EFM (Packet Transfer Mode)"
 msgstr "PTM/EFM (Mód Aistrithe Pacáiste)"
 
@@ -9334,7 +9373,7 @@ msgstr "PXE/TFTP"
 msgid "Packet Service State"
 msgstr "Stát Seirbhíse Pacáiste"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1795
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1796
 msgid "Packet Steering"
 msgstr "Stiúrú Pacáiste"
 
@@ -9370,16 +9409,16 @@ msgstr[3] "Cuid de líonraí:"
 msgstr[4] "Cuid de líonraí:"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:151
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1471
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1472
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/29_ports.js:332
 msgid "Part of zone %q"
 msgstr "Cuid den chrios% q"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:405
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:413
 msgid "Pass environment variables to script"
 msgstr "Pas athróga timpeallachta chuig script"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:413
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:421
 msgid "Pass environment variables to script prepended with OPENVPN_"
 msgstr "Cuir athróga timpeallachta chuig script réamhdhéanta le OPENVPN_"
 
@@ -9455,7 +9494,7 @@ msgstr "Greamaigh nó tarraing eochair phoiblí an stórais"
 msgid "Paste or drag supplied WireGuard configuration file…"
 msgstr "Comhad cumraíochta WireGuard a sholáthraítear greamaigh nó tarraing…"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1733
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1741
 msgid "Path"
 msgstr "Cosán"
 
@@ -9487,7 +9526,7 @@ msgstr "Conair chuig Teastas Cliant istigh"
 msgid "Path to inner Private Key"
 msgstr "Conair chuig Eochair Phríobháideach"
 
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:2745
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:2746
 msgid "Paused"
 msgstr "Sosaithe"
 
@@ -9581,11 +9620,11 @@ msgstr "Déan athshocrú"
 msgid "Permission denied"
 msgstr "Cead diúltaithe"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1042
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1050
 msgid "Persist replay-protection state"
 msgstr "Stát cosanta athsheolta leanúnach"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1374
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1382
 msgid "Persist/unpersist ifconfig-pool"
 msgstr "leanún/gan leanúint ifconfig-pool"
 
@@ -9611,7 +9650,7 @@ msgstr "Socruithe Fisiciúla"
 msgid "Ping"
 msgstr "Ping"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:805
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:813
 msgid "Ping remote every n seconds over TCP/UDP port"
 msgstr "Ping iargúlta gach n soicind thar chalafort TCP/UDP"
 
@@ -9628,7 +9667,14 @@ msgstr "Pkts."
 msgid "Please enter your username and password."
 msgstr "Cuir isteach d'ainm úsáideora agus do phasfhocal."
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4935
+#: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_vlan.js:63
+msgid ""
+"Please open the drop-down list and select or type in the name of the Batman "
+"VLAN device."
+msgstr ""
+"Oscail an liosta anuas agus roghnaigh nó clóscríobh ainm ghléas Batman VLAN."
+
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4939
 msgid "Please select the file to upload."
 msgstr "Roghnaigh an comhad le uaslódáil le do thoil."
 
@@ -9673,7 +9719,7 @@ msgstr "Stádas PoE"
 msgid "Policy"
 msgstr "Beartas"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:341
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:349
 msgid "Policy level over usage of external programs and scripts"
 msgstr "Leibhéal beartais maidir le húsáid cláir agus scripteanna seachtracha"
 
@@ -9901,7 +9947,7 @@ msgstr "Prot."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:92
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:593
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1388
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1389
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/connections.js:511
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/30_network.js:60
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/routes.js:190
@@ -9947,7 +9993,7 @@ msgstr "Seachfhreastalaí"
 msgid "Proxy Server"
 msgstr "Freastalaí Seachfhreastalaí"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1547
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1555
 msgid "Proxy timeout in seconds"
 msgstr "Am seachfhreastalaí i soicindí"
 
@@ -10000,15 +10046,15 @@ msgstr "Réimír phoiblí curtha chuig an ngléas seo le dáileadh ar chliaint."
 msgid "PublicKey setting is invalid"
 msgstr "Tá suíomh PublicKey neamhbhailí"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1606
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1614
 msgid "Push"
 msgstr "Brúigh"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1381
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1389
 msgid "Push an ifconfig option to remote"
 msgstr "Brúigh rogha ifconfig go cianda"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1338
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1346
 msgid "Push options to peer"
 msgstr "Brúigh roghanna chuig piaraí"
 
@@ -10052,7 +10098,7 @@ msgstr "Fiosraigh gach réiteach suas sruth atá ar fáil."
 msgid "Query interval"
 msgstr "Eatramh ceisteanna"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:872
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:880
 msgid "Query management channel for private key"
 msgstr "Cainéal bainistíochta fiosrúcháin don eochair"
 
@@ -10173,7 +10219,7 @@ msgctxt "nft nat flag random"
 msgid "Randomize source port mapping"
 msgstr "Mapáil calafoirt foinse a randamú"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1517
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1525
 msgid "Randomly choose remote server"
 msgstr "Roghnaigh cianfhreastalaí"
 
@@ -10181,7 +10227,7 @@ msgstr "Roghnaigh cianfhreastalaí"
 msgid "Raw Data"
 msgstr "Sonraí Amh"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1767
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1775
 msgid "Raw OVPN config"
 msgstr "Cumraíocht OVPN amh"
 
@@ -10291,11 +10337,11 @@ msgstr "Tagairtí"
 msgid "Refresh Channels"
 msgstr "Cainéil Athnuaigh"
 
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:2739
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:2740
 msgid "Refreshing"
 msgstr "Athnuachan"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1419
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1427
 msgid "Refuse connection if no custom client config"
 msgstr "Diúltaigh nasc mura bhfuil cumraíocht chliaint saincheaptha"
 
@@ -10386,7 +10432,7 @@ msgstr "Athlódáil"
 msgid "Remaining time"
 msgstr "Am atá fágtha"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:291
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:299
 msgid "Remap SIGUSR1 signals"
 msgstr "Remap comharthaí SIGUSR1"
 
@@ -10422,7 +10468,7 @@ msgstr "VTEP cianda"
 msgid "Remote host name or IP address"
 msgstr "Ainm óstach iargúlta nó seoladh IP"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:813
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:821
 msgid "Remote ping timeout"
 msgstr "Amach ping iargúlta"
 
@@ -10442,7 +10488,7 @@ msgstr "Bain seoltaí IPv6 ó na torthaí agus ní chuir seoltaí IPv4 ar ais ac
 msgid "Remove MAC address before forwarding query"
 msgstr "Bain an seoladh MAC roimh an cheist a chur ar aghaidh"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1345
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1353
 msgid "Remove Push options"
 msgstr "Bain roghanna Brúigh"
 
@@ -10480,7 +10526,7 @@ msgctxt "Dnsmasq instance"
 msgid "Remove instance #%d"
 msgstr "Bain sampla #%d"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1572
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1573
 msgid "Remove related device settings from the configuration"
 msgstr "Bain socruithe gléas gaolmhara ón gcumraíocht"
 
@@ -10492,15 +10538,15 @@ msgstr "Bain an seoladh subnet roimh an cheist a chur ar aghaidh"
 msgid "Removes records of the specified type(s) from answers."
 msgstr "Baintear taifid den chineál/na cineálacha sonraithe as freagraí."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1135
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1143
 msgid "Renegotiate data chan. key after bytes"
 msgstr "Athchaibidlíocht channa sonraí. eochair tar éis bétaí"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1143
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1151
 msgid "Renegotiate data chan. key after packets"
 msgstr "Athchaibidlíocht ar an gcás sonraí. eochair tar éis pacá"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1151
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1159
 msgid "Renegotiate data chan. key after seconds"
 msgstr "Athchaibidlíocht a dhéanamh ar an gcás sonraí. eochair"
 
@@ -10508,8 +10554,8 @@ msgstr "Athchaibidlíocht a dhéanamh ar an gcás sonraí. eochair"
 msgid "Replace wireless configuration"
 msgstr "Cuir cumraíocht gan sreang in"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1020
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1027
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1028
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1035
 msgid "Replay protection sliding window size"
 msgstr "Méid fuinneog sleamhnáin cosanta athsheinm"
 
@@ -10544,12 +10590,12 @@ msgstr "Iarr réimír IPv6"
 msgid "Request timeout"
 msgstr "Iarr am amach"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1233
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1241
 msgid "Require explicit designation on certificate"
 msgstr "Éileamh ar ainmniú sainráite ar an"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1246
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1257
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1254
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1265
 msgid "Require explicit key usage on certificate"
 msgstr "Éilíonn úsáid sainráite eochair ar an deimhniú"
 
@@ -10567,7 +10613,7 @@ msgstr "Teastaíonn seicsum isteach (roghnach)."
 msgid "Require incoming packets serialization (optional)."
 msgstr "Teastaíonn sraith pacáistí ag teacht isteach (roghnach)."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1239
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1247
 msgid "Require remote cert extended key usage on certificate"
 msgstr "Éiligh úsáid eochrach leathnaithe deimhnithe iargúlta ar an deimhniú"
 
@@ -10690,7 +10736,7 @@ msgid "Reserved tag"
 msgstr "Clib curtha in áirithe"
 
 #: modules/luci-base/htdocs/luci-static/resources/form.js:2996
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:2220
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:2221
 #: modules/luci-compat/luasrc/view/cbi/delegator.htm:17
 #: modules/luci-compat/luasrc/view/cbi/footer.htm:30
 #: modules/luci-compat/luasrc/view/cbi/simpleform.htm:66
@@ -10755,7 +10801,7 @@ msgstr "Atosaigh"
 msgid "Restart Firewall"
 msgstr "Atosaigh Balla Dóiteáin"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:821
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:829
 msgid "Restart after remote ping timeout"
 msgstr "Atosaigh tar éis ama ping iargúlta"
 
@@ -10771,11 +10817,11 @@ msgstr "Athchóirigh"
 msgid "Restore backup"
 msgstr "Cuir cúltaca ar ais"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1324
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1332
 msgid "Restrict the allowed ciphers to be negotiated"
 msgstr "Cuir srian ar na cipher a cheadaítear a chaibidliú"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1127
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1135
 msgid "Retransmit timeout on TLS control channel"
 msgstr "Ath-tharchur ama ar chainéal rialaithe TLS"
 
@@ -10784,11 +10830,11 @@ msgid ""
 "Retrieve the listener addresses from the Yggdrasil interface configuration."
 msgstr "Aisghabháil seoltaí na n-éisteoirí ó chumraíocht comhéadain Yggdrasil."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1539
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1547
 msgid "Retry indefinitely on HTTP proxy errors"
 msgstr "Déan iarracht arís ar feadh tréimhse éiginnte"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1568
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1576
 msgid "Retry indefinitely on Socks proxy errors"
 msgstr ""
 "Bain triail eile as ar feadh tréimhse éiginnte ar earráidí seachfhreastalaí "
@@ -10807,19 +10853,19 @@ msgstr "Scagaire cosán droim"
 msgid "Reverse sort"
 msgstr "Sórtáil droim ar ais"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5228
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5236
 msgid "Revert"
 msgstr "Aisghabháil"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5344
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5352
 msgid "Revert changes"
 msgstr "Athruithe a chur ar ais"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5560
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5568
 msgid "Revert request failed with status <code>%h</code>"
 msgstr "Theip ar an iarratas ar ais le stádas <code>%h</code>"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5540
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5548
 msgid "Reverting configuration…"
 msgstr "Cumraíocht a chur ar ais…"
 
@@ -10919,7 +10965,7 @@ msgstr "Slabhra gníomhaíochta bealaigh “%h”"
 msgid "Route short-circuit (RSC)"
 msgstr "Ciorcad bealaigh (RSC)"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1388
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1396
 msgid "Route subnet to client"
 msgstr "Foghlíon bealaigh chuig an gcliant"
 
@@ -10927,7 +10973,7 @@ msgstr "Foghlíon bealaigh chuig an gcliant"
 msgid "Route type"
 msgstr "Cineál bealaigh"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1395
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1403
 msgid "Route v6 subnet to client"
 msgstr "Bealach fo-líonra v6 chuig an gcliant"
 
@@ -11026,27 +11072,27 @@ msgstr ""
 "Cinneann rialacha cén tábla ródaithe a úsáidfear, bunaithe ar choinníollacha "
 "amhail seoladh foinse nó comhéadan."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:454
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:462
 msgid "Run script cmd for client TLS verification"
 msgstr "Rith an script cmd le haghaidh fíorú TLS an chliaint"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:430
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:438
 msgid "Run script cmd on client connection"
 msgstr "Rith script cmd ar nasc cliant"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:446
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:454
 msgid "Run script cmd on client disconnection"
 msgstr "Rith script cmd ar dhícheangal cliant"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:438
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:446
 msgid "Run script cmd to validate client certificates"
 msgstr "Rith an script cmd chun deimhnithe cliant a bhailíochtú"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:381
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:389
 msgid "Run up/down scripts for all restarts"
 msgstr "Rith scripteanna suas/síos le haghaidh gach atosú"
 
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:2382
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:2383
 msgid "Runtime error"
 msgstr "Earráid rith"
 
@@ -11129,7 +11175,7 @@ msgid "SWAP"
 msgstr "MALARTÚ"
 
 #: modules/luci-base/htdocs/luci-static/resources/form.js:3902
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:2215
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:2216
 #: modules/luci-compat/luasrc/view/cbi/error.htm:17
 #: modules/luci-compat/luasrc/view/cbi/footer.htm:26
 #: modules/luci-compat/luasrc/view/cbi/header.htm:20
@@ -11138,8 +11184,8 @@ msgstr "MALARTÚ"
 msgid "Save"
 msgstr "Sábháil"
 
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:2197
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5216
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:2198
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5224
 #: modules/luci-compat/luasrc/view/cbi/footer.htm:22
 msgid "Save & Apply"
 msgstr "Sábháil agus Cuir i bhFeidhm"
@@ -11173,7 +11219,7 @@ msgstr "Tascanna sceidealta"
 msgid "Scheduling daemon"
 msgstr "Daemon sceidealaithe"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1607
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1615
 msgid "Scripting"
 msgstr "Scriptiú"
 
@@ -11198,11 +11244,11 @@ msgstr "Cuardaigh fearainn"
 msgid "Section %s is empty."
 msgstr "Tá cuid %s folamh."
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5202
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5210
 msgid "Section added"
 msgstr "Cuireadh roinn leis"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5204
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5212
 msgid "Section removed"
 msgstr "Rannóg bainte"
 
@@ -11227,6 +11273,10 @@ msgstr ""
 "Roghnaigh 'Force upgrade' chun an íomhá a splancadh fiú má theipeann ar "
 "sheiceáil fhormáid na híomhá. Bain úsáid as ach amháin má tá tú cinnte go "
 "bhfuil an dochtearraí ceart agus i gceist le do gléas!"
+
+#: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_vlan.js:52
+msgid "Select Batman VLAN device…"
+msgstr "Roghnaigh gléas VLAN Batman…"
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:3158
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:3389
@@ -11269,7 +11319,7 @@ msgstr ""
 msgid "Send multicast beacon"
 msgstr "Seol beacon multicast"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1510
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1518
 msgid "Send notification to peer on disconnect"
 msgstr "Seol fógra chuig piaraí ar dhícheangal"
 
@@ -11292,7 +11342,7 @@ msgstr "Freastalaí"
 msgid "Server address"
 msgstr "Seoladh freastalaí"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1698
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1706
 msgid "Server key"
 msgstr "Eochair freastalaí"
 
@@ -11300,7 +11350,7 @@ msgstr "Eochair freastalaí"
 msgid "Server name"
 msgstr "Ainm freastalaí"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1608
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1616
 msgid "Service"
 msgstr "Seirbhís"
 
@@ -11316,7 +11366,7 @@ msgstr "Cineál Seirbhíse"
 msgid "Services"
 msgstr "Seirbhísí"
 
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:2687
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:2688
 msgid "Session expired"
 msgstr "Seisiún in éag"
 
@@ -11340,11 +11390,11 @@ msgstr "Socraigh ainm d'ainm óstach."
 msgid "Set an arbitrary resource record (RR) type."
 msgstr "Socraigh cineál taifid acmhainne treallach (RR)."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1367
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1375
 msgid "Set aside a pool of subnets"
 msgstr "Cuir linn fo-líonta a chur ar leataobh"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1554
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1562
 msgid "Set extended HTTP proxy options"
 msgstr "Socraigh roghanna seachfhreastóra HTTP"
 
@@ -11358,7 +11408,7 @@ msgid "Set interface as NDP-Proxy external slave. Default is off."
 msgstr ""
 "Socraigh comhéadan mar sclábhaí seachtrach NDP-proxy. Tá réamhshocrú as."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1510
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1511
 msgid ""
 "Set interface properties regardless of the link carrier (If set, carrier "
 "sense events do not invoke hotplug handlers)."
@@ -11371,19 +11421,19 @@ msgstr ""
 msgid "Set log class/facility for syslog entries."
 msgstr "Socraigh rang/áis logála le haghaidh iontrálacha syslog."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:523
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:531
 msgid "Set output verbosity"
 msgstr "Socraigh solúbthacht aschuir"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1438
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1446
 msgid "Set size of real and virtual address hash tables"
 msgstr "Socraigh méid táblaí hash seoltaí fíor agus fíorúla"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:766
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:774
 msgid "Set the TCP/UDP receive buffer size"
 msgstr "Socraigh méid maolán glacadh TCP/UDP"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:758
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:766
 msgid "Set the TCP/UDP send buffer size"
 msgstr "Socraigh méid maolán seolta TCP/UDP"
 
@@ -11406,7 +11456,7 @@ msgstr ""
 "Socraigh an comhéadan seo mar mháistir do athsheachadadh RA agus DHCPv6 "
 "chomh maith le seiceáil NDP."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:774
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:782
 msgid "Set tun/tap TX queue length"
 msgstr "Socraigh fad scuaine ton/sconna TX"
 
@@ -11415,11 +11465,11 @@ msgstr "Socraigh fad scuaine ton/sconna TX"
 msgid "Set tun/tap adapter parameters"
 msgstr "Socraigh paraiméadair an t-oiriúnaí"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:726
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:734
 msgid "Set tun/tap device MTU"
 msgstr "Socraigh feiste tiún/sconna MTU"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:734
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:742
 msgid "Set tun/tap device overhead"
 msgstr "Socraigh feiste tiún/sconna lasbhaird"
 
@@ -11432,7 +11482,7 @@ msgstr "Socraigh Freastalaí DHCP"
 msgid "Set up routes for proxied IPv6 neighbours."
 msgstr "Cuir bealaí ar bun do chomharsana IPv6 seachadaithe."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:750
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:758
 msgid "Set upper bound on TCP MSS"
 msgstr "Socraigh teorainn uachtarach ar TCP MSS"
 
@@ -11470,19 +11520,19 @@ msgstr ""
 "Socruithe chun cabhrú le cliaint gan sreang i bhfánaíocht idir iolracha "
 "APanna: 802.11r, 802.11k agus 802.11v"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:782
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:790
 msgid "Shaping for peer bandwidth"
 msgstr "Múnlú le haghaidh bandaleithead"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:350
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:358
 msgid "Shell cmd to execute after tun device open"
 msgstr "Shell cmd a fhorghníomhú tar éis feiste tun a oscailt"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:366
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:374
 msgid "Shell cmd to run after tun device close"
 msgstr "Cmd Shell le rith tar éis an gléas tun a dhúnadh"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:422
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:430
 msgid "Shell command to verify X509 name"
 msgstr "Ordú Shell chun ainm X509 a fhíorú"
 
@@ -11546,11 +11596,11 @@ msgstr "Ráta Athnuachana Comhartha"
 msgid "Signal:"
 msgstr "Comhartha:"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1034
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1042
 msgid "Silence the output of replay warnings"
 msgstr "Tostaíonn aschur rabhaidh athsheinm"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4953
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4957
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:224
 msgid "Size"
 msgstr "Méid"
@@ -11895,7 +11945,7 @@ msgstr ""
 "(gheibheann an ceanntásc seachtrach luach an cheanntáisc istigh le "
 "hoidhreacht) nó luach heicsidheachúil <code>00..FF</code> (roghnach)."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:639
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:647
 msgid "Specify a placeholder gateway for routes"
 msgstr "Sonraigh geata áitchoinneálaí do bhealaí"
 
@@ -11917,7 +11967,7 @@ msgid ""
 msgstr ""
 "Sonraigh MTU (Aonad Tarchur Uasta) seachas an réamhshocraithe (1280 bytes)."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1007
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1015
 msgid "Specify the curve to use for ECDH"
 msgstr "Sonraigh an cuar le húsáid le haghaidh ECDH"
 
@@ -11931,7 +11981,7 @@ msgstr ""
 msgid "Specify the secret encryption key here."
 msgstr "Sonraigh an eochair criptithe rúnda anseo."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1589
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1597
 msgid "Specify whether the client is required to supply a valid certificate"
 msgstr "Sonraigh an gceanglaítear ar an gcliant deimhniú bailí a sholáthar"
 
@@ -11939,7 +11989,7 @@ msgstr "Sonraigh an gceanglaítear ar an gcliant deimhniú bailí a sholáthar"
 msgid "Speed: %d Mbit/s, Duplex: %s"
 msgstr "Luas: %d Mbit/s, Déphléacsach: %s"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1833
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1834
 msgid "Splitterless ADSL (G.992.2) Annex A"
 msgstr "ADSL gan scoilteoir (G.992.2) Iarscríbhinn A"
 
@@ -11956,7 +12006,7 @@ msgstr "Cobhsaí"
 msgid "Stale neighbour cache timeout"
 msgstr "Amach taisce comharsa seasta"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1807
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1808
 msgid "Standard: none"
 msgstr "Caighdeán: aon"
 
@@ -11970,7 +12020,7 @@ msgctxt "daemon start action"
 msgid "Start"
 msgstr "Tosaigh"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:879
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:887
 msgid "Start OpenVPN in a hibernating state"
 msgstr "Cuir tús le OpenVPN i stát geimhneacháin"
 
@@ -11986,7 +12036,7 @@ msgstr "Tosaíocht tosaigh"
 msgid "Start refresh"
 msgstr "Tosaigh athnuachan"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5464
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5472
 msgid "Starting configuration apply…"
 msgstr "Beidh feidhm ag cumraíocht tosaithe…"
 
@@ -12047,11 +12097,11 @@ msgstr "Teorainn neamh-ghníomhaíochta"
 msgid "Status"
 msgstr "Stádas"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:311
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:319
 msgid "Status file format version"
 msgstr "Leagan formáid comhaid stádais"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1804
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1805
 msgid "Steering flows (<abbr title=\"Receive Packet Steering\">RPS</abbr>)"
 msgstr "Sreafaí stiúrtha (<abbr title=\"Faigh Stiúradh Paicéad\">RPS</abbr>)"
 
@@ -12094,7 +12144,7 @@ msgstr "láidir"
 msgid "Submit"
 msgstr "Cuir isteach"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1808
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1809
 msgid "Suggested: 128"
 msgstr "Molta: 128"
 
@@ -12230,7 +12280,7 @@ msgstr "Méid maolán log an chórais"
 msgid "System running in recovery (initramfs) mode."
 msgstr "Córas ag rith i mód aisghabhála (initramfs)."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1787
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1788
 msgid "TCP Layer 3 Master Device (tcp_l3mdev) accept"
 msgstr "Glactar le Gléas Máistir Sraith 3 TCP (tcp_l3mdev)"
 
@@ -12255,15 +12305,15 @@ msgid "TCP source port"
 msgstr "Port foinse TCP"
 
 #: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:31
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:551
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:559
 msgid "TCP/UDP port # for both local and remote"
 msgstr "Port TCP/UDP # le haghaidh áitiúil agus iargúlta"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:559
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:567
 msgid "TCP/UDP port # for local"
 msgstr "Port TCP/UDP # don áitiúil"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:567
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:575
 msgid "TCP/UDP port # for remote"
 msgstr "Port TCP/UDP # le haghaidh iargúlta"
 
@@ -12275,19 +12325,19 @@ msgstr "TCP:"
 msgid "TFTP server root"
 msgstr "Fréamh freastalaí TFTP"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1115
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1123
 msgid "TLS 1.3 or newer cipher"
 msgstr "TLS 1.3 nó cipher níos nuaí"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1291
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1299
 msgid "TLS cet profile"
 msgstr "Próifíl TLS cet"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1071
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1079
 msgid "TLS cipher"
 msgstr "Cipher TLS"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:265
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:273
 msgid "TOS passthrough (applies to IPv4 only)"
 msgstr "Pasthrough TOS (baineann sé le IPv4 amháin)"
 
@@ -12615,7 +12665,7 @@ msgstr ""
 msgid "The default (%s) is zero for both IPv4 and IPv6."
 msgstr "Is é an réamhshocrú (%s) ná náid do IPv4 agus IPv6 araon."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1775
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1776
 msgid ""
 "The default <abbr title=\"DHCP Unique Identifier\">DUID</abbr> for this "
 "device, used when acting as a DHCP server or client. The client identifier "
@@ -12625,7 +12675,7 @@ msgstr ""
 "fheiste seo, a úsáidtear nuair a ghníomhaíonn sé mar fhreastalaí nó cliant "
 "DHCP. Is féidir an t-aitheantóir cliant a shárú ar bhonn gach comhéadain."
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5335
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5343
 msgid ""
 "The device could not be reached within %d seconds after applying the pending "
 "changes, which caused the configuration to be rolled back for safety "
@@ -12735,7 +12785,7 @@ msgstr ""
 "href=\"%s\">IPv6 token</a></abbr> don óstach seo (suas le 16 charachtar, "
 "i.e. 64 giotán)."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1281
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1289
 msgid "The highest supported TLS version"
 msgstr "An leagan TLS is airde le tacaíocht"
 
@@ -12763,15 +12813,15 @@ msgstr "Ainm óstach an fhreastalaí tosaithe"
 msgid "The interface could not be found"
 msgstr "Ní fhéadfaí an comhéadan a fháil"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1376
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1377
 msgid "The interface name is already used"
 msgstr "Úsáidtear ainm an chomhéadain cheana féin"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1383
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1384
 msgid "The interface name is too long"
 msgstr "Tá ainm an chomhéadain rófhada"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:158
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:166
 msgid "The key direction for 'tls-auth' and 'secret' options"
 msgstr "An príomhthreo do roghanna 'tls-auth' agus 'rúnda'"
 
@@ -12806,7 +12856,7 @@ msgstr "An seoladh IPv4 áitiúil ar a gcruthaítear an tollán (roghnach)."
 msgid "The local IPv6 address over which the tunnel is created (optional)."
 msgstr "An seoladh IPv6 áitiúil ar a gcruthaítear an tollán (roghnach)."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1271
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1279
 msgid "The lowest supported TLS version"
 msgstr "An leagan TLS is ísle le tacaíocht"
 
@@ -12873,7 +12923,7 @@ msgstr ""
 "réamhshocraithe le haghaidh nasc leis an gcéad líonra eile níos mó cosúil "
 "leis an idirlíon agus calafoirt eile le haghaidh líonra áitiúil."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:173
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:181
 msgid "The peer key fingerprint"
 msgstr "Méarloirg an eochair piaraí"
 
@@ -13036,8 +13086,8 @@ msgstr ""
 "Níl formáid tacaithe sa chomhad íomhá uaslódáilte. Déan cinnte go roghnaíonn "
 "tú an fhormáid íomhá cineálach do d'ardán."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1748
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1760
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1749
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1761
 msgid "The value is overridden by configuration."
 msgstr "Déantar an luach a shárú trí chumraíocht."
 
@@ -13063,7 +13113,7 @@ msgstr ""
 msgid "There are no active leases"
 msgstr "Níl aon léasanna gníomhacha ann"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5507
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5515
 msgid "There are no changes to apply"
 msgstr "Níl aon athruithe le cur i bhfeidhm"
 
@@ -13092,7 +13142,7 @@ msgstr ""
 "Níl an cineál fíordheimhnithe seo infheidhme maidir leis an modh EAP "
 "roghnaithe."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1776
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1777
 msgid ""
 "This identifier is randomly generated the first time the device is booted."
 msgstr ""
@@ -13245,7 +13295,7 @@ msgstr ""
 "Taispeánann an leathanach seo na méadrachtaí gan sreang, do gach comhéadan "
 "raidió atá ar fáil."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1771
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1772
 msgid "This prefix is randomly generated at first install."
 msgstr "Gintear an réimír seo go randamach ag an gcéad shuiteáil."
 
@@ -13305,7 +13355,7 @@ msgstr "Crios ama"
 msgid "Timed-out"
 msgstr "Aimsithe"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1159
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1167
 msgid "Timeframe for key exchange"
 msgstr "Fráma ama le haghaidh malartú eochair"
 
@@ -13360,11 +13410,11 @@ msgstr "Téarmaí Seirbhíse"
 msgid "Toggle IPv6 PD via DHCPv6."
 msgstr "Athraigh IPv6 PD trí DHCPv6."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1842
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1843
 msgid "Tone"
 msgstr "Tón"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1609
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1617
 msgid "Topology"
 msgstr "Toipeolaíocht"
 
@@ -13488,7 +13538,7 @@ msgstr "Comhéadan Tolláin"
 msgid "Tunnel Link"
 msgstr "Nasc Tollán"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1702
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1703
 msgid "Tunnel device"
 msgstr "Gléas tollán"
 
@@ -13501,10 +13551,10 @@ msgid "Tx-Power"
 msgstr "Tx-Cumhacht"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:53
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1736
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1737
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/60_wifi.js:178
 #: protocols/luci-proto-ipv6/htdocs/luci-static/resources/protocol/map.js:43
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1688
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1696
 msgid "Type"
 msgstr "Cineál"
 
@@ -13512,7 +13562,7 @@ msgstr "Cineál"
 msgid "Type of service"
 msgstr "Cineál seirbhíse"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:194
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:202
 msgid "Type of used device"
 msgstr "Cineál feiste a úsáidtear"
 
@@ -13520,7 +13570,7 @@ msgstr "Cineál feiste a úsáidtear"
 msgid "UC"
 msgstr "UC"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1791
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1792
 msgid "UDP Layer 3 Master Device (udp_l3mdev) accept"
 msgstr "Glactar le Gléas Máistir Sraith 3 UDP (udp_l3mdev)"
 
@@ -13551,7 +13601,7 @@ msgstr "UDP:"
 msgid "UID-range"
 msgstr "Raon UID"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1770
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1771
 msgid "ULA for IPv6 is analogous to IPv4 private network addressing."
 msgstr "Tá ULA do IPv6 cosúil le seoladh líonra príobháideach IPv4."
 
@@ -13667,7 +13717,7 @@ msgstr ""
 "Mura bhfuil tic ann ciallaíonn sé go bhfuil an t-idirghabhálaí crios ama "
 "(m.sh. GMT+1) le feiceáil"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1571
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1572
 msgid "Unconfigure"
 msgstr "Díchumraigh"
 
@@ -13683,7 +13733,7 @@ msgstr "Unet"
 msgid "Unexpected reply data format"
 msgstr "Formáid sonraí freagra gan choinne"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1769
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1770
 msgid ""
 "Unique Local Address (%s) - prefix <code>fd00::/8</code> (the L bit is "
 "always 1)."
@@ -13748,7 +13798,7 @@ msgstr "Sampla gan ainmniú #%d"
 msgid "Unnamed key"
 msgstr "Eochair gan ainmniú"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5141
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5149
 msgid "Unsaved Changes"
 msgstr "Athruithe gan sábháil"
 
@@ -13792,7 +13842,7 @@ msgstr "Piaraí gan theideal"
 msgid "Up"
 msgstr "Suas"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5027
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5035
 msgid "Upload"
 msgstr "Uaslódáil"
 
@@ -13817,17 +13867,17 @@ msgstr "Uaslódáil comhad"
 msgid "Upload file…"
 msgstr "Uaslódáil comhad…"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4973
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4977
 msgid "Upload has been cancelled"
 msgstr "Tá an uaslódáil curtha ar ceal"
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:3359
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5015
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5023
 msgid "Upload request failed: %s"
 msgstr "Theip ar iarratas ar uaslódáil: %s"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4934
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4988
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4938
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4996
 msgid "Uploading file…"
 msgstr "Comhad a uaslódáil…"
 
@@ -13923,7 +13973,7 @@ msgstr "Úsáid MTU ar chomhéadan tollán"
 msgid "Use TTL on tunnel interface"
 msgstr "Úsáid TTL ar chomhéadan tollán"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:208
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:216
 msgid "Use VLAN tagging"
 msgstr "Úsáid clibeáil VLAN"
 
@@ -13939,7 +13989,7 @@ msgstr "Úsáid mar chóras comhaid fréimhe (/)"
 msgid "Use broadcast flag"
 msgstr "Úsáid bratach craolta"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1506
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1507
 msgid "Use builtin IPv6-management"
 msgstr "Úsáid bainistíocht ionsuite IPv6"
 
@@ -13977,7 +14027,7 @@ msgstr ""
 "Úsáid formáid aitheantóir comhéadan MAP oidhreachta (draft-ietf-softwire-"
 "map-00) in ionad RFC7597"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:580
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:588
 msgid "Use protocol"
 msgstr "Úsáid prótacal"
 
@@ -14021,15 +14071,15 @@ msgstr ""
 "roghnach a úsáid chun am léasa neamhchaighdeánach atá sainiúil don óstach a "
 "shocrú, m.sh. 12u, 3d nó gan teorainn."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:227
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:235
 msgid "Use these PVIDs"
 msgstr "Bain úsáid as na PVIDanna seo"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:201
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:209
 msgid "Use tun/tap device node"
 msgstr "Úsáid nód feiste tiún/sconna"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1480
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1488
 msgid "Use username as common name"
 msgstr "Úsáid ainm úsáideora mar ainm coiti"
 
@@ -14050,7 +14100,7 @@ msgstr ""
 "Úsáidtear chun dhá chuspóir éagsúla: ID NAS RADIUS agus 802.11r R0KH-ID. Níl "
 "gá le gnáth-WPA (2) -PSK."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:147
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:155
 msgid "Used with auth and cipher params"
 msgstr "Úsáidte le paraiméadair údaraithe agus chipher"
 
@@ -14094,11 +14144,11 @@ msgstr "Úsáid <strong>%h</strong> sa sreafa"
 msgid "VC"
 msgstr "VC"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1910
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1911
 msgid "VC-Mux"
 msgstr "VC-Mux"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1858
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1859
 msgid "VDSL"
 msgstr "VDSL"
 
@@ -14108,12 +14158,12 @@ msgid "VEPA (Virtual Ethernet Port Aggregator)"
 msgstr "VEPA (Comhiomlánóir Port Ethernet Fíorúil)"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:455
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1693
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1694
 msgid "VLAN (802.1ad)"
 msgstr "VLAN (802.1ad)"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:454
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1690
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1691
 msgid "VLAN (802.1q)"
 msgstr "VLAN (802.1q)"
 
@@ -14237,12 +14287,12 @@ msgid "Via shall be specified when %s is a multicast address"
 msgstr "Sonrófar Via nuair is seoladh ilchraolacháin é %s"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:457
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1708
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1709
 msgid "Virtual Ethernet"
 msgstr "Ethernet Fíorúil"
 
 #: modules/luci-base/htdocs/luci-static/resources/network.js:3057
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1711
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1712
 msgid "Virtual Routing and Forwarding (VRF)"
 msgstr "Ródáil agus Aghaidh Fíorúil (VRF)"
 
@@ -14338,7 +14388,7 @@ msgstr ""
 "Nuair a mheaitseálann óstach iontráil ansin socraítear an clib speisialta "
 "%s. Úsáid %s chun gach óstach aitheanta a mheaitseáil."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1297
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1298
 msgid ""
 "When delegating prefixes to multiple downstreams, interfaces with a higher "
 "preference value are considered first when allocating subnets."
@@ -14412,7 +14462,7 @@ msgstr ""
 "a chumasaítear é, ní chuirtear na príomhroghanna R0/R1 thíos i bhfeidhm. "
 "Díchumasaigh é seo chun na príomhroghanna R0 agus R1 a úsáid."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:601
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:609
 msgid ""
 "When you have more than one IP address (e.g. multiple interfaces, or "
 "secondary IP addresses), and do not use --local to force binding to one "
@@ -14528,7 +14578,7 @@ msgstr ""
 "Ní féidir modh oiriúnaithe a úsáid ach amháin nuair a ghníomhaíonn sé mar "
 "phointe rochtana."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:485
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:493
 msgid "Write log to file"
 msgstr "Scríobh logáil chuig an gcomhad"
 
@@ -14564,8 +14614,8 @@ msgid ""
 "inaccessible!</strong>"
 msgstr ""
 "Is féidir leat scripteanna init suiteáilte a chumasú nó a dhíchumasú anseo. "
-"Cuirfear athruithe i bhfeidhm tar éis athbhútáil gléis.<br /><strong>"
-"Rabhadh: Má dhíchumasaíonn tú scripteanna init riachtanacha ar nós "
+"Cuirfear athruithe i bhfeidhm tar éis athbhútáil gléis.<br /"
+"><strong>Rabhadh: Má dhíchumasaíonn tú scripteanna init riachtanacha ar nós "
 "\"líonra\", seans nach mbeidh rochtain ar do ghléas!</strong>"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dns.js:340
@@ -14632,9 +14682,9 @@ msgid "any"
 msgstr "aon"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1149
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1843
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1851
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1856
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1844
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1852
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1857
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:88
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:103
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:141
@@ -14677,7 +14727,7 @@ msgstr "BaseT"
 msgid "between:"
 msgstr "idir:"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1916
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1917
 msgid "bridged"
 msgstr "droicheadaithe"
 
@@ -14761,7 +14811,7 @@ msgstr "díchumasú"
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:871
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1088
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1177
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1249
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1250
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:99
 #: protocols/luci-proto-ipv6/htdocs/luci-static/resources/protocol/dhcpv6.js:26
 msgid "disabled"
@@ -14954,8 +15004,8 @@ msgstr "nóiméad"
 msgid "mobile home agent (H)"
 msgstr "gníomhaire tí soghluaiste (H)"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:406
 #: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:414
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:422
 msgid "name value"
 msgstr "luach ainm"
 
@@ -15086,7 +15136,7 @@ msgstr ""
 msgid "relay mode"
 msgstr "modh athsheolacháin"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1917
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1918
 msgid "routed"
 msgstr "treoraithe"
 
@@ -15107,7 +15157,7 @@ msgstr "modh freastalaí"
 msgid "severity:"
 msgstr "déine:"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:479
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:487
 msgid "some params echoed to log"
 msgstr "macallaíodh roinnt paraiméadair chuig an logáil"
 
@@ -15168,11 +15218,11 @@ msgctxt "DHCPv6 address request mode"
 msgid "try"
 msgstr "bain triail"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:183
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:191
 msgid "tun/tap device"
 msgstr "feiste tiúna/sconna"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:790
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:798
 msgid "tun/tap inactivity timeout"
 msgstr "ama neamhghníomhaíochta tun/tap"
 

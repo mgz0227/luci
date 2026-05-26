@@ -18,7 +18,7 @@ msgctxt "Yet unknown nftables table family (\"family\" table \"name\")"
 msgid "\"%h\" table \"%h\""
 msgstr "\"%h\" அட்டவணை \"%h\""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1864
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1865
 msgid "%.1f dB"
 msgstr "%.1F DB"
 
@@ -42,6 +42,7 @@ msgstr "%dm ago"
 msgid "%ds ago"
 msgstr "%ds முன்பு"
 
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4994
 #: modules/luci-base/htdocs/luci-static/resources/validation.js:933
 msgid "%s"
 msgstr ""
@@ -82,7 +83,7 @@ msgstr "பல VLAN களில் %s இணைக்கப்படவில�
 msgid "%s means \"the address of the system running dnsmasq\"."
 msgstr "%s என்றால் \"DNSMASQ இயங்கும் கணினியின் முகவரி\"."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1784
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1785
 msgid ""
 "%s services running on this device in the default VRF context (ie., not "
 "bound to any VRF device) shall work across all VRF domains."
@@ -106,7 +107,7 @@ msgstr "%s இயல்புநிலை MAC முகவரி வடிவம
 msgid "%s; %d tokens separated by %s"
 msgstr ""
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:917
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:925
 msgid "'net30', 'p2p', or 'subnet'"
 msgstr "'நெட் 30', 'பி 2 பி', அல்லது 'சப்நெட்'"
 
@@ -206,7 +207,7 @@ msgstr ""
 msgid "07: x64 UEFI"
 msgstr ""
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:336
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:344
 msgid "0: Deny"
 msgstr ""
 
@@ -271,7 +272,7 @@ msgstr ""
 msgid "19: ARM UEFI 64 boot from HTTP"
 msgstr ""
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:337
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:345
 msgid "1: OS utils"
 msgstr ""
 
@@ -304,7 +305,7 @@ msgstr ""
 msgid "24: ARM uboot 64 boot from HTTP"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1809
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1810
 msgid "256"
 msgstr "256"
 
@@ -328,7 +329,7 @@ msgstr ""
 msgid "29: RISC-V 128-bit UEFI"
 msgstr ""
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:338
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:346
 msgid "2: User scripts"
 msgstr ""
 
@@ -377,7 +378,7 @@ msgstr ""
 msgid "39: LoongArch 64-bit UEFI"
 msgstr ""
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:339
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:347
 msgid "3: Allow passwords in env"
 msgstr ""
 
@@ -671,7 +672,7 @@ msgstr ""
 msgid "A directory with the same name already exists."
 msgstr "அதே பெயருடன் ஒரு அடைவு ஏற்கனவே உள்ளது."
 
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:2689
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:2690
 msgid "A new login is required since the authentication session expired."
 msgstr "அங்கீகார அமர்வு காலாவதியானதால் புதிய உள்நுழைவு தேவைப்படுகிறது."
 
@@ -691,11 +692,11 @@ msgid ""
 "the same network."
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1844
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1845
 msgid "A43C + J43 + A43"
 msgstr "43 ஃச் + சி 43 + அ 43"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1845
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1846
 msgid "A43C + J43 + A43 + V43"
 msgstr "ஒரு 43 சி + சி 43 + 43 + பி 43"
 
@@ -703,77 +704,81 @@ msgstr "ஒரு 43 சி + சி 43 + 43 + பி 43"
 msgid "AC"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1857
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1858
 msgid "ADSL"
 msgstr "Adsl"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1831
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1832
 msgid "ADSL (G.992.1) Annex A"
 msgstr "ADSL (G.992.1) இணைப்பு a"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1832
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1833
 msgid "ADSL (G.992.1) Annex B"
 msgstr "ADSL (G.992.1) இணைப்பு b"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1825
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1826
 msgid "ADSL (all variants) Annex A/L/M"
 msgstr "ADSL (அனைத்து வகைகளும்) இணைப்பு A/L/M"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1821
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1822
 msgid "ADSL (all variants) Annex A/L/M + VDSL2 Annex A/B/C"
 msgstr "ADSL (அனைத்து வகைகளும்) இணைப்பு A/L/M + VDSL2 இணைப்பு A/B/C."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1826
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1827
 msgid "ADSL (all variants) Annex B"
 msgstr "ADSL (அனைத்து வகைகளும்) இணைப்பு b"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1822
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1823
 msgid "ADSL (all variants) Annex B + VDSL2 Annex A/B/C"
 msgstr "ADSL (அனைத்து வகைகளும்) இணைப்பு B + VDSL2 இணைப்பு A/B/C."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1827
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1828
 msgid "ADSL (all variants) Annex B/J"
 msgstr "ADSL (அனைத்து வகைகளும்) இணைப்பு B/J."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1823
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1824
 msgid "ADSL (all variants) Annex B/J + VDSL2 Annex A/B/C"
 msgstr "ADSL (அனைத்து வகைகளும்) இணைப்பு B/J + VDSL2 இணைப்பு A/B/C."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1829
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1830
 msgid "ADSL (all variants) Annex M"
 msgstr "ADSL (அனைத்து வகைகளும்) இணைப்பு மீ"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1834
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1835
 msgid "ADSL2 (G.992.3) Annex A"
 msgstr "ADSL2 (G.992.3) இணைப்பு a"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1835
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1836
 msgid "ADSL2 (G.992.3) Annex B"
 msgstr "ADSL2 (G.992.3) இணைப்பு b"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1836
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1837
 msgid "ADSL2 (G.992.3) Annex L"
 msgstr "ADSL2 (G.992.3) இணைப்பு L."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1837
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1838
 msgid "ADSL2 (G.992.3) Annex M"
 msgstr "ADSL2 (G.992.3) இணைப்பு மீ"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1838
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1839
 msgid "ADSL2+ (G.992.5) Annex A"
 msgstr "ADSL2+ (G.992.5) இணைப்பு a"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1839
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1840
 msgid "ADSL2+ (G.992.5) Annex B"
 msgstr "ADSL2+ (G.992.5) இணைப்பு b"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1840
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1841
 msgid "ADSL2+ (G.992.5) Annex M"
 msgstr "ADSL2+ (G.992.5) இணைப்பு மீ"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1830
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1831
 msgid "ANSI T1.413"
 msgstr "ANSI T1.413"
+
+#: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_vlan.js:66
+msgid "AP Isolation"
+msgstr ""
 
 #: protocols/luci-proto-3g/htdocs/luci-static/resources/protocol/3g.js:95
 #: protocols/luci-proto-mbim/htdocs/luci-static/resources/protocol/mbim.js:65
@@ -822,25 +827,25 @@ msgstr ""
 "யூனிகாச்ட் ஆகும். குறிப்பு: இது 802.11v இல் இயக்கப்பட்ட மல்டிகாச்ட் பணி (டி.எம்.எச்) அல்ல. "
 "குறிப்பு: ரிசீவர் ச்டா மல்டிகாச்ட் எதிர்பார்ப்புகளை உடைக்கலாம்."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1852
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1853
 msgid "ATM (Asynchronous Transfer Mode)"
 msgstr "ஏடிஎம் (ஒத்திசைவற்ற பரிமாற்ற முறை)"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1873
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1874
 msgid "ATM Bridges"
 msgstr "ஏடிஎம் பாலங்கள்"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1905
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1906
 #: protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/pppoa.js:66
 msgid "ATM Virtual Channel Identifier (VCI)"
 msgstr "ஏடிஎம் மெய்நிகர் சேனல் அடையாளங்காட்டி (வி.சி.ஐ)"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1906
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1907
 #: protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/pppoa.js:70
 msgid "ATM Virtual Path Identifier (VPI)"
 msgstr "ஏடிஎம் மெய்நிகர் பாதை அடையாளங்காட்டி (விபிஐ)"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1873
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1874
 msgid ""
 "ATM bridges expose encapsulated ethernet in AAL5 connections as virtual "
 "Linux network interfaces which can be used in conjunction with DHCP or PPP "
@@ -850,7 +855,7 @@ msgstr ""
 "இடைமுகங்களாக அம்பலப்படுத்துகின்றன, அவை வழங்குநர் நெட்வொர்க்கில் டயல் செய்ய DHCP அல்லது PPP "
 "உடன் இணைந்து பயன்படுத்தப்படலாம்."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1912
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1913
 #: protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/pppoa.js:62
 msgid "ATM device number"
 msgstr "ஏடிஎம் சாதன எண்"
@@ -869,7 +874,7 @@ msgstr "இல்லாத இடைமுகம்"
 msgid "Accept DNS queries only from hosts whose address is on a local subnet."
 msgstr "உள்ளக சப்நெட்டில் உள்ள ஓச்ட்களிடமிருந்து மட்டுமே டிஎன்எச் வினவல்களை ஏற்றுக்கொள்ளுங்கள்."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:220
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:228
 msgid "Accept VLANs"
 msgstr ""
 
@@ -881,7 +886,7 @@ msgstr "பொது விசைகளிலிருந்து ஏற்ற�
 msgid "Accept local"
 msgstr "உள்ளக ஏற்றுக்கொள்ளுங்கள்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1488
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1496
 msgid "Accept options pushed from server"
 msgstr "சேவையகத்திலிருந்து தள்ளப்பட்ட விருப்பங்களை ஏற்றுக்கொள்"
 
@@ -1000,7 +1005,7 @@ msgstr "தகவமைப்பு பரிமாற்ற சுமை சம
 msgid "Add"
 msgstr "கூட்டு"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1877
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1878
 msgid "Add ATM Bridge"
 msgstr "ஏடிஎம் பாலம் சேர்க்கவும்"
 
@@ -1028,11 +1033,11 @@ msgstr ""
 "அப்ச்ட்ரீமில் அனுப்பப்படும் டிஎன்எச் வினவல்களுக்கு ஒரு சப்நெட் முகவரியைச் சேர்க்கவும், இந்த "
 "மதிப்பை வெற்று அம்சத்தை முடக்குகிறது."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1582
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1583
 msgid "Add device configuration"
 msgstr "சாதன உள்ளமைவைச் சேர்க்கவும்"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1522
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1523
 msgid "Add device configuration…"
 msgstr "சாதன உள்ளமைவைச் சேர்க்கவும்…"
 
@@ -1073,7 +1078,7 @@ msgid "Add multicast rule"
 msgstr "மல்டிகாச்ட் விதியைச் சேர்க்கவும்"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:483
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1406
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1407
 msgid "Add new interface..."
 msgstr "புதிய இடைமுகத்தைச் சேர்க்கவும் ..."
 
@@ -1095,7 +1100,7 @@ msgstr "பியர் முகவரியைச் சேர்க்கவ�
 msgid "Add requestor MAC"
 msgstr "கோரிக்கை மேக் சேர்க்கவும்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:631
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:639
 msgid "Add route after establishing connection"
 msgstr "இணைப்பை நிறுவிய பின் வழியைச் சேர்க்கவும்"
 
@@ -1142,7 +1147,7 @@ msgstr ""
 msgid "Additional Peers"
 msgstr "கூடுதல் சகாக்கள்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1190
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1198
 msgid "Additional authentication over TLS"
 msgstr "டி.எல்.எச் மீது கூடுதல் ஏற்பு"
 
@@ -1199,7 +1204,7 @@ msgid "Administration"
 msgstr "நிர்வாகம்"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:497
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1903
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1904
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:42
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:135
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:980
@@ -1233,7 +1238,7 @@ msgstr "வயதான நேரம்"
 msgid "Aggregate Originator Messages"
 msgstr "மொத்த தோற்றுவிப்பாளர் செய்திகள்"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1696
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1697
 msgid "Aggregation device"
 msgstr "திரட்டல் சாதனம்"
 
@@ -1324,7 +1329,7 @@ msgstr ""
 msgid "Allow all except listed"
 msgstr "பட்டியலிடப்பட்ட அனைத்தையும் அனுமதிக்கவும்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:138
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:146
 msgid "Allow client-to-client traffic"
 msgstr "கிளையன்ட்-டு-கிளையன்ட் போக்குவரத்தை அனுமதிக்கவும்"
 
@@ -1344,11 +1349,11 @@ msgstr "பட்டியலிடப்பட்டதை மட்டும�
 msgid "Allow localhost"
 msgstr "உள்ளக ஓச்டை அனுமதிக்கவும்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1402
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1410
 msgid "Allow multiple clients with same certificate"
 msgstr "ஒரே சான்றிதழ் கொண்ட பல வாடிக்கையாளர்களை அனுமதிக்கவும்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1175
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1183
 msgid "Allow only one session"
 msgstr "ஒரு அமர்வை மட்டுமே அனுமதிக்கவும்"
 
@@ -1364,7 +1369,7 @@ msgstr "செயலற்ற துறைமுகங்களைப் பெ�
 msgid "Allow remote hosts to connect to local SSH forwarded ports"
 msgstr "உள்ளக பாஓடு அனுப்பப்பட்ட துறைமுகங்களுடன் இணைக்க தொலை ஓச்ட்களை அனுமதிக்கவும்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:587
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:595
 msgid "Allow remote to change its IP or port"
 msgstr "ரிமோட் அதன் ஐபி அல்லது போர்ட்டை மாற்ற அனுமதிக்கவும்"
 
@@ -1386,15 +1391,15 @@ msgstr "கடவுச்சொல்லுடன் உள்நுழைய <
 msgid "Allowed IPs"
 msgstr "அனுமதிக்கப்பட்ட ஐபிக்கள்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1459
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1467
 msgid "Allowed maximum of connected clients"
 msgstr "இணைக்கப்பட்ட வாடிக்கையாளர்களின் அதிகபட்சம் அனுமதிக்கப்பட்டுள்ளது"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1466
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1474
 msgid "Allowed maximum of internal"
 msgstr "உள் அதிகபட்சம் அனுமதிக்கப்பட்டுள்ளது"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1473
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1481
 msgid "Allowed maximum of new connections"
 msgstr "புதிய இணைப்புகளின் அதிகபட்சம் அனுமதிக்கப்படுகிறது"
 
@@ -1406,7 +1411,7 @@ msgstr "பிணைய தொழில்நுட்பம் அனுமத�
 msgid "AllowedIPs setting is invalid"
 msgstr "இசைவு அமைப்பது தவறானது"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1678
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1686
 msgid ""
 "Almost nothing here prevents you from selecting invalid configuration "
 "options which prevent openvpn from starting. Read the manual."
@@ -1461,7 +1466,7 @@ msgstr "படிவத்தை சேமிக்கும் போது ப
 msgid "An optional, short description for this device"
 msgstr "இந்த சாதனத்திற்கான விருப்பமான, குறுகிய விளக்கம்"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1819
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1820
 msgid "Annex"
 msgstr "இணைப்பு"
 
@@ -1542,7 +1547,7 @@ msgstr "எந்த பாக்கெட்"
 msgid "Any zone"
 msgstr "எந்த மண்டலம்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:492
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:500
 msgid "Append log to file"
 msgstr "கோப்பில் பதிவு சேர்க்கவும்"
 
@@ -1550,11 +1555,11 @@ msgstr "கோப்பில் பதிவு சேர்க்கவும�
 msgid "Apply backup?"
 msgstr "காப்புப்பிரதியைப் பயன்படுத்தவா?"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5485
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5493
 msgid "Apply checked"
 msgstr "சரிபார்க்கவும்"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5515
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5523
 msgid "Apply request failed with status <code>%h</code>"
 msgstr "நிலை <குறியீடு>%எச் </code> உடன் கோரிக்கையைப் பயன்படுத்துங்கள்"
 
@@ -1562,14 +1567,14 @@ msgstr "நிலை <குறியீடு>%எச் </code> உடன் �
 msgid "Apply these DHCP Options"
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:2198
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5217
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5348
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5489
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:2199
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5225
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5356
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5497
 msgid "Apply unchecked"
 msgstr "தேர்வு செய்யப்படாமல் பயன்படுத்துங்கள்"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5426
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5434
 msgid "Applying configuration changes… %ds"
 msgstr "உள்ளமைவு மாற்றங்களைப் பயன்படுத்துதல்… %d.எச்"
 
@@ -1586,14 +1591,14 @@ msgstr "ஆர்ப்-ச்கேன்"
 msgid "As DHCP-Options; send unsolicited (dnsmasq only)."
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1248
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1249
 msgid ""
 "Assign a part of given length of every public IPv6-prefix to this interface"
 msgstr ""
 "இந்த இடைமுகத்திற்கு ஒவ்வொரு பொது ஐபிவி 6-முன்னிலையின் கொடுக்கப்பட்ட நீளத்தின் ஒரு "
 "பகுதியை ஒதுக்குங்கள்"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1253
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1254
 #: protocols/luci-proto-hnet/htdocs/luci-static/resources/protocol/hnet.js:27
 msgid ""
 "Assign prefix parts using this hexadecimal subprefix ID for this interface."
@@ -1650,7 +1655,7 @@ msgstr "அங்கீகார குழு"
 msgid "Auth Priv"
 msgstr "அங்கீகார தனியுரிமை"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1496
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1504
 msgid "Authenticate using username/password"
 msgstr "பயனர்பெயர்/கடவுச்சொல்லைப் பயன்படுத்தி அங்கீகரிக்கவும்"
 
@@ -1709,7 +1714,7 @@ msgstr ""
 msgid "Automatically check filesystem for errors before mounting"
 msgstr "ஏற்றுவதற்கு முன் பிழைகளுக்கான கோப்பு முறைமையை தானாகவே சரிபார்க்கவும்"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1241
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1242
 msgid ""
 "Automatically handle multiple uplink interfaces using source-based policy "
 "routing."
@@ -1725,7 +1730,7 @@ msgstr "ஆட் பிளக்கில் தானாகவே கோப்
 msgid "Automatically mount swap on hotplug"
 msgstr "ஆட் பிளக்கில் தானாக இடமாற்றம் மவுண்ட்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1582
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1590
 msgid "Automatically redirect default route"
 msgstr "இயல்புநிலை வழியை தானாக திருப்பி விடுங்கள்"
 
@@ -1763,11 +1768,11 @@ msgstr "சராசரி:"
 msgid "Avoid Bridge Loops"
 msgstr "பாலம் சுழல்களைத் தவிர்க்கவும்"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1846
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1847
 msgid "B43 + B43C"
 msgstr "பி 43 + பி 43 ம"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1847
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1848
 msgid "B43 + B43C + V43"
 msgstr "பி 43 + பி 43 ஃச் + எஃப் 43"
 
@@ -1833,7 +1838,7 @@ msgstr "அடிப்படை சாதனம்"
 msgid "Base64-encoded public key of this interface for sharing."
 msgstr "பகிர்வதற்கான இந்த இடைமுகத்தின் அடிப்படை 64-குறியிடப்பட்ட பொது விசை."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1596
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1604
 msgid "Basic Settings"
 msgstr ""
 
@@ -1845,6 +1850,10 @@ msgstr "பேட்மேன் சாதனம்"
 #: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_hardif.js:10
 msgid "Batman Interface"
 msgstr "பேட்மேன் இடைமுகம்"
+
+#: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_vlan.js:11
+msgid "Batman VLAN Interface"
+msgstr ""
 
 #: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv.js:81
 msgid ""
@@ -1975,7 +1984,7 @@ msgid "Bridge VLAN filtering"
 msgstr "பாலம் VLAN வடிகட்டுதல்"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:453
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1699
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1700
 msgid "Bridge device"
 msgstr "பாலம் சாதனம்"
 
@@ -1992,7 +2001,7 @@ msgstr "பாலம் துறைமுகங்கள்"
 msgid "Bridge traffic table \"%h\""
 msgstr "பாலம் போக்குவரத்து அட்டவணை \"%h\""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1913
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1914
 msgid "Bridge unit number"
 msgstr "பாலம் அலகு எண்"
 
@@ -2014,7 +2023,7 @@ msgid "Broadcast"
 msgstr "ஒளிபரப்பு"
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:3442
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4966
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4970
 msgid "Browse…"
 msgstr "உலாவுக…"
 
@@ -2031,7 +2040,7 @@ msgstr ""
 msgid "CA certificate; if empty it will be saved after the first connection."
 msgstr "CA சான்றிதழ்; காலியாக இருந்தால் முதல் இணைப்புக்குப் பிறகு அது சேமிக்கப்படும்."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:942
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:950
 msgid "CA path"
 msgstr ""
 
@@ -2067,7 +2076,7 @@ msgstr "கேச் தன்னிச்சையான ஆர்.ஆர்"
 msgid "Cached"
 msgstr "தற்காலிகமாக"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:373
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:381
 msgid "Call down cmd/script before TUN/TAP close"
 msgstr "TUN/மூடு தட்டுவதற்கு முன் CMD/ச்கிரிப்டை அழைக்கவும்"
 
@@ -2090,12 +2099,12 @@ msgstr ""
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:3308
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:3551
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4975
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5481
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4979
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5489
 #: modules/luci-compat/luasrc/view/cbi/delegator.htm:14
 #: modules/luci-compat/luasrc/view/cbi/simpleform.htm:52
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:186
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1412
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1413
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2504
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:128
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:297
@@ -2227,19 +2236,19 @@ msgctxt "Yet unknown nftables chain hook"
 msgid "Chain hook \"%h\""
 msgstr "சங்கிலி ஊக் \"%எச்\""
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:273
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:281
 msgid "Change process priority"
 msgstr "செயல்முறை முன்னுரிமையை மாற்றவும்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:250
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:258
 msgid "Change to directory before initialization"
 msgstr "துவக்கத்திற்கு முன் கோப்பகத்திற்கு மாற்றவும்"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5197
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5205
 msgid "Changes"
 msgstr "மாற்றங்கள்"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5476
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5484
 msgid ""
 "Changes have been made to the existing connection via \"%h\". This could "
 "inhibit access to this device. Any IP change requires <strong>connecting to "
@@ -2249,7 +2258,7 @@ msgstr ""
 "அணுகலைத் தடுக்கலாம். எந்தவொரு ஐபி மாற்றத்திற்கும் <strong> புதிய ஐபி </strong> உடன் "
 "இணைக்க வேண்டும். மாற்றங்களைத் தக்கவைக்க %d வினாடிகளுக்குள்."
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5551
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5559
 msgid "Changes have been reverted."
 msgstr "மாற்றங்கள் மாற்றப்பட்டுள்ளன."
 
@@ -2280,7 +2289,7 @@ msgstr "சேனல் அகலம்"
 msgid "Check filesystems before mount"
 msgstr "மவுண்டிற்கு முன் கோப்பு முறைமைகளை சரிபார்க்கவும்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1264
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1272
 msgid "Check peer certificate against a CRL"
 msgstr "CRL க்கு எதிராக தம சான்றிதழை சரிபார்க்கவும்"
 
@@ -2327,7 +2336,7 @@ msgstr ""
 "இந்த வயர்லெச் இடைமுகத்துடன் நீங்கள் இணைக்க விரும்பும் பிணையத்தை (கள்) தேர்வு செய்யவும் அல்லது "
 "புதிய பிணையத்தை வரையறுக்க <em> தனிப்பயன் </em> புலத்தை நிரப்பவும்."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:258
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:266
 msgid "Chroot to directory after initialization"
 msgstr "துவக்கத்திற்குப் பிறகு கோப்பகத்திற்கு க்ரூட்"
 
@@ -2339,7 +2348,7 @@ msgstr "சைஃபர்"
 msgid "Cisco UDP encapsulation"
 msgstr "சிச்கோ யுடிபி இணைத்தல்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1750
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1758
 msgid "Clear"
 msgstr ""
 
@@ -2371,11 +2380,11 @@ msgstr "கிளீன்"
 msgid "Client ID to send when requesting DHCP"
 msgstr "DHCP ஐக் கோரும்போது அனுப்ப வேண்டிய வாங்கி ஐடி"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1359
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1367
 msgid "Client is disabled"
 msgstr "வாடிக்கையாளர் முடக்கப்பட்டுள்ளது"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1706
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1714
 msgid "Client metadata"
 msgstr ""
 
@@ -2384,7 +2393,7 @@ msgstr ""
 msgid "Clone"
 msgstr "நகலி"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5214
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5222
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/sshkeys.js:173
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/sshkeys.js:179
 msgid "Close"
@@ -2465,11 +2474,11 @@ msgid "Compute outgoing checksum (optional)."
 msgstr "வெளிச்செல்லும் செக்சம் (விரும்பினால்) கணக்கிடுங்கள்."
 
 #: protocols/luci-proto-nebula/htdocs/luci-static/resources/protocol/nebula.js:40
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1597
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1605
 msgid "Config File"
 msgstr "கட்டமைப்பு கோப்பு"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5197
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5205
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:452
 msgid "Configuration"
 msgstr "உள்ளமைவு"
@@ -2478,11 +2487,11 @@ msgstr "உள்ளமைவு"
 msgid "Configuration Export"
 msgstr "உள்ளமைவு ஏற்றுமதி"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5401
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5409
 msgid "Configuration changes applied."
 msgstr "உள்ளமைவு மாற்றங்கள் பயன்படுத்தப்பட்டன."
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5334
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5342
 msgid "Configuration changes have been rolled back!"
 msgstr "உள்ளமைவு மாற்றங்கள் மீண்டும் உருட்டப்பட்டுள்ளன!"
 
@@ -2495,6 +2504,10 @@ msgid "Configure client mode"
 msgstr "கிளையன்ட் பயன்முறையை உள்ளமைக்கவும்"
 
 #: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:111
+msgid "Configure server Ipv6 mode"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:119
 msgid "Configure server bridge"
 msgstr "சேவையக பாலத்தை உள்ளமைக்கவும்"
 
@@ -2554,7 +2567,7 @@ msgid ""
 "Configures the operation mode of the NDP proxy service on this interface."
 msgstr "இந்த இடைமுகத்தில் என்டிபி பதிலாள் சேவையின் செயல்பாட்டு பயன்முறையை உள்ளமைக்கிறது."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1568
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1569
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/plugins.js:137
 msgid "Configure…"
 msgstr "உள்ளமைக்கவும்…"
@@ -2567,11 +2580,11 @@ msgstr "துண்டிக்கப்படுவதை உறுதிப�
 msgid "Confirmation"
 msgstr "உறுதிப்படுத்தல்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1561
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1569
 msgid "Connect through Socks5 proxy"
 msgstr "SOCKS5 பதிலாள் மூலம் இணைக்கவும்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1532
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1540
 msgid "Connect to remote host through an HTTP proxy"
 msgstr "HTTP பதிலாள் மூலம் தொலை ஓச்டுடன் இணைக்கவும்"
 
@@ -2600,7 +2613,7 @@ msgstr "இணைப்பு இறுதிப்புள்ளி"
 msgid "Connection lost"
 msgstr "இணைப்பு இழந்தது"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1525
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1533
 msgid "Connection retry interval"
 msgstr "இணைப்பு மீண்டும் இடைவெளி"
 
@@ -2609,7 +2622,7 @@ msgstr "இணைப்பு மீண்டும் இடைவெளி"
 msgid "Connections"
 msgstr "இணைப்புகள்"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5475
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5483
 msgid "Connectivity change"
 msgstr "இணைப்பு மாற்றம்"
 
@@ -2662,7 +2675,7 @@ msgid ""
 "title=\"Router Advertisement\">RA</abbr> messages."
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5370
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5378
 msgid ""
 "Could not regain access to the device after applying the configuration "
 "changes. You might need to reconnect if you modified network related "
@@ -2702,7 +2715,7 @@ msgstr "ஃபயர்வால்-மண்டலத்தை உருவா�
 msgid "Create Directory"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1444
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1445
 msgid "Create interface"
 msgstr "இடைமுகத்தை உருவாக்கவும்"
 
@@ -2726,7 +2739,7 @@ msgstr "CRON பதிவு நிலை"
 msgid "Cross Pass (Japan only)"
 msgstr "குறுக்கு பாச் (சப்பான் மட்டும்)"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1599
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1607
 msgid "Cryptography"
 msgstr "குறியாக்கவியல்"
 
@@ -2925,7 +2938,7 @@ msgstr "Ds-lite aftr முகவரி"
 msgid "DSCP"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1816
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1817
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/50_dsl.js:37
 msgid "DSL"
 msgstr "டி.எச்.எல்"
@@ -2934,7 +2947,7 @@ msgstr "டி.எச்.எல்"
 msgid "DSL Status"
 msgstr "டி.எச்.எல் நிலை"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1855
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1856
 msgid "DSL line mode"
 msgstr "டி.எச்.எல் வரி பயன்முறை"
 
@@ -2991,7 +3004,7 @@ msgstr "பிழைத்திருத்தம்"
 msgid "Default"
 msgstr "இயல்புநிலை"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1774
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1775
 msgid "Default DUID"
 msgstr ""
 
@@ -3057,15 +3070,15 @@ msgstr ""
 msgid "Delay before enabling port after MII link up event (msec)"
 msgstr "MII இணைப்பு (MSEC) க்குப் பிறகு துறைமுகத்தை இயக்குவதற்கு முன் நேரந்தவறுகை"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:647
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:655
 msgid "Delay n seconds after connection"
 msgstr "இணைப்பிற்குப் பிறகு என் விநாடிகள் நேரந்தவறுகை"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:358
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:366
 msgid "Delay tun/tap open and up script execution"
 msgstr "ட்யூன்/தட்டவும் திறந்த மற்றும் ச்கிரிப்ட் செயல்படுத்தல்"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1245
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1246
 msgid "Delegate IPv6 prefixes"
 msgstr "ஐபிவி 6 முன்னொட்டுகளை பிரதிநிதித்துவப்படுத்துங்கள்"
 
@@ -3171,8 +3184,8 @@ msgstr "இலக்கு மண்டலம்"
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:54
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:93
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:609
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1394
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1718
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1395
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1719
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/30_network.js:71
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/routes.js:184
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/routes.js:211
@@ -3183,6 +3196,7 @@ msgstr "இலக்கு மண்டலம்"
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:260
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:334
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:369
+#: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_vlan.js:48
 #: protocols/luci-proto-external/htdocs/luci-static/resources/protocol/external.js:29
 msgid "Device"
 msgstr "சாதனம்"
@@ -3212,7 +3226,7 @@ msgstr "சாதன பெயர்"
 msgid "Device not managed by ModemManager."
 msgstr "மோடம்மேனேசரால் நிர்வகிக்கப்படாத சாதனம்."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1687
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1688
 msgid "Device not present"
 msgstr "சாதனம் இல்லை"
 
@@ -3220,7 +3234,7 @@ msgstr "சாதனம் இல்லை"
 msgid "Device type"
 msgstr "சாதன வகை"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5369
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5377
 msgid "Device unreachable!"
 msgstr "சாதனம் அணுக முடியாதது!"
 
@@ -3228,8 +3242,8 @@ msgstr "சாதனம் அணுக முடியாதது!"
 msgid "Device unreachable! Still waiting for device..."
 msgstr "சாதனம் அணுக முடியாதது! சாதனத்திற்காக இன்னும் காத்திருக்கிறது ..."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1519
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1600
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1520
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1608
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:289
 msgid "Devices"
 msgstr "சாதனங்கள்"
@@ -3255,7 +3269,7 @@ msgid ""
 "Advertisement\">RA</abbr> messages."
 msgstr ""
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:934
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:942
 msgid "Diffie-Hellman parameters"
 msgstr "டிஃபி-எல்மேன் அளவுருக்கள்"
 
@@ -3267,7 +3281,7 @@ msgstr "அடைவு"
 msgid "Directory"
 msgstr "அடைவு"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1412
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1420
 msgid "Directory for custom client config files"
 msgstr "தனிப்பயன் கிளையன்ட் கட்டமைப்பு கோப்புகளுக்கான அடைவு"
 
@@ -3291,7 +3305,7 @@ msgid ""
 "e.g. <code>dnsmasq</code>."
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1805
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1806
 msgid ""
 "Directs packet flows to specific CPUs where the local socket owner listens "
 "(the local service)."
@@ -3317,7 +3331,7 @@ msgstr ""
 msgid "Disable DNS lookups"
 msgstr "DNS தேடல்களை முடக்கு"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:924
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:932
 msgid "Disable Data Channel Offloading (DCO) support"
 msgstr "தரவு சேனல் ஆஃப்லோடிங் (டி.சி.ஓ) ஆதரவை முடக்கு"
 
@@ -3329,11 +3343,11 @@ msgstr "குறியாக்கத்தை முடக்கு"
 msgid "Disable Inactivity Polling"
 msgstr "செயலற்ற வாக்குப்பதிவு முடக்கு"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:235
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:243
 msgid "Disable Paging"
 msgstr "பேசிங்கை முடக்கு"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:242
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:250
 msgid "Disable options consistency check"
 msgstr "விருப்பங்கள் நிலைத்தன்மையை முடக்கு"
 
@@ -3347,7 +3361,7 @@ msgstr "இந்த பிணையத்தை முடக்கு"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1138
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1144
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1796
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1797
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1010
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1753
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1949
@@ -3418,7 +3432,7 @@ msgstr "வட்டு இடம்"
 #: modules/luci-base/htdocs/luci-static/resources/form.js:3883
 #: modules/luci-base/htdocs/luci-static/resources/form.js:3897
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:4388
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5340
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5348
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2204
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:360
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/view/wireguard/status.js:54
@@ -3459,7 +3473,7 @@ msgstr ""
 "DNSMASQ நிகழ்வுகளுக்கும் பிரிவு செல்லுபடியாகும்."
 
 #: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:37
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:594
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:602
 msgid "Do not bind to local address and port"
 msgstr "உள்ளக முகவரி மற்றும் துறைமுகத்துடன் பிணைக்க வேண்டாம்"
 
@@ -3557,39 +3571,39 @@ msgstr "டொமைன் அனுமதிப்பட்டியலாள�
 msgid "Don't Fragment"
 msgstr "துண்டு துண்டாக வேண்டாம்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:617
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:625
 msgid "Don't actually execute ifconfig"
 msgstr "உண்மையில் ifconfig ஐ இயக்க வேண்டாம்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:654
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:662
 msgid "Don't add routes automatically"
 msgstr "தானாக பாதைகளைச் சேர்க்க வேண்டாம்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1213
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1221
 msgid "Don't cache --askpass or --auth-user-pass passwords"
 msgstr "கேச்-அச்க்பாச் அல்லது --auth-USer-PASS கடவுச்சொற்களை வேண்டாம்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:668
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:676
 msgid "Don't drop incoming tun packets with same destination as host"
 msgstr "உள்வரும் டன் பாக்கெட்டுகளை ஓச்டின் அதே இடத்துடன் கைவிட வேண்டாம்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1351
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1359
 msgid "Don't inherit global push options"
 msgstr "உலகளாவிய புச் விருப்பங்களை வாரிசாகப் பெற வேண்டாம்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:515
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:523
 msgid "Don't log timestamps"
 msgstr "நேர முத்திரைகளை பதிவு செய்ய வேண்டாம்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:661
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:669
 msgid "Don't pull routes automatically"
 msgstr "தானாக பாதைகளை இழுக்க வேண்டாம்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:842
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:850
 msgid "Don't re-read key on restart"
 msgstr "மறுதொடக்கத்தில் விசையை மீண்டும் படிக்க வேண்டாம்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:624
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:632
 msgid "Don't warn on ifconfig inconsistencies"
 msgstr "Ifconfig முரண்பாடுகள் குறித்து எச்சரிக்க வேண்டாம்"
 
@@ -3617,11 +3631,11 @@ msgstr "MTDBlock ஐ பதிவிறக்கவும்"
 msgid "Download peer configuration file"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1860
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1861
 msgid "Downstream SNR offset"
 msgstr "கீழ்நிலை SNR ஆஃப்செட்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1770
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1778
 msgid "Drag and drop an ovpn config file here"
 msgstr ""
 
@@ -3779,7 +3793,7 @@ msgstr ""
 "களஞ்சியங்களிலிருந்து) கையொப்பமிடப்பட்ட பட்டியல்களில் உள்ள தொகுப்புகளை தொகுப்பு மேலாளரால் "
 "நிறுவ அனுமதிக்கிறது."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:478
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:486
 msgid "Echo parameters to log"
 msgstr "பதிவு செய்ய எதிரொலி அளவுருக்கள்"
 
@@ -3895,7 +3909,7 @@ msgstr "நெட்ட்லிங்க் ஐபி ஏ.டி.டி.ஆர�
 msgid "Emits netlink LLADDR miss notifications"
 msgstr "Netlink lladdr மிச் அறிவிப்புகளை வெளியிடுகிறது"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:687
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:695
 msgid "Empirically measure MTU"
 msgstr "மனிதனை அனுபவபூர்வமாக அளவிடவும்"
 
@@ -3929,6 +3943,16 @@ msgstr "<Abbr தலைப்பு = \"பரந்த மர நெறிம�
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:892
 msgid "Enable <abbr title=\"Stateless Address Auto Config\">SLAAC</abbr>"
 msgstr "<Abbr தலைப்பு = \"நிலையற்ற முகவரி ஆட்டோ கட்டமைப்பு\"> ச்லாக் </abbr> ஐ இயக்கு"
+
+#: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_vlan.js:67
+msgid ""
+"Enable AP Isolation to isolate wireless clients connected to this Batman "
+"VLAN on this AP from wireless clients connected to this Batman VLAN on "
+"different APs. To isolate all wireless clients connected to this Batman VLAN "
+"on all APs from each other, be sure to enable this option on all APs, and be "
+"sure to enable additional wireless client isolation options ('isolate' and "
+"'bridge_isolate') for all associated wireless interfaces on all APs."
+msgstr ""
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/connections.js:279
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/connections.js:495
@@ -3982,11 +4006,11 @@ msgstr "MAC முகவரி கற்றலை இயக்கவும்"
 msgid "Enable NTP client"
 msgstr "NTP கிளையண்டை இயக்கவும்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:998
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1006
 msgid "Enable OpenSSL hardware crypto engines"
 msgstr "OpenSSL வன்பொருள் மறையீட்டு என்சின்களை இயக்கவும்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:680
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:688
 msgid "Enable Path MTU discovery"
 msgstr "பாதை MTU கண்டுபிடிப்பை இயக்கு"
 
@@ -3998,7 +4022,7 @@ msgstr "தனியார் PSK (PPSK) ஐ இயக்கவும்"
 msgid "Enable Single DES"
 msgstr "ஒற்றை இயக்கு"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:147
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:155
 msgid "Enable Static Key encryption mode (non-TLS)"
 msgstr "நிலையான விசை குறியாக்க பயன்முறையை இயக்கவும் (டி.எல்.எச் அல்லாதவை)"
 
@@ -4006,11 +4030,11 @@ msgstr "நிலையான விசை குறியாக்க பயன
 msgid "Enable TFTP server"
 msgstr "TFTP சேவையகத்தை இயக்கவும்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1056
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1064
 msgid "Enable TLS and assume client role"
 msgstr "TLS ஐ இயக்கவும், கிளையன்ட் பாத்திரத்தை எடுத்துக் கொள்ளவும்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1049
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1057
 msgid "Enable TLS and assume server role"
 msgstr "TLS ஐ இயக்கவும், சேவையக பங்கைக் கருதவும்"
 
@@ -4040,13 +4064,13 @@ msgstr ""
 "\"ஐபர்டெக்ச்ட் டிரான்ச்ஃபர் புரோட்டோகால் பாதுகாப்பானது\"> https </bbr> துறைமுகம் "
 "ஆகியவற்றின் கோரிக்கைகள்."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1245
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1246
 msgid ""
 "Enable downstream delegation of IPv6 prefixes available on this interface"
 msgstr ""
 "இந்த இடைமுகத்தில் கிடைக்கும் ஐபிவி 6 முன்னொட்டுகளின் கீழ்நிலை பிரதிநிதிகளை இயக்கவும்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:742
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:750
 msgid "Enable internal datagram fragmentation"
 msgstr "உள் டேட்டாகிராம் துண்டு துண்டாக இயக்கவும்"
 
@@ -4058,7 +4082,7 @@ msgstr "விசை மறுசீரமைப்பு (கிராக்) �
 msgid "Enable learning and aging"
 msgstr "கற்றல் மற்றும் வயதானதை இயக்கவும்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:865
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:873
 msgid "Enable management interface on <em>IP</em> <em>port</em>"
 msgstr "<em> ஐபி </em> <em> துறைமுகம் </em> இல் மேலாண்மை இடைமுகத்தை இயக்கவும்"
 
@@ -4096,7 +4120,7 @@ msgstr ""
 msgid "Enable or disable DHCPv4 services on this interface."
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1795
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1796
 msgid "Enable packet steering across CPUs. May help or hinder network speed."
 msgstr ""
 "சிபியு கள் முழுவதும் பாக்கெட் ச்டீயரிங் இயக்கவும். பிணைய வேகத்திற்கு உதவலாம் அல்லது "
@@ -4151,7 +4175,7 @@ msgstr "யூனிகாச்ட் வெள்ளத்தை இயக்�
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1137
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1143
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1797
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1798
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1950
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2132
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:222
@@ -4165,7 +4189,7 @@ msgstr "யூனிகாச்ட் வெள்ளத்தை இயக்�
 msgid "Enabled"
 msgstr "இயக்கப்பட்டது"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1798
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1799
 msgid "Enabled (all CPUs)"
 msgstr "இயக்கப்பட்டது (அனைத்து சிபியு களும்)"
 
@@ -4209,17 +4233,17 @@ msgstr "ENGAP 3+4"
 msgid "Encapsulation limit"
 msgstr "இணைத்தல் வரம்பு"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1850
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1908
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1851
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1909
 msgid "Encapsulation mode"
 msgstr "இணைத்தல் பயன்முறை"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1198
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1206
 msgid "Encrypt and authenticate all control channel packets with the key"
 msgstr ""
 "அனைத்து கட்டுப்பாட்டு சேனல் பாக்கெட்டுகளையும் விசையுடன் குறியாக்கம் செய்து அங்கீகரிக்கவும்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1206
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1214
 msgid ""
 "Encrypt and authenticate all control channel packets with the key, version 2."
 msgstr ""
@@ -4234,7 +4258,7 @@ msgstr ""
 msgid "Encryption"
 msgstr "குறியாக்கம்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:974
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:982
 msgid "Encryption cipher for packets"
 msgstr "பாக்கெட்டுகளுக்கான குறியாக்க மறைக்குறியீடு"
 
@@ -4333,15 +4357,15 @@ msgstr ""
 msgid "Exclude interfaces"
 msgstr "இடைமுகங்களை விலக்கு"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:390
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:398
 msgid "Execute shell cmd after routes are added"
 msgstr "வழிகள் சேர்க்கப்பட்ட பிறகு செல் சிஎம்டியை இயக்கவும்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:398
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:406
 msgid "Execute shell command on remote IP change"
 msgstr "தொலை ஐபி மாற்றத்தில் செல் கட்டளையை இயக்கவும்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:470
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:478
 msgid ""
 "Executed in server mode on new client connections, when the client is still "
 "untrusted"
@@ -4349,7 +4373,7 @@ msgstr ""
 "கிளையன்ட் இன்னும் நம்பத்தகாததாக இருக்கும்போது, புதிய கிளையன்ட் இணைப்புகளில் சேவையக "
 "பயன்முறையில் செயல்படுத்தப்படுகிறது"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:462
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:470
 msgid ""
 "Executed in server mode whenever an IPv4 address/route or MAC address is "
 "added to OpenVPN's internal routing table"
@@ -4382,7 +4406,7 @@ msgstr ""
 msgid "Existing device"
 msgstr "தற்போதுள்ள சாதனம்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1183
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1191
 msgid "Exit on TLS negotiation failure"
 msgstr "TLS பேச்சுவார்த்தை செயலிழப்பில் வெளியேறவும்"
 
@@ -4404,7 +4428,7 @@ msgstr "இலக்கு ஐபி முகவரியை அண்டை �
 msgid "Expected port number."
 msgstr "எதிர்பார்க்கப்படும் துறைமுகம் எண்."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1262
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1263
 msgid "Expecting a hexadecimal assignment hint"
 msgstr "ஒரு எக்சாடெசிமல் ஒதுக்கீட்டு குறிப்பை எதிர்பார்க்கிறது"
 
@@ -4434,7 +4458,7 @@ msgstr "ஒரு பெருங்குடலால் பிரிக்க�
 msgid "Expecting: %s"
 msgstr "எதிர்பார்ப்பது: %s"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1601
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1609
 msgid "Expert Settings"
 msgstr ""
 
@@ -4555,7 +4579,7 @@ msgstr "கணினி கடவுச்சொல்லை மாற்று�
 msgid "Failed to configure modem"
 msgstr "மோடத்தை உள்ளமைக்கத் தவறிவிட்டது"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5328
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5336
 msgid "Failed to confirm apply within %ds, waiting for rollback…"
 msgstr ""
 "%d.எச் -க்குள் விண்ணப்பிப்பதை உறுதிப்படுத்தத் தவறிவிட்டது, ரோல்பேக்கிற்காக காத்திருக்கிறது…"
@@ -4744,7 +4768,7 @@ msgstr "ஃபயர்வால் நிலை"
 msgid "Firewall mark"
 msgstr "ஃபயர்வால் குறி"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1867
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1868
 msgid "Firmware File"
 msgstr "ஃபார்ம்வேர் கோப்பு"
 
@@ -4800,7 +4824,7 @@ msgid "For multicast, an outgoing interface (%s) needs to be specified"
 msgstr "மல்டிகாச்டுக்கு, வெளிச்செல்லும் இடைமுகம் (%s) குறிப்பிடப்பட வேண்டும்"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1222
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1780
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1781
 msgid "For packets originating from this device, e.g. VPN."
 msgstr ""
 
@@ -4862,7 +4886,7 @@ msgstr "TKIP மற்றும் CCMP (AES) ஐ கட்டாயப்பட
 msgid "Force broadcast DHCP response."
 msgstr "ஃபோர்ச் பிராட்காச்ட் டி.எச்.சி.பி பதில்."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1510
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1511
 msgid "Force link"
 msgstr "கட்டாய இணைப்பு"
 
@@ -4944,7 +4968,7 @@ msgstr "முன்னோக்கி/தலைகீழ் டி.என்.�
 msgid "Forwarding DataBase"
 msgstr "பகிர்தல் தரவுத்தளம்"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1915
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1916
 msgid "Forwarding mode"
 msgstr "பகிர்தல் முறை"
 
@@ -4960,7 +4984,7 @@ msgstr "துண்டாக்கல்"
 msgid "Fragmentation Threshold"
 msgstr "துண்டு துண்டான வாசல்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1707
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1715
 msgid "Freeform metadata to embed into the client key"
 msgstr ""
 
@@ -5067,7 +5091,7 @@ msgid "General Settings"
 msgstr "பொது அமைப்புகள்"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:673
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1902
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1903
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:979
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1048
 msgid "General Setup"
@@ -5077,7 +5101,7 @@ msgstr "பொது அமைப்பு"
 msgid "General device options"
 msgstr "பொதுவான சாதன விருப்பங்கள்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1715
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1723
 msgid "Generate"
 msgstr ""
 
@@ -5126,7 +5150,7 @@ msgstr "வயர் கார்ட் பியரில் இறக்கு
 msgid "Generating QR code…"
 msgstr "QR குறியீட்டை உருவாக்குதல்…"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:949
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:957
 msgid "Get certificate password from file before we daemonize"
 msgstr ""
 
@@ -5139,7 +5163,7 @@ msgstr "கொடுக்கப்பட்ட கடவுச்சொல் �
 msgid "Global Settings"
 msgstr "உலகளாவிய அமைப்புகள்"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1764
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1765
 msgid "Global network options"
 msgstr "உலகளாவிய பிணைய விருப்பங்கள்"
 
@@ -5323,7 +5347,7 @@ msgstr "He.net கடவுச்சொல்"
 msgid "HE.net username"
 msgstr "He.net பயனர்பெயர்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:955
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:963
 msgid "HMAC authentication for packets"
 msgstr "பாக்கெட்டுகளுக்கான HMAC ஏற்பு"
 
@@ -5340,7 +5364,7 @@ msgstr "Http (கள்) அணுகல்"
 msgid "Half Duplex"
 msgstr "அரை இரட்டை"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1503
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1511
 msgid "Handling of authentication failures"
 msgstr "அங்கீகார தோல்விகளைக் கையாளுதல்"
 
@@ -5360,8 +5384,8 @@ msgstr "இதய துடிப்பு இடைவெளி (கர்ன�
 msgid "Hello interval"
 msgstr "வணக்கம் இடைவெளி"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:132
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:797
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:140
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:805
 msgid ""
 "Helper directive to simplify the expression of --ping and --ping-restart in "
 "server mode configurations"
@@ -5804,7 +5828,7 @@ msgstr "ஐபிவி 6 அமைப்புகள்"
 msgid "IPv6 Token"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1768
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1769
 msgid "IPv6 ULA-Prefix"
 msgstr "IPv6 ULA-PREFIX"
 
@@ -5825,12 +5849,12 @@ msgstr "IPv6 முகவரி"
 msgid "IPv6 addresses"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1253
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1254
 #: protocols/luci-proto-hnet/htdocs/luci-static/resources/protocol/hnet.js:27
 msgid "IPv6 assignment hint"
 msgstr "IPv6 ஒதுக்கீட்டு குறிப்பு"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1248
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1249
 msgid "IPv6 assignment length"
 msgstr "IPv6 ஒதுக்கீட்டு நீளம்"
 
@@ -5847,7 +5871,7 @@ msgstr "முகவரி/நெட்மாச்க் குறியீட�
 msgid "IPv6 only"
 msgstr "IPv6 மட்டும்"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1297
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1298
 msgid "IPv6 preference"
 msgstr "IPv6 விருப்பம்"
 
@@ -5856,7 +5880,7 @@ msgstr "IPv6 விருப்பம்"
 msgid "IPv6 prefix"
 msgstr "IPv6 முன்னொட்டு"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1270
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1271
 msgid "IPv6 prefix filter"
 msgstr "IPv6 முன்னொட்டு வடிகட்டி"
 
@@ -5871,11 +5895,11 @@ msgstr "IPv6 முன்னொட்டு நீளம்"
 msgid "IPv6 routed prefix"
 msgstr "ஐபிவி 6 திசைதிருப்பப்பட்ட முன்னொட்டு"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1241
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1242
 msgid "IPv6 source routing"
 msgstr "IPv6 மூல ரூட்டிங்"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1293
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1294
 msgid "IPv6 suffix"
 msgstr "ஐபிவி 6 பின்னொட்டு"
 
@@ -5957,7 +5981,7 @@ msgstr ""
 "வெளிச்செல்லும் சகாக்களை பாதிக்காது, அல்லது மல்டிகாச்ட் வழியாக கண்டுபிடிக்கப்பட்ட இணைப்பு-"
 "உள்ளூர் சகாக்கள்."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1575
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1583
 msgid "If hostname resolve fails, retry"
 msgstr "ஓச்ட்பெயர் தீர்வு தோல்வியுற்றால், மீண்டும் முயற்சிக்கவும்"
 
@@ -5967,7 +5991,13 @@ msgid ""
 "the <em>Local IPv6 DNS server</em> option is disabled."
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1270
+#: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_vlan.js:49
+msgid ""
+"If not listed, please open the drop-down list and type in the name of the "
+"Batman VLAN device in the 'custom' field."
+msgstr ""
+
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1271
 msgid ""
 "If set, downstream subnets are only allocated from the given IPv6 prefix "
 "classes."
@@ -6571,11 +6601,11 @@ msgstr "துள்ளி"
 msgid "Jumps to another rule specified by its priority value"
 msgstr "அதன் முன்னுரிமை மதிப்பால் குறிப்பிடப்பட்ட மற்றொரு விதிக்கு தாவுகிறது"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:849
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:857
 msgid "Keep local IP address on restart"
 msgstr "உள்ளக ஐபி முகவரியை மறுதொடக்கம் செய்ய வைக்கவும்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:856
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:864
 msgid "Keep remote IP address on restart"
 msgstr "மறுதொடக்கத்தில் தொலை ஐபி முகவரியை வைத்திருங்கள்"
 
@@ -6583,7 +6613,7 @@ msgstr "மறுதொடக்கத்தில் தொலை ஐபி ம
 msgid "Keep settings and retain the current configuration"
 msgstr "அமைப்புகளை வைத்து தற்போதைய உள்ளமைவைத் தக்க வைத்துக் கொள்ளுங்கள்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:835
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:843
 msgid "Keep tun/tap device open on restart"
 msgstr "மறுதொடக்கத்தில் TUN/TAP சாதனத்தைத் திறந்து வைக்கவும்"
 
@@ -6642,7 +6672,7 @@ msgctxt "Label indicating that WireGuard peer lacks public key"
 msgid "Key missing"
 msgstr "விசை இல்லை"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1167
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1175
 msgid "Key transition window"
 msgstr "விசை மாற்றம் சாளரம்"
 
@@ -6650,7 +6680,7 @@ msgstr "விசை மாற்றம் சாளரம்"
 msgid "Key used to sign network config"
 msgstr "பிணையம் கட்டமைப்பில் கையொப்பமிட பயன்படுத்தப்படுகிறது"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1602
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1610
 msgid "Keygen"
 msgstr ""
 
@@ -6715,7 +6745,7 @@ msgstr "எல்.சி.பி எதிரொலி இடைவெளி"
 msgid "LED Configuration"
 msgstr "எல்.ஈ.டி உள்ளமைவு"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1909
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1910
 msgid "LLC"
 msgstr "எல்.எல்.சி."
 
@@ -6847,7 +6877,7 @@ msgstr ""
 msgid "Legacy rules detected"
 msgstr "மரபு விதிகள் கண்டறியப்பட்டன"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5199
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5207
 msgid "Legend:"
 msgstr "புராணக்கதை:"
 
@@ -6855,7 +6885,7 @@ msgstr "புராணக்கதை:"
 msgid "Limit"
 msgstr "வரம்பு"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:508
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:516
 msgid "Limit repeated log messages"
 msgstr "மறுநிகழ்வு பதிவு செய்திகளைக் கட்டுப்படுத்துங்கள்"
 
@@ -7045,7 +7075,7 @@ msgstr ""
 msgid "Load configuration…"
 msgstr "உள்ளமைவை ஏற்றவும்…"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1440
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1441
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2427
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/view/wireguard/status.js:182
 msgid "Loading data…"
@@ -7055,7 +7085,7 @@ msgstr "தரவை ஏற்றுகிறது…"
 msgid "Loading directory contents…"
 msgstr "அடைவு உள்ளடக்கங்களை ஏற்றுகிறது…"
 
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:1956
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:1957
 #: modules/luci-base/ucode/template/view.ut:4
 #: modules/luci-mod-status/ucode/template/admin_status/index.ut:12
 #: themes/luci-theme-bootstrap/ucode/template/themes/bootstrap/sysauth.ut:76
@@ -7143,7 +7173,7 @@ msgstr "உள்ளக தொடக்க"
 msgid "Local Time"
 msgstr "உள்ளக நேரம்"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1271
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1272
 msgid "Local ULA"
 msgstr "உள்ளக உலா"
 
@@ -7167,7 +7197,7 @@ msgid "Local domain suffix appended to DHCP names and hosts file entries."
 msgstr ""
 "உள்ளக டொமைன் பின்னொட்டு DHCP பெயர்கள் மற்றும் புரவலன் கோப்பு உள்ளீடுகளுடன் சேர்க்கப்பட்டுள்ளது."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:543
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:551
 msgid "Local host name or IP address"
 msgstr "உள்ளக புரவலன் பெயர் அல்லது ஐபி முகவரி"
 
@@ -7235,7 +7265,7 @@ msgstr "பதிவு வசதி"
 msgid "Log in"
 msgstr "புகுபதிகை"
 
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:2697
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:2698
 msgid "Log in…"
 msgstr "உள்நுழைக…"
 
@@ -7262,7 +7292,7 @@ msgid "Log queries"
 msgstr "பதிவு வினவல்கள்"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:118
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1603
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1611
 msgid "Logging"
 msgstr "பதிவு"
 
@@ -7311,7 +7341,7 @@ msgstr "லுவா இணக்கத்தன்மை பயன்முற�
 msgid "MAC"
 msgstr "மேக்"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1740
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1741
 #: protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/pppoe.js:51
 msgid "MAC Address"
 msgstr "மேக் முகவரி"
@@ -7325,7 +7355,7 @@ msgid "MAC Addresses"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:456
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1705
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1706
 msgid "MAC VLAN"
 msgstr "மேக் வ்லான்"
 
@@ -7387,7 +7417,7 @@ msgid "MII link monitoring"
 msgstr "MII இணைப்பு கண்காணிப்பு"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1090
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1752
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1753
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:91
 #: protocols/luci-proto-vpnc/htdocs/luci-static/resources/protocol/vpnc.js:53
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan.js:83
@@ -7406,7 +7436,7 @@ msgstr "எம்.எக்ச்"
 msgid "Mail"
 msgstr "அஞ்சல்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:536
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:544
 msgid "Major mode"
 msgstr "பெரிய முறை"
 
@@ -7416,15 +7446,15 @@ msgid ""
 "below:"
 msgstr "கீழேயுள்ள கட்டளைகள் போன்ற ஒன்றைப் பயன்படுத்தி ரூட் கோப்பு முறைமையை நகலி செய்யுங்கள்:"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1604
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1612
 msgid "Management"
 msgstr ""
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:895
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:903
 msgid "Management cert"
 msgstr ""
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:903
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:911
 msgid "Management key"
 msgstr ""
 
@@ -7587,7 +7617,7 @@ msgstr "FDB உள்ளீடுகளின் அதிகபட்ச எண
 msgid "Maximum number of leased addresses."
 msgstr "குத்தகைக்கு விடப்பட்ட முகவரிகளின் அதிகபட்ச எண்ணிக்கை."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1452
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1460
 msgid "Maximum number of queued TCP output packets"
 msgstr "வரிசைப்படுத்தப்பட்ட TCP வெளியீட்டு பாக்கெட்டுகளின் அதிகபட்ச எண்ணிக்கை"
 
@@ -7920,7 +7950,7 @@ msgstr "மல்டி டு யூனிகாச்ட்"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1220
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1221
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1780
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1781
 msgid "Multi-Path TCP"
 msgstr ""
 
@@ -8010,10 +8040,10 @@ msgid "NUD"
 msgstr ""
 
 #: modules/luci-base/htdocs/luci-static/resources/form.js:2911
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4952
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4956
 #: modules/luci-compat/luasrc/view/cbi/tblsection.htm:27
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:117
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1370
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1371
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/leds.js:63
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:236
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/view/wireguard/status.js:45
@@ -8126,7 +8156,7 @@ msgid "Network bridge configuration migration"
 msgstr "பிணையம் பாலம் உள்ளமைவு இடம்பெயர்வு"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:449
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1714
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1715
 msgid "Network device"
 msgstr "பிணைய சாதனம்"
 
@@ -8157,7 +8187,7 @@ msgstr "பிணையம் IFNAME உள்ளமைவு இடம்பெ
 msgid "Network interface"
 msgstr "பிணைய இடைமுகம்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1605
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1613
 msgid "Networking"
 msgstr "நெட்வொர்க்கிங்"
 
@@ -8195,11 +8225,11 @@ msgctxt "Dnsmasq instance"
 msgid "New instance name…"
 msgstr "புதிய நிகழ்வு பெயர்…"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1426
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1427
 msgid "New interface for \"%s\" can not be created: %s"
 msgstr "\" %s\" க்கான புதிய இடைமுகத்தை உருவாக்க முடியாது: %s"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1373
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1374
 msgid "New interface name…"
 msgstr "புதிய இடைமுக பெயர்…"
 
@@ -8384,7 +8414,7 @@ msgid "No special configuration"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:151
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1471
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1472
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/29_ports.js:332
 msgid "No zone assigned"
 msgstr "எந்த மண்டலமும் ஒதுக்கப்படவில்லை"
@@ -8514,7 +8544,7 @@ msgid ""
 "which should no longer be used)."
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1806
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1807
 msgid ""
 "Note: this setting is for local services on the device only (not for "
 "forwarding)."
@@ -8544,7 +8574,7 @@ msgstr "அறிவிப்பு"
 msgid "Nslookup"
 msgstr "Nslookup"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1445
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1453
 msgid "Number of allocated broadcast buffers"
 msgstr "ஒதுக்கப்பட்ட ஒளிபரப்பு இடையகங்களின் எண்ணிக்கை"
 
@@ -8554,7 +8584,7 @@ msgstr ""
 "தற்காலிக சேமிப்பு டிஎன்எச் உள்ளீடுகளின் எண்ணிக்கை, 10000 அதிகபட்சம், 0 என்பது தற்காலிக "
 "சேமிப்பு இல்லை."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:887
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:895
 msgid "Number of lines for log file history"
 msgstr "பதிவு கோப்பு வரலாற்றிற்கான வரிகளின் எண்ணிக்கை"
 
@@ -8600,7 +8630,7 @@ msgstr "IPv6 முகவரியைப் பெறுங்கள்"
 msgid "Off"
 msgstr "அணை"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1785
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1786
 msgid ""
 "Off means VRF traffic will be handled exclusively by sockets bound to VRFs."
 msgstr ""
@@ -8706,7 +8736,7 @@ msgid ""
 "at any given time."
 msgstr ""
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:828
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:836
 msgid "Only process ping timeouts if routes exist"
 msgstr "வழிகள் இருந்தால் மட்டுமே பிங் காலக்கெடுவை செயலாக்கவும்"
 
@@ -8722,7 +8752,7 @@ msgstr "திறந்த பட்டியல் ..."
 msgid "OpenConnect (CISCO AnyConnect)"
 msgstr "OpenConnect (CISCO AnyConnect)"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1640
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1648
 msgid "OpenVPN"
 msgstr "OpenVpn"
 
@@ -8772,7 +8802,7 @@ msgstr "ஆபரேட்டர் குறியீடு"
 msgid "Operator Name"
 msgstr "ஆபரேட்டர் பெயர்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:280
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:288
 msgid "Optimize TUN/TAP/UDP writes"
 msgstr "TUN/TAP/UDP எழுதுகிறது"
 
@@ -8785,11 +8815,11 @@ msgstr "விருப்பம் \"%s\" தவறான உள்ளீட்
 msgid "Option \"%s\" must not be empty."
 msgstr "விருப்பம் \"%s\" காலியாக இருக்கக்கூடாது."
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5206
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5214
 msgid "Option changed"
 msgstr "விருப்பம் மாற்றப்பட்டது"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5208
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5216
 msgid "Option removed"
 msgstr "விருப்பம் நீக்கப்பட்டது"
 
@@ -8820,7 +8850,7 @@ msgstr ""
 "விரும்பினால். ஃபயர்வால் செயலாக்கத்தின் போது பாக்கெட்டுகளுக்கு 32-பிட் குறி. <code> 0x </"
 "code> உடன் தொடங்கி எக்சில் மதிப்பை உள்ளிடவும்."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1293
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1294
 msgid ""
 "Optional. Allowed values: 'eui64', 'random', fixed value like '::1' or "
 "'::1:2'. When IPv6 prefix (like 'a:b:c:d::') is received from a delegating "
@@ -8918,11 +8948,11 @@ msgstr ""
 msgid "Options"
 msgstr "விருப்பங்கள்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1681
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1689
 msgid "Options marked with ² are OpenSSL only."
 msgstr ""
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1679
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1687
 msgid "Options marked with ¹ are deprecated and will be removed."
 msgstr ""
 
@@ -8998,11 +9028,11 @@ msgstr "வெளியீட்டு மண்டலம்"
 msgid "Overlap"
 msgstr "ஒன்றுடன் ஒன்று"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1230
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1231
 msgid "Override IPv4 routing table"
 msgstr "ஐபிவி 4 ரூட்டிங் அட்டவணையை மீறவும்"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1235
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1236
 msgid "Override IPv6 routing table"
 msgstr "ஐபிவி 6 ரூட்டிங் அட்டவணையை மேலெழுதவும்"
 
@@ -9156,7 +9186,7 @@ msgstr "முள் குறியீடு நிராகரிக்கப�
 msgid "PIO directory"
 msgstr ""
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:166
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:174
 msgid "PKCS#12 file containing keys"
 msgstr "விசைகள் கொண்ட பி.கே.சி.எச்#12 கோப்பு"
 
@@ -9206,7 +9236,7 @@ msgctxt "Label indicating that WireGuard peer uses a PSK"
 msgid "PSK"
 msgstr "Psk"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1853
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1854
 msgid "PTM/EFM (Packet Transfer Mode)"
 msgstr "PTM/EFM (பாக்கெட் பரிமாற்ற முறை)"
 
@@ -9222,7 +9252,7 @@ msgstr "Pxe/tftp"
 msgid "Packet Service State"
 msgstr "பாக்கெட் பணி நிலை"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1795
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1796
 msgid "Packet Steering"
 msgstr "பாக்கெட் ச்டீயரிங்"
 
@@ -9255,16 +9285,16 @@ msgstr[0] "நெட்வொர்க்கின் ஒரு பகுதி:
 msgstr[1] "நெட்வொர்க்குகளின் ஒரு பகுதி:"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:151
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1471
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1472
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/29_ports.js:332
 msgid "Part of zone %q"
 msgstr "மண்டலத்தின் ஒரு பகுதி %q"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:405
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:413
 msgid "Pass environment variables to script"
 msgstr "சுற்றுச்சூழல் மாறிகள் ச்கிரிப்டுக்கு அனுப்பவும்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:413
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:421
 msgid "Pass environment variables to script prepended with OPENVPN_"
 msgstr ""
 
@@ -9338,7 +9368,7 @@ msgstr "களஞ்சிய பொது விசையை ஒட்டவு
 msgid "Paste or drag supplied WireGuard configuration file…"
 msgstr "வழங்கப்பட்ட வயர் கார்ட் உள்ளமைவு கோப்பை ஒட்டவும் அல்லது இழுக்கவும்…"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1733
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1741
 msgid "Path"
 msgstr ""
 
@@ -9370,7 +9400,7 @@ msgstr "உள் கிளையன்ட்-சான்றிதழுக்�
 msgid "Path to inner Private Key"
 msgstr "உள் தனியார் விசைக்கான பாதை"
 
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:2745
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:2746
 msgid "Paused"
 msgstr "இடைநிறுத்தப்பட்டது"
 
@@ -9464,11 +9494,11 @@ msgstr "மீட்டமைப்பைச் செய்யுங்கள�
 msgid "Permission denied"
 msgstr "இசைவு மறுக்கப்பட்டது"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1042
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1050
 msgid "Persist replay-protection state"
 msgstr "மறுபதிப்பு-பாதுகாப்பு நிலை"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1374
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1382
 msgid "Persist/unpersist ifconfig-pool"
 msgstr "தொடர்ந்து/சிக்கல் ifconfig பூல்"
 
@@ -9494,7 +9524,7 @@ msgstr "உடல் அமைப்புகள்"
 msgid "Ping"
 msgstr "பிங்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:805
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:813
 msgid "Ping remote every n seconds over TCP/UDP port"
 msgstr "TCP/UDP போர்ட்டுக்கு மேல் ஒவ்வொரு n விநாடிகளிலும் தொலை"
 
@@ -9511,7 +9541,13 @@ msgstr "பி.கே.டி.எச்."
 msgid "Please enter your username and password."
 msgstr "உங்கள் பயனர்பெயர் மற்றும் கடவுச்சொல்லை உள்ளிடவும்."
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4935
+#: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_vlan.js:63
+msgid ""
+"Please open the drop-down list and select or type in the name of the Batman "
+"VLAN device."
+msgstr ""
+
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4939
 msgid "Please select the file to upload."
 msgstr "பதிவேற்ற கோப்பைத் தேர்ந்தெடுக்கவும்."
 
@@ -9556,7 +9592,7 @@ msgstr ""
 msgid "Policy"
 msgstr "கொள்கை"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:341
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:349
 msgid "Policy level over usage of external programs and scripts"
 msgstr "வெளிப்புற திட்டங்கள் மற்றும் ச்கிரிப்ட்களின் பயன்பாடு குறித்த கொள்கை நிலை"
 
@@ -9779,7 +9815,7 @@ msgstr "புரோட்."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:92
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:593
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1388
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1389
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/connections.js:511
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/30_network.js:60
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/routes.js:190
@@ -9825,7 +9861,7 @@ msgstr ""
 msgid "Proxy Server"
 msgstr "பதிலாள் சேவையகம்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1547
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1555
 msgid "Proxy timeout in seconds"
 msgstr "நொடிகளில் பதிலாள் நேரம் முடிந்தது"
 
@@ -9878,15 +9914,15 @@ msgstr "வாடிக்கையாளர்களுக்கு விந�
 msgid "PublicKey setting is invalid"
 msgstr "பப்ளிக் கே அமைப்பு தவறானது"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1606
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1614
 msgid "Push"
 msgstr ""
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1381
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1389
 msgid "Push an ifconfig option to remote"
 msgstr "ரிமோட் செய்ய IFCONFIG விருப்பத்தை அழுத்தவும்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1338
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1346
 msgid "Push options to peer"
 msgstr "விருப்பங்களை சகாக தள்ளுங்கள்"
 
@@ -9930,7 +9966,7 @@ msgstr "வினவல் அனைத்தும் மேலோடை தீ
 msgid "Query interval"
 msgstr "வினவல் இடைவெளி"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:872
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:880
 msgid "Query management channel for private key"
 msgstr "தனியார் விசைக்கான வினவல் மேலாண்மை சேனல்"
 
@@ -10049,7 +10085,7 @@ msgctxt "nft nat flag random"
 msgid "Randomize source port mapping"
 msgstr "மூல துறைமுகம் மேப்பிங்கை சீரற்றதாக்குங்கள்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1517
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1525
 msgid "Randomly choose remote server"
 msgstr "தோராயமாக தொலை சேவையகத்தைத் தேர்வுசெய்க"
 
@@ -10057,7 +10093,7 @@ msgstr "தோராயமாக தொலை சேவையகத்தைத�
 msgid "Raw Data"
 msgstr "மூல தரவு"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1767
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1775
 msgid "Raw OVPN config"
 msgstr ""
 
@@ -10168,11 +10204,11 @@ msgstr "குறிப்புகள்"
 msgid "Refresh Channels"
 msgstr "சேனல்களை புதுப்பிக்கவும்"
 
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:2739
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:2740
 msgid "Refreshing"
 msgstr "புத்துணர்ச்சி"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1419
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1427
 msgid "Refuse connection if no custom client config"
 msgstr "தனிப்பயன் கிளையன்ட் கட்டமைப்பு இல்லாவிட்டால் இணைப்பை மறுக்கவும்"
 
@@ -10263,7 +10299,7 @@ msgstr "ஏற்றவும்"
 msgid "Remaining time"
 msgstr ""
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:291
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:299
 msgid "Remap SIGUSR1 signals"
 msgstr "Sigusr1 சமிக்ஞைகளை மறுபரிசீலனை செய்யுங்கள்"
 
@@ -10299,7 +10335,7 @@ msgstr "தொலைநிலை VTEP"
 msgid "Remote host name or IP address"
 msgstr "தொலை புரவலன் பெயர் அல்லது ஐபி முகவரி"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:813
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:821
 msgid "Remote ping timeout"
 msgstr "தொலை பிங் நேரம் முடிந்தது"
 
@@ -10323,7 +10359,7 @@ msgstr ""
 msgid "Remove MAC address before forwarding query"
 msgstr "வினவலை அனுப்புவதற்கு முன் MAC முகவரியை அகற்று"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1345
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1353
 msgid "Remove Push options"
 msgstr ""
 
@@ -10361,7 +10397,7 @@ msgctxt "Dnsmasq instance"
 msgid "Remove instance #%d"
 msgstr "உதாரணத்தை அகற்று #%d"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1572
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1573
 msgid "Remove related device settings from the configuration"
 msgstr "தொடர்புடைய சாதன அமைப்புகளை உள்ளமைவிலிருந்து அகற்று"
 
@@ -10373,15 +10409,15 @@ msgstr "வினவலை அனுப்புவதற்கு முன் 
 msgid "Removes records of the specified type(s) from answers."
 msgstr "பதில்களிலிருந்து குறிப்பிட்ட வகை (கள்) இன் பதிவுகளை நீக்குகிறது."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1135
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1143
 msgid "Renegotiate data chan. key after bytes"
 msgstr "தரவு சான் மீண்டும் பேச்சுவார்த்தை. பைட்டுகளுக்குப் பிறகு விசை"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1143
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1151
 msgid "Renegotiate data chan. key after packets"
 msgstr "தரவு சான் மீண்டும் பேச்சுவார்த்தை. பாக்கெட்டுகளுக்குப் பிறகு விசை"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1151
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1159
 msgid "Renegotiate data chan. key after seconds"
 msgstr "தரவு சான் மீண்டும் பேச்சுவார்த்தை. விநாடிகளுக்குப் பிறகு விசை"
 
@@ -10389,8 +10425,8 @@ msgstr "தரவு சான் மீண்டும் பேச்சுவ
 msgid "Replace wireless configuration"
 msgstr "வயர்லெச் உள்ளமைவை மாற்றவும்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1020
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1027
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1028
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1035
 msgid "Replay protection sliding window size"
 msgstr "மறுதொடக்கம் பாதுகாப்பு நெகிழ் சாளர அளவு"
 
@@ -10423,12 +10459,12 @@ msgstr "IPV6-PREFIX ஐக் கோருங்கள்"
 msgid "Request timeout"
 msgstr "நேரம் முடிந்தது"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1233
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1241
 msgid "Require explicit designation on certificate"
 msgstr "சான்றிதழில் வெளிப்படையான பதவி தேவை"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1246
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1257
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1254
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1265
 msgid "Require explicit key usage on certificate"
 msgstr "சான்றிதழில் வெளிப்படையான முக்கிய பயன்பாடு தேவை"
 
@@ -10446,7 +10482,7 @@ msgstr "உள்வரும் செக்சம் தேவை (விர�
 msgid "Require incoming packets serialization (optional)."
 msgstr "உள்வரும் பாக்கெட்டுகள் சீரியலைசேசன் தேவை (விரும்பினால்)."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1239
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1247
 msgid "Require remote cert extended key usage on certificate"
 msgstr ""
 
@@ -10568,7 +10604,7 @@ msgid "Reserved tag"
 msgstr ""
 
 #: modules/luci-base/htdocs/luci-static/resources/form.js:2996
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:2220
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:2221
 #: modules/luci-compat/luasrc/view/cbi/delegator.htm:17
 #: modules/luci-compat/luasrc/view/cbi/footer.htm:30
 #: modules/luci-compat/luasrc/view/cbi/simpleform.htm:66
@@ -10633,7 +10669,7 @@ msgstr "மறுதொடக்கம்"
 msgid "Restart Firewall"
 msgstr "ஃபயர்வாலை மறுதொடக்கம் செய்யுங்கள்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:821
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:829
 msgid "Restart after remote ping timeout"
 msgstr "தொலைநிலை பிங் காலக்கெடுவுக்குப் பிறகு மறுதொடக்கம் செய்யுங்கள்"
 
@@ -10649,11 +10685,11 @@ msgstr "மீட்டமை"
 msgid "Restore backup"
 msgstr "காப்புப்பிரதியை மீட்டமைக்கவும்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1324
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1332
 msgid "Restrict the allowed ciphers to be negotiated"
 msgstr "அனுமதிக்கப்பட்ட மறைக்குறியீடுகளை பேச்சுவார்த்தை நடத்த கட்டுப்படுத்துங்கள்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1127
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1135
 msgid "Retransmit timeout on TLS control channel"
 msgstr "டி.எல்.எச் கட்டுப்பாட்டு சேனலில் காலக்கெடுவை மீண்டும் அனுப்பவும்"
 
@@ -10662,11 +10698,11 @@ msgid ""
 "Retrieve the listener addresses from the Yggdrasil interface configuration."
 msgstr "Yggdrasil இடைமுக உள்ளமைவிலிருந்து கேட்பவரின் முகவரிகளை மீட்டெடுக்கவும்."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1539
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1547
 msgid "Retry indefinitely on HTTP proxy errors"
 msgstr "HTTP பதிலாள் பிழைகள் குறித்து காலவரையின்றி மீண்டும் முயற்சிக்கவும்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1568
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1576
 msgid "Retry indefinitely on Socks proxy errors"
 msgstr "சாக்ச் பதிலாள் பிழைகளில் காலவரையின்றி மீண்டும் முயற்சிக்கவும்"
 
@@ -10683,19 +10719,19 @@ msgstr "தலைகீழ் பாதை வடிகட்டி"
 msgid "Reverse sort"
 msgstr "தலைகீழ் வரிசை"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5228
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5236
 msgid "Revert"
 msgstr "மாற்றியமைக்கவும்"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5344
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5352
 msgid "Revert changes"
 msgstr "மாற்றங்களை மாற்றியமைத்தல்"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5560
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5568
 msgid "Revert request failed with status <code>%h</code>"
 msgstr "நிலை <குறியீடு>%எச் </code> உடன் கோரிக்கை தோல்வியுற்றது"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5540
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5548
 msgid "Reverting configuration…"
 msgstr "உள்ளமைவை மாற்றியமைத்தல்…"
 
@@ -10799,7 +10835,7 @@ msgstr "பாதை நடவடிக்கை சங்கிலி \"%எச
 msgid "Route short-circuit (RSC)"
 msgstr "பாதை குறுகிய சுற்று (ஆர்.எச்.சி)"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1388
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1396
 msgid "Route subnet to client"
 msgstr "கிளையண்டிற்கு சப்நெட் பாதை"
 
@@ -10807,7 +10843,7 @@ msgstr "கிளையண்டிற்கு சப்நெட் பாத�
 msgid "Route type"
 msgstr "பாதை வகை"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1395
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1403
 msgid "Route v6 subnet to client"
 msgstr ""
 
@@ -10905,27 +10941,27 @@ msgstr ""
 "மூல முகவரி அல்லது இடைமுகம் போன்ற நிபந்தனைகளின் அடிப்படையில் எந்த ரூட்டிங் அட்டவணையைப் "
 "பயன்படுத்த வேண்டும் என்பதை விதிகள் தீர்மானிக்கின்றன."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:454
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:462
 msgid "Run script cmd for client TLS verification"
 msgstr ""
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:430
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:438
 msgid "Run script cmd on client connection"
 msgstr "கிளையன்ட் இணைப்பில் ச்கிரிப்ட் சிஎம்டியை இயக்கவும்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:446
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:454
 msgid "Run script cmd on client disconnection"
 msgstr "கிளையன்ட் துண்டிப்பில் ச்கிரிப்ட் சிஎம்டியை இயக்கவும்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:438
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:446
 msgid "Run script cmd to validate client certificates"
 msgstr ""
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:381
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:389
 msgid "Run up/down scripts for all restarts"
 msgstr "அனைத்து மறுதொடக்கங்களுக்கும் மேலே/கீழ் ச்கிரிப்ட்களை இயக்கவும்"
 
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:2382
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:2383
 msgid "Runtime error"
 msgstr "இயக்க நேர பிழை"
 
@@ -11006,7 +11042,7 @@ msgid "SWAP"
 msgstr "இடமாற்றம்"
 
 #: modules/luci-base/htdocs/luci-static/resources/form.js:3902
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:2215
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:2216
 #: modules/luci-compat/luasrc/view/cbi/error.htm:17
 #: modules/luci-compat/luasrc/view/cbi/footer.htm:26
 #: modules/luci-compat/luasrc/view/cbi/header.htm:20
@@ -11015,8 +11051,8 @@ msgstr "இடமாற்றம்"
 msgid "Save"
 msgstr "சேமி"
 
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:2197
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5216
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:2198
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5224
 #: modules/luci-compat/luasrc/view/cbi/footer.htm:22
 msgid "Save & Apply"
 msgstr "சேமித்து விண்ணப்பிக்கவும்"
@@ -11050,7 +11086,7 @@ msgstr "திட்டமிடப்பட்ட பணிகள்"
 msgid "Scheduling daemon"
 msgstr "டீமான் திட்டமிடல்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1607
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1615
 msgid "Scripting"
 msgstr ""
 
@@ -11075,11 +11111,11 @@ msgstr "தேடல் டொமைன்"
 msgid "Section %s is empty."
 msgstr "பிரிவு %s காலியாக உள்ளன."
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5202
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5210
 msgid "Section added"
 msgstr "பிரிவு சேர்க்கப்பட்டது"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5204
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5212
 msgid "Section removed"
 msgstr "பிரிவு அகற்றப்பட்டது"
 
@@ -11104,6 +11140,10 @@ msgstr ""
 "பட வடிவமைப்பு சோதனை தோல்வியுற்றாலும் படத்தை ஒளிரச் செய்ய 'ஃபோர்ச் மேம்படுத்தல்' என்பதைத் "
 "தேர்ந்தெடுக்கவும். ஃபார்ம்வேர் சரியானது மற்றும் உங்கள் சாதனத்திற்கான பொருள் என்று நீங்கள் "
 "உறுதியாக நம்பினால் மட்டுமே பயன்படுத்தவும்!"
+
+#: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_vlan.js:52
+msgid "Select Batman VLAN device…"
+msgstr ""
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:3158
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:3389
@@ -11146,7 +11186,7 @@ msgstr ""
 msgid "Send multicast beacon"
 msgstr "மல்டிகாச்ட் பெக்கனை அனுப்பவும்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1510
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1518
 msgid "Send notification to peer on disconnect"
 msgstr "துண்டிக்கப்படுவது குறித்து சகாக அறிவிப்பை அனுப்பவும்"
 
@@ -11169,7 +11209,7 @@ msgstr "சேவையகம்"
 msgid "Server address"
 msgstr "சேவையக முகவரி"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1698
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1706
 msgid "Server key"
 msgstr ""
 
@@ -11177,7 +11217,7 @@ msgstr ""
 msgid "Server name"
 msgstr "சேவையக பெயர்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1608
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1616
 msgid "Service"
 msgstr "பணி"
 
@@ -11193,7 +11233,7 @@ msgstr "பணி வகை"
 msgid "Services"
 msgstr "சேவைகள்"
 
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:2687
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:2688
 msgid "Session expired"
 msgstr "அமர்வு காலாவதியானது"
 
@@ -11217,11 +11257,11 @@ msgstr "ஓச்ட்பெயருக்கு மாற்றுப்ப�
 msgid "Set an arbitrary resource record (RR) type."
 msgstr "தன்னிச்சையான வள பதிவு (ஆர்ஆர்) வகையை அமைக்கவும்."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1367
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1375
 msgid "Set aside a pool of subnets"
 msgstr "சப்நெட்டுகளின் குளத்தை ஒதுக்கி வைக்கவும்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1554
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1562
 msgid "Set extended HTTP proxy options"
 msgstr "நீட்டிக்கப்பட்ட HTTP பதிலாள் விருப்பங்களை அமைக்கவும்"
 
@@ -11235,7 +11275,7 @@ msgid "Set interface as NDP-Proxy external slave. Default is off."
 msgstr ""
 "இடைமுகத்தை NDP-PROXY வெளிப்புற அடிமையாக அமைக்கவும். இயல்புநிலை முடக்கப்பட்டுள்ளது."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1510
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1511
 msgid ""
 "Set interface properties regardless of the link carrier (If set, carrier "
 "sense events do not invoke hotplug handlers)."
@@ -11248,19 +11288,19 @@ msgstr ""
 msgid "Set log class/facility for syslog entries."
 msgstr "சிச்லாக் உள்ளீடுகளுக்கான பதிவு வகுப்பு/வசதியை அமைக்கவும்."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:523
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:531
 msgid "Set output verbosity"
 msgstr "வெளியீட்டு சொற்களஞ்சியத்தை அமைக்கவும்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1438
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1446
 msgid "Set size of real and virtual address hash tables"
 msgstr "உண்மையான மற்றும் மெய்நிகர் முகவரி ஆச் அட்டவணைகளின் அளவை அமைக்கவும்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:766
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:774
 msgid "Set the TCP/UDP receive buffer size"
 msgstr "TCP/UDP பெறும் இடையக அளவை அமைக்கவும்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:758
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:766
 msgid "Set the TCP/UDP send buffer size"
 msgstr "TCP/UDP அனுப்பு இடையக அளவை அமைக்கவும்"
 
@@ -11282,7 +11322,7 @@ msgstr ""
 "இந்த இடைமுகத்தை ஆர்.ஏ. மற்றும் DHCPV6 ரிலேங் மற்றும் என்டிபி ப்ராக்சிங் ஆகியவற்றிற்கான "
 "மாச்டராக அமைக்கவும்."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:774
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:782
 msgid "Set tun/tap TX queue length"
 msgstr "TUN/TP TX வரிசை நீளத்தைத் தட்டவும்"
 
@@ -11291,11 +11331,11 @@ msgstr "TUN/TP TX வரிசை நீளத்தைத் தட்டவு
 msgid "Set tun/tap adapter parameters"
 msgstr "TUN/தட்டவும் அடாப்டர் அளவுருக்கள்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:726
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:734
 msgid "Set tun/tap device MTU"
 msgstr "TUN/TAP சாதன MTU ஐ அமைக்கவும்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:734
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:742
 msgid "Set tun/tap device overhead"
 msgstr "TUN/TAP சாதனத்தின் மேல்நிலை அமைக்கவும்"
 
@@ -11308,7 +11348,7 @@ msgstr "DHCP சேவையகத்தை அமைக்கவும்"
 msgid "Set up routes for proxied IPv6 neighbours."
 msgstr "ப்ராக்சிட் ஐபிவி 6 அண்டை நாடுகளுக்கான வழிகளை அமைக்கவும்."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:750
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:758
 msgid "Set upper bound on TCP MSS"
 msgstr "TCP MSS இல் மேல் எல்லையை அமைக்கவும்"
 
@@ -11346,19 +11386,19 @@ msgstr ""
 "பல AP களுக்கு இடையில் ரோமிங்கில் வயர்லெச் வாடிக்கையாளர்களுக்கு உதவுவதற்கான அமைப்புகள்: "
 "802.11r, 802.11k மற்றும் 802.11v"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:782
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:790
 msgid "Shaping for peer bandwidth"
 msgstr "பியர் அலைவரிசைக்கு வடிவமைத்தல்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:350
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:358
 msgid "Shell cmd to execute after tun device open"
 msgstr "TUN சாதனம் திறந்த பிறகு இயக்க செல் CMD"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:366
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:374
 msgid "Shell cmd to run after tun device close"
 msgstr "TUN சாதனம் மூடப்பட்ட பிறகு இயக்க செல் சிஎம்டி"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:422
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:430
 msgid "Shell command to verify X509 name"
 msgstr "X509 பெயரை சரிபார்க்க செல் கட்டளை"
 
@@ -11422,11 +11462,11 @@ msgstr "சிக்னல் புதுப்பிப்பு வீதம�
 msgid "Signal:"
 msgstr "சிக்னல்:"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1034
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1042
 msgid "Silence the output of replay warnings"
 msgstr "மறுதொடக்கம் எச்சரிக்கைகளின் வெளியீட்டை ம silence னமாக்குங்கள்"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4953
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4957
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:224
 msgid "Size"
 msgstr "அளவு"
@@ -11754,7 +11794,7 @@ msgstr ""
 "தலைப்பின் மதிப்பைப் பெறுகிறது) அல்லது ஒரு எக்சாடெசிமல் மதிப்பு <குறியீடு> 00..ff </"
 "code> (விரும்பினால்)."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:639
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:647
 msgid "Specify a placeholder gateway for routes"
 msgstr ""
 
@@ -11777,7 +11817,7 @@ msgstr ""
 "இயல்புநிலை (1280 பைட்டுகள்) தவிர வேறு ஒரு MTU (அதிகபட்ச பரிமாற்ற அலகு) ஐக் "
 "குறிப்பிடவும்."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1007
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1015
 msgid "Specify the curve to use for ECDH"
 msgstr ""
 
@@ -11791,7 +11831,7 @@ msgstr ""
 msgid "Specify the secret encryption key here."
 msgstr "ரகசிய குறியாக்க விசையை இங்கே குறிப்பிடவும்."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1589
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1597
 msgid "Specify whether the client is required to supply a valid certificate"
 msgstr "சரியான சான்றிதழை வழங்க வாடிக்கையாளர் தேவையா என்பதைக் குறிப்பிடவும்"
 
@@ -11799,7 +11839,7 @@ msgstr "சரியான சான்றிதழை வழங்க வாட
 msgid "Speed: %d Mbit/s, Duplex: %s"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1833
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1834
 msgid "Splitterless ADSL (G.992.2) Annex A"
 msgstr "ச்ப்ளிட்டர்லெச் ADSL (G.992.2) இணைப்பு a"
 
@@ -11816,7 +11856,7 @@ msgstr "நிலையான"
 msgid "Stale neighbour cache timeout"
 msgstr "பழைய அண்டை கேச் நேரம் முடிந்தது"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1807
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1808
 msgid "Standard: none"
 msgstr "தரநிலை: எதுவுமில்லை"
 
@@ -11830,7 +11870,7 @@ msgctxt "daemon start action"
 msgid "Start"
 msgstr "தொடங்கு"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:879
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:887
 msgid "Start OpenVPN in a hibernating state"
 msgstr "ஒரு உறக்கநிலை நிலையில் OpenVPN ஐத் தொடங்கவும்"
 
@@ -11846,7 +11886,7 @@ msgstr "முன்னுரிமையைத் தொடங்குங்�
 msgid "Start refresh"
 msgstr "புதுப்பிக்கத் தொடங்குங்கள்"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5464
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5472
 msgid "Starting configuration apply…"
 msgstr "தொடங்கும் உள்ளமைவு பொருந்தும்…"
 
@@ -11906,11 +11946,11 @@ msgstr "நிலைய செயலற்ற வரம்பு"
 msgid "Status"
 msgstr "நிலை"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:311
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:319
 msgid "Status file format version"
 msgstr "நிலை கோப்பு வடிவமைப்பு பதிப்பு"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1804
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1805
 msgid "Steering flows (<abbr title=\"Receive Packet Steering\">RPS</abbr>)"
 msgstr ""
 "ச்டீயரிங் பாய்ச்சல்கள் (<abbr தலைப்பு = \"பாக்கெட் ச்டீயரிங் பெறுங்கள்\"> ஆர்.பி.எச் </abbr>)"
@@ -11954,7 +11994,7 @@ msgstr "வலுவான"
 msgid "Submit"
 msgstr "சமர்ப்பிக்கவும்"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1808
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1809
 msgid "Suggested: 128"
 msgstr "பரிந்துரைக்கப்பட்டது: 128"
 
@@ -12084,7 +12124,7 @@ msgstr "கணினி பதிவு இடையக அளவு"
 msgid "System running in recovery (initramfs) mode."
 msgstr "மீட்டெடுப்பில் இயங்கும் கணினி (INITRAMFS) பயன்முறையில்."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1787
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1788
 msgid "TCP Layer 3 Master Device (tcp_l3mdev) accept"
 msgstr "TCP அடுக்கு 3 முதன்மை சாதனம் (TCP_L3MDEV) ஏற்றுக்கொள்ளுங்கள்"
 
@@ -12109,15 +12149,15 @@ msgid "TCP source port"
 msgstr "TCP மூல துறைமுகம்"
 
 #: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:31
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:551
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:559
 msgid "TCP/UDP port # for both local and remote"
 msgstr "உள்ளக மற்றும் தொலைநிலை இரண்டிற்கும் TCP/UDP துறைமுகம் #"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:559
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:567
 msgid "TCP/UDP port # for local"
 msgstr ""
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:567
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:575
 msgid "TCP/UDP port # for remote"
 msgstr ""
 
@@ -12129,19 +12169,19 @@ msgstr "TCP:"
 msgid "TFTP server root"
 msgstr "TFTP சேவையக ரூட்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1115
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1123
 msgid "TLS 1.3 or newer cipher"
 msgstr "டி.எல்.எச் 1.3 அல்லது புதிய சைஃபர்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1291
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1299
 msgid "TLS cet profile"
 msgstr ""
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1071
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1079
 msgid "TLS cipher"
 msgstr "டி.எல்.எச் சைபர்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:265
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:273
 msgid "TOS passthrough (applies to IPv4 only)"
 msgstr "டோச் பாச்ட்ரூ (ஐபிவி 4 க்கு மட்டும் பொருந்தும்)"
 
@@ -12446,14 +12486,14 @@ msgstr ""
 msgid "The default (%s) is zero for both IPv4 and IPv6."
 msgstr "இயல்புநிலை (%s) IPv4 மற்றும் IPv6 இரண்டிற்கும் பூச்சியமாகும்."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1775
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1776
 msgid ""
 "The default <abbr title=\"DHCP Unique Identifier\">DUID</abbr> for this "
 "device, used when acting as a DHCP server or client. The client identifier "
 "can be overridden on a per-interface basis."
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5335
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5343
 msgid ""
 "The device could not be reached within %d seconds after applying the pending "
 "changes, which caused the configuration to be rolled back for safety "
@@ -12552,7 +12592,7 @@ msgid ""
 "a></abbr> for this host (up to 16 chars, i.e. 64 bits)."
 msgstr ""
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1281
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1289
 msgid "The highest supported TLS version"
 msgstr "அதிக ஆதரிக்கப்பட்ட டி.எல்.எச் பதிப்பு"
 
@@ -12580,15 +12620,15 @@ msgstr "துவக்க சேவையகத்தின் ஓச்ட்�
 msgid "The interface could not be found"
 msgstr "இடைமுகத்தைக் கண்டுபிடிக்க முடியவில்லை"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1376
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1377
 msgid "The interface name is already used"
 msgstr "இடைமுக பெயர் ஏற்கனவே பயன்படுத்தப்பட்டுள்ளது"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1383
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1384
 msgid "The interface name is too long"
 msgstr "இடைமுக பெயர் மிக நீளமானது"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:158
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:166
 msgid "The key direction for 'tls-auth' and 'secret' options"
 msgstr "'TLS-Auth' மற்றும் 'ரகசிய' விருப்பங்களுக்கான முக்கிய திசை"
 
@@ -12623,7 +12663,7 @@ msgstr "சுரங்கப்பாதை உருவாக்கப்ப�
 msgid "The local IPv6 address over which the tunnel is created (optional)."
 msgstr "சுரங்கப்பாதை உருவாக்கப்பட்ட உள்ளக ஐபிவி 6 முகவரி (விரும்பினால்)."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1271
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1279
 msgid "The lowest supported TLS version"
 msgstr "மிகக் குறைந்த உதவி டி.எல்.எச் பதிப்பு"
 
@@ -12679,7 +12719,7 @@ msgid ""
 "greater network like the internet and other ports for a local network."
 msgstr ""
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:173
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:181
 msgid "The peer key fingerprint"
 msgstr ""
 
@@ -12827,8 +12867,8 @@ msgstr ""
 "பதிவேற்றிய படக் கோப்பில் ஆதரிக்கப்பட்ட வடிவம் இல்லை. உங்கள் தளத்திற்கான பொதுவான பட "
 "வடிவமைப்பை நீங்கள் தேர்வு செய்கிறீர்கள் என்பதை உறுதிப்படுத்திக் கொள்ளுங்கள்."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1748
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1760
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1749
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1761
 msgid "The value is overridden by configuration."
 msgstr "மதிப்பு உள்ளமைவால் மீறப்படுகிறது."
 
@@ -12853,7 +12893,7 @@ msgstr ""
 msgid "There are no active leases"
 msgstr "செயலில் குத்தகைகள் இல்லை"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5507
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5515
 msgid "There are no changes to apply"
 msgstr "விண்ணப்பிக்க எந்த மாற்றங்களும் இல்லை"
 
@@ -12880,7 +12920,7 @@ msgstr "ரிலேவின் இந்த ஐபிவி 4 முகவர�
 msgid "This authentication type is not applicable to the selected EAP method."
 msgstr "இந்த அங்கீகார வகை தேர்ந்தெடுக்கப்பட்ட EAP முறைக்கு பொருந்தாது."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1776
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1777
 msgid ""
 "This identifier is randomly generated the first time the device is booted."
 msgstr ""
@@ -13025,7 +13065,7 @@ msgstr ""
 "கிடைக்கக்கூடிய ஒவ்வொரு வானொலி இடைமுகங்களுக்கும் இந்த பக்கம் வயர்லெச் அளவீடுகளைக் "
 "காட்டுகிறது."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1771
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1772
 msgid "This prefix is randomly generated at first install."
 msgstr "இந்த முன்னொட்டு முதல் நிறுவலில் தோராயமாக உருவாக்கப்படுகிறது."
 
@@ -13083,7 +13123,7 @@ msgstr "நேர மண்டலம்"
 msgid "Timed-out"
 msgstr "நேரம் முடிந்தது"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1159
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1167
 msgid "Timeframe for key exchange"
 msgstr "முக்கிய பரிமாற்றத்திற்கான காலக்கெடு"
 
@@ -13135,11 +13175,11 @@ msgstr ""
 msgid "Toggle IPv6 PD via DHCPv6."
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1842
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1843
 msgid "Tone"
 msgstr "தொனி"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1609
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1617
 msgid "Topology"
 msgstr ""
 
@@ -13263,7 +13303,7 @@ msgstr "சுரங்கப்பாதை இடைமுகம்"
 msgid "Tunnel Link"
 msgstr "சுரங்கப்பாதை இணைப்பு"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1702
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1703
 msgid "Tunnel device"
 msgstr "சுரங்கப்பாதை சாதனம்"
 
@@ -13276,10 +13316,10 @@ msgid "Tx-Power"
 msgstr "டிஎக்ச்-பவர்"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:53
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1736
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1737
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/60_wifi.js:178
 #: protocols/luci-proto-ipv6/htdocs/luci-static/resources/protocol/map.js:43
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1688
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1696
 msgid "Type"
 msgstr "வகை"
 
@@ -13287,7 +13327,7 @@ msgstr "வகை"
 msgid "Type of service"
 msgstr "பணி வகை"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:194
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:202
 msgid "Type of used device"
 msgstr "பயன்படுத்தப்பட்ட சாதனத்தின் வகை"
 
@@ -13295,7 +13335,7 @@ msgstr "பயன்படுத்தப்பட்ட சாதனத்த�
 msgid "UC"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1791
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1792
 msgid "UDP Layer 3 Master Device (udp_l3mdev) accept"
 msgstr "UDP அடுக்கு 3 முதன்மை சாதனம் (UDP_L3MDEV) ஏற்றுக்கொள்ளுங்கள்"
 
@@ -13326,7 +13366,7 @@ msgstr "யுடிபி:"
 msgid "UID-range"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1770
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1771
 msgid "ULA for IPv6 is analogous to IPv4 private network addressing."
 msgstr "ஐபிவி 6 க்கான யுஎல்ஏ ஐபிவி 4 தனியார் பிணையம் முகவரிக்கு ஒப்பானது."
 
@@ -13440,7 +13480,7 @@ msgstr "முள் சரிபார்க்க முடியவில்�
 msgid "Unchecked means the timezone offset (E.g. GMT+1) is displayed"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1571
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1572
 msgid "Unconfigure"
 msgstr "கட்டமைக்கப்படாதது"
 
@@ -13456,7 +13496,7 @@ msgstr "கனவுகள்"
 msgid "Unexpected reply data format"
 msgstr "எதிர்பாராத பதில் தரவு வடிவம்"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1769
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1770
 msgid ""
 "Unique Local Address (%s) - prefix <code>fd00::/8</code> (the L bit is "
 "always 1)."
@@ -13519,7 +13559,7 @@ msgstr "பெயரிடப்படாத நிகழ்வு #%d"
 msgid "Unnamed key"
 msgstr "பெயரிடப்படாத விசை"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5141
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5149
 msgid "Unsaved Changes"
 msgstr "சேமிக்கப்படாத மாற்றங்கள்"
 
@@ -13563,7 +13603,7 @@ msgstr "பெயரிடப்படாத பியர்"
 msgid "Up"
 msgstr "மேலே"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5027
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5035
 msgid "Upload"
 msgstr "பதிவேற்றும்"
 
@@ -13586,17 +13626,17 @@ msgstr "கோப்பைப் பதிவேற்றவும்"
 msgid "Upload file…"
 msgstr "கோப்பைப் பதிவேற்றவும்…"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4973
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4977
 msgid "Upload has been cancelled"
 msgstr "பதிவேற்றம் ரத்து செய்யப்பட்டுள்ளது"
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:3359
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5015
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5023
 msgid "Upload request failed: %s"
 msgstr "பதிவேற்ற கோரிக்கை தோல்வியடைந்தது: %s"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4934
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4988
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4938
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4996
 msgid "Uploading file…"
 msgstr "பதிவேற்றும் கோப்பு…"
 
@@ -13689,7 +13729,7 @@ msgstr "சுரங்கப்பாதை இடைமுகத்தில�
 msgid "Use TTL on tunnel interface"
 msgstr "சுரங்கப்பாதை இடைமுகத்தில் TTL ஐப் பயன்படுத்தவும்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:208
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:216
 msgid "Use VLAN tagging"
 msgstr ""
 
@@ -13705,7 +13745,7 @@ msgstr "ரூட் கோப்பு முறைமையாக (/) பய�
 msgid "Use broadcast flag"
 msgstr "ஒளிபரப்பு கொடியைப் பயன்படுத்தவும்"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1506
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1507
 msgid "Use builtin IPv6-management"
 msgstr "பில்டின் ஐபிவி 6-மேலாண்மை பயன்படுத்தவும்"
 
@@ -13743,7 +13783,7 @@ msgstr ""
 "RFC7597 க்கு பதிலாக மரபு வரைபட இடைமுக அடையாளங்காட்டி வடிவமைப்பை (வரைவு-ITEF-"
 "SOFTWIRE-MAP-00) பயன்படுத்தவும்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:580
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:588
 msgid "Use protocol"
 msgstr "நெறிமுறையைப் பயன்படுத்தவும்"
 
@@ -13787,15 +13827,15 @@ msgstr ""
 "தரமற்ற ஓச்ட்-குறிப்பிட்ட குத்தகை நேரத்தை அமைக்க பயன்படுத்தலாம், எ.கா. 12 எச், 3 டி அல்லது "
 "எல்லையற்ற."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:227
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:235
 msgid "Use these PVIDs"
 msgstr ""
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:201
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:209
 msgid "Use tun/tap device node"
 msgstr "TUN/TAP சாதன முனையைப் பயன்படுத்தவும்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1480
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1488
 msgid "Use username as common name"
 msgstr "பயனர்பெயரை பொதுவான பெயராகப் பயன்படுத்துங்கள்"
 
@@ -13816,7 +13856,7 @@ msgstr ""
 "இரண்டு வெவ்வேறு நோக்கங்களுக்காகப் பயன்படுத்தப்படுகிறது: ஆரம் NAS ஐடி மற்றும் 802.11r "
 "R0KH-ID. சாதாரண WPA (2) -PSK உடன் தேவையில்லை."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:147
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:155
 msgid "Used with auth and cipher params"
 msgstr ""
 
@@ -13860,11 +13900,11 @@ msgstr "ஓட்ட அட்டவணையைப் பயன்படுத�
 msgid "VC"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1910
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1911
 msgid "VC-Mux"
 msgstr "Vc-mux"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1858
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1859
 msgid "VDSL"
 msgstr "Vdsl"
 
@@ -13874,12 +13914,12 @@ msgid "VEPA (Virtual Ethernet Port Aggregator)"
 msgstr "VEPA (மெய்நிகர் ஈத்தர்நெட் துறைமுகம் திரட்டல்)"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:455
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1693
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1694
 msgid "VLAN (802.1ad)"
 msgstr "VLAN (802.1AD)"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:454
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1690
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1691
 msgid "VLAN (802.1q)"
 msgstr "VLAN (802.1Q)"
 
@@ -14003,12 +14043,12 @@ msgid "Via shall be specified when %s is a multicast address"
 msgstr "%s ஒரு மல்டிகாச்ட் முகவரியாக இருக்கும்போது வழியாக குறிப்பிடப்படும்"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:457
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1708
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1709
 msgid "Virtual Ethernet"
 msgstr "மெய்நிகர் ஈதர்நெட்"
 
 #: modules/luci-base/htdocs/luci-static/resources/network.js:3057
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1711
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1712
 msgid "Virtual Routing and Forwarding (VRF)"
 msgstr "மெய்நிகர் ரூட்டிங் மற்றும் பகிர்தல் (வி.ஆர்.எஃப்)"
 
@@ -14104,7 +14144,7 @@ msgstr ""
 "ஒரு புரவலன் ஒரு நுழைவுடன் பொருந்தும்போது, சிறப்பு குறிச்சொல் %s அமைக்கப்படும். "
 "அறியப்பட்ட அனைத்து ஓச்ட்களையும் பொருத்த %s ஐப் பயன்படுத்தவும்."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1297
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1298
 msgid ""
 "When delegating prefixes to multiple downstreams, interfaces with a higher "
 "preference value are considered first when allocating subnets."
@@ -14172,7 +14212,7 @@ msgstr ""
 "R0/R1 முக்கிய விருப்பங்கள் பயன்படுத்தப்படாது. R0 மற்றும் R1 முக்கிய விருப்பங்களைப் "
 "பயன்படுத்த இதை முடக்கு."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:601
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:609
 msgid ""
 "When you have more than one IP address (e.g. multiple interfaces, or "
 "secondary IP addresses), and do not use --local to force binding to one "
@@ -14286,7 +14326,7 @@ msgid "Workaround mode can only be used when acting as an access point."
 msgstr ""
 "அணுகல் புள்ளியாக செயல்படும்போது மட்டுமே பணித்திறன் பயன்முறையைப் பயன்படுத்த முடியும்."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:485
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:493
 msgid "Write log to file"
 msgstr "கோப்புக்கு பதிவு எழுதுங்கள்"
 
@@ -14385,9 +14425,9 @@ msgid "any"
 msgstr "ஏதேனும்"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1149
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1843
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1851
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1856
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1844
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1852
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1857
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:88
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:103
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:141
@@ -14430,7 +14470,7 @@ msgstr "வேண்டும்"
 msgid "between:"
 msgstr "இடையில்:"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1916
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1917
 msgid "bridged"
 msgstr "பிரிட்ச்"
 
@@ -14513,7 +14553,7 @@ msgstr "முடக்கு"
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:871
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1088
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1177
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1249
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1250
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:99
 #: protocols/luci-proto-ipv6/htdocs/luci-static/resources/protocol/dhcpv6.js:26
 msgid "disabled"
@@ -14706,8 +14746,8 @@ msgstr "நிமிடங்கள்"
 msgid "mobile home agent (H)"
 msgstr "மொபைல் வீட்டு முகவர் (எச்)"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:406
 #: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:414
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:422
 msgid "name value"
 msgstr ""
 
@@ -14837,7 +14877,7 @@ msgstr ""
 msgid "relay mode"
 msgstr "ரிலே பயன்முறை"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1917
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1918
 msgid "routed"
 msgstr "திசைதிருப்பப்பட்டது"
 
@@ -14858,7 +14898,7 @@ msgstr "சேவையக முறை"
 msgid "severity:"
 msgstr "தீவிரம்:"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:479
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:487
 msgid "some params echoed to log"
 msgstr ""
 
@@ -14919,11 +14959,11 @@ msgctxt "DHCPv6 address request mode"
 msgid "try"
 msgstr "முயற்சிக்கவும்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:183
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:191
 msgid "tun/tap device"
 msgstr "டன்/தட்டவும்"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:790
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:798
 msgid "tun/tap inactivity timeout"
 msgstr "செயலற்ற நேரம் முடிந்தது"
 
